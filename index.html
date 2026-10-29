@@ -253,15 +253,25 @@
 
           <!-- TAB 4: STAMP RALLY EXPLORER -->
       <div id="tab-rally-content" class="tab-page" style="display: none;">
-        <div style="margin-bottom: 8px;">
-          <input type="text" id="rally-search-input" class="search-input-field" style="padding: 8px 14px; font-size: 12px; border-radius: 8px;" placeholder="Cari nama stamp rally atau fandom...">
+        <!-- List View -->
+        <div id="rally-list-view">
+          <div style="margin-bottom: 8px;">
+            <input type="text" id="rally-search-input" class="search-input-field" style="padding: 8px 14px; font-size: 12px; border-radius: 8px;" placeholder="Cari nama stamp rally atau fandom...">
+          </div>
+          <div id="rally-list-container" class="fandom-list" style="max-height: 480px; overflow-y: auto;">
+            <!-- Populated by JS -->
+          </div>
         </div>
-        <div id="rally-active-banner" style="display: none; background: rgba(245, 158, 11, 0.15); border: 1px solid var(--accent-yellow); border-radius: 8px; padding: 8px 12px; margin-bottom: 10px; justify-content: space-between; align-items: center;">
-          <span id="rally-active-text" style="font-size: 12px; font-weight: 700; color: #fbbf24;">Stamp Rally</span>
-          <button id="btn-clear-rally" class="btn-secondary" style="padding: 2px 8px; font-size: 11px;">Reset</button>
-        </div>
-        <div id="rally-list-container" class="fandom-list" style="max-height: 480px; overflow-y: auto;">
-          <!-- Populated by JS -->
+
+        <!-- Quest & Checkpoint Pathing View -->
+        <div id="rally-detail-view" style="display: none;">
+          <button id="btn-back-to-rallies" class="btn-secondary" style="margin-bottom: 10px; font-size: 12px;">
+            <i data-lucide="chevron-left" style="width: 14px; height: 14px;"></i>
+            <span>Kembali ke Daftar Rally</span>
+          </button>
+          <div id="rally-quest-container">
+            <!-- Populated by JS -->
+          </div>
         </div>
       </div>
 

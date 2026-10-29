@@ -1508,6 +1508,24 @@ function clearHighlightMarkers() {
 }
 
 
+
+function findBoothCoords(code) {
+  if (!state.coordsData?.booths) return null;
+  const bMap = state.coordsData.booths;
+  if (bMap[code]) return bMap[code];
+
+  const m = code.match(/^([A-Za-z]{1,2})-?(\d+)/);
+  if (m) {
+    const targetB = m[1].toUpperCase();
+    const targetN = parseInt(m[2], 10);
+    for (const [k, v] of Object.entries(bMap)) {
+      if (v.block === targetB && v.number === targetN) return v;
+      if (k.includes(targetB) && k.includes(`-${targetN}`)) return v;
+    }
+  }
+  return null;
+}
+
 function initStampRallyUI() {
   renderRalliesList();
 
@@ -1518,12 +1536,14 @@ function initStampRallyUI() {
     });
   }
 
-  const btnClearRally = document.getElementById("btn-clear-rally");
-  if (btnClearRally) {
-    btnClearRally.addEventListener("click", () => {
+  const btnBack = document.getElementById("btn-back-to-rallies");
+  if (btnBack) {
+    btnBack.addEventListener("click", () => {
+      document.getElementById("rally-detail-view").style.display = "none";
+      document.getElementById("rally-list-view").style.display = "block";
       state.selectedRally = null;
-      document.getElementById("rally-active-banner").style.display = "none";
       clearHighlightMarkers();
+      renderRouteOnSvg(null);
     });
   }
 }
@@ -1537,13 +1557,13 @@ function renderRalliesList(query = "") {
 
   let matches = [];
   if (!q) {
-    matches = source.slice(0, 50);
+    matches = source.slice(0, 60);
   } else {
     matches = source.filter(r => {
       const matchName = r.name.toLowerCase().includes(q);
       const matchFandom = (r.fandoms || []).some(f => f.toLowerCase().includes(q));
       return matchName || matchFandom;
-    }).slice(0, 60);
+    }).slice(0, 80);
   }
 
   if (matches.length === 0) {
@@ -1566,8 +1586,6 @@ function renderRalliesList(query = "") {
 
   container.querySelectorAll(".fandom-card-btn").forEach(card => {
     card.addEventListener("click", () => {
-      container.querySelectorAll(".fandom-card-btn").forEach(b => b.classList.remove("active"));
-      card.classList.add("active");
       selectStampRally(card.dataset.rallyId);
     });
   });
@@ -1580,23 +1598,219 @@ function selectStampRally(rallyId) {
   const rally = (state.stampRallies || []).find(r => r.id === rallyId);
   if (!rally) return;
 
-  const banner = document.getElementById("rally-active-banner");
-  const bannerText = document.getElementById("rally-active-text");
-  banner.style.display = "flex";
-  bannerText.textContent = `${rally.name} (${rally.total_booths} booth disorot)`;
+  document.getElementById("rally-list-view").style.display = "none";
+  const detailView = document.getElementById("rally-detail-view");
+  detailView.style.display = "block";
 
-  const coordsList = [];
+  const startSet = new Set(rally.start_booths || []);
+  const rewardSet = new Set(rally.reward_booths || []);
+
+  const rawCheckpoints = [];
   (rally.booths || []).forEach(b => {
-    const coords = state.coordsData?.booths[b.code];
+    const coords = findBoothCoords(b.code);
     if (coords) {
-      coordsList.push(coords);
-      createHighlightMarker(coords, { code: b.code, name: b.name });
+      const isStart = startSet.has(b.code);
+      const isReward = rewardSet.has(b.code);
+      rawCheckpoints.push({
+        code: b.code,
+        name: b.name,
+        coords: coords,
+        isStart: isStart,
+        isReward: isReward
+      });
     }
   });
 
-  if (coordsList.length > 0) {
-    const avgX = coordsList.reduce((s, p) => s + p.x, 0) / coordsList.length;
-    const avgY = coordsList.reduce((s, p) => s + p.y, 0) / coordsList.length;
-    panToCoordinate(avgX, avgY, 0.95);
+  rawCheckpoints.sort((a, b) => {
+    if (a.isStart && !b.isStart) return -1;
+    if (!a.isStart && b.isStart) return 1;
+    if (a.isReward && !b.isReward) return 1;
+    if (!a.isReward && b.isReward) return -1;
+    return b.coords.x - a.coords.x;
+  });
+
+  const storageKey = `cf23_rally_${rally.id}`;
+  let completedSet = new Set();
+  try {
+    const saved = localStorage.getItem(storageKey);
+    if (saved) completedSet = new Set(JSON.parse(saved));
+  } catch (e) {}
+
+  const container = document.getElementById("rally-quest-container");
+  container.innerHTML = `
+    <div class="rally-quest-card">
+      <div class="rally-quest-title">${rally.name}</div>
+      <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+        ${(rally.fandoms || []).map(f => `<span class="tag-item">${f}</span>`).join("")}
+        <span class="tag-item highlight">${rally.day}</span>
+        ${rally.link ? `<a href="${rally.link}" target="_blank" class="btn-secondary" style="padding: 2px 8px; font-size: 10.5px;">Lihat Info Resmi ↗</a>` : ""}
+      </div>
+
+      <div>
+        <div style="display: flex; justify-content: space-between; font-size: 11.5px; margin-bottom: 4px;">
+          <span style="color: #94a3b8;">Kemajuan Stamp</span>
+          <span id="rally-progress-text" style="font-weight: 700; color: #10b981;">${completedSet.size} / ${rawCheckpoints.length} (${Math.round((completedSet.size / (rawCheckpoints.length || 1)) * 100)}%)</span>
+        </div>
+        <div class="rally-progress-bar-bg">
+          <div id="rally-progress-fill" class="rally-progress-bar-fill" style="width: ${Math.round((completedSet.size / (rawCheckpoints.length || 1)) * 100)}%;"></div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 8px; margin-top: 4px;">
+        <button id="btn-draw-rally-tour" class="btn-primary" style="flex: 1; padding: 10px; font-size: 12.5px;">
+          <i data-lucide="map" style="width: 15px; height: 15px;"></i>
+          <span>Rute Tur Lengkap</span>
+        </button>
+        <button id="btn-clear-rally-tour" class="btn-secondary" style="padding: 10px; font-size: 12.5px;" title="Bersihkan Jalur">
+          <i data-lucide="x" style="width: 15px; height: 15px;"></i>
+        </button>
+      </div>
+    </div>
+
+    <div style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 8px;">Daftar Checkpoint Stamp:</div>
+    <div id="checkpoint-items-list" style="display: flex; flex-direction: column; gap: 6px; max-height: 380px; overflow-y: auto;">
+      ${rawCheckpoints.map((cp, idx) => {
+        const isDone = completedSet.has(cp.code);
+        let badgeType = "";
+        let badgeLabel = `#${idx + 1}`;
+        if (cp.isStart) {
+          badgeType = "start";
+          badgeLabel = "1";
+        } else if (cp.isReward) {
+          badgeType = "reward";
+          badgeLabel = "🎁";
+        }
+
+        return `
+          <div class="checkpoint-item ${isDone ? "completed" : ""}" data-code="${cp.code}">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <input type="checkbox" class="checkpoint-checkbox" data-code="${cp.code}" ${isDone ? "checked" : ""}>
+              <div class="checkpoint-num-badge ${badgeType}">${badgeLabel}</div>
+              <div>
+                <div style="font-size: 12.5px; font-weight: 700; color: #fff;">${cp.code}</div>
+                <div style="font-size: 11px; color: #94a3b8; max-width: 170px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${cp.name}</div>
+              </div>
+            </div>
+            <button class="btn-secondary btn-route-checkpoint" data-code="${cp.code}" style="padding: 4px 10px; font-size: 11px;">Rute</button>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+
+  if (window.lucide) {
+    lucide.createIcons({ root: container });
   }
+
+  container.querySelectorAll(".checkpoint-checkbox").forEach(box => {
+    box.addEventListener("change", (e) => {
+      const code = e.target.dataset.code;
+      if (e.target.checked) {
+        completedSet.add(code);
+      } else {
+        completedSet.delete(code);
+      }
+      localStorage.setItem(storageKey, JSON.stringify(Array.from(completedSet)));
+
+      const itemCard = e.target.closest(".checkpoint-item");
+      if (itemCard) itemCard.classList.toggle("completed", e.target.checked);
+
+      const pct = Math.round((completedSet.size / (rawCheckpoints.length || 1)) * 100);
+      document.getElementById("rally-progress-text").textContent = `${completedSet.size} / ${rawCheckpoints.length} (${pct}%)`;
+      document.getElementById("rally-progress-fill").style.width = `${pct}%`;
+    });
+  });
+
+  container.querySelectorAll(".btn-route-checkpoint").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const code = btn.dataset.code;
+      const cp = rawCheckpoints.find(item => item.code === code);
+      if (cp) {
+        selectDestination({
+          type: "booth",
+          id: code,
+          code,
+          name: `${code} - ${cp.name}`,
+          x: cp.coords.x,
+          y: cp.coords.y
+        });
+        executeRoutePlanning();
+      }
+    });
+  });
+
+  function drawRallyTour() {
+    if (rawCheckpoints.length === 0) return;
+
+    const fullPath = [];
+    const tourPoints = [];
+
+    if (state.startPoint) {
+      tourPoints.push({ x: state.startPoint.x, y: state.startPoint.y });
+    }
+
+    rawCheckpoints.forEach(cp => {
+      tourPoints.push({ x: cp.coords.x, y: cp.coords.y });
+    });
+
+    for (let i = 0; i < tourPoints.length - 1; i++) {
+      const seg = calculateRoute(tourPoints[i], tourPoints[i+1]);
+      if (seg) {
+        if (fullPath.length > 0) {
+          fullPath.push(...seg.slice(1));
+        } else {
+          fullPath.push(...seg);
+        }
+      }
+    }
+
+    renderRouteOnSvg(fullPath);
+
+    const xs = rawCheckpoints.map(cp => cp.coords.x);
+    const ys = rawCheckpoints.map(cp => cp.coords.y);
+    const avgX = xs.reduce((a, b) => a + b, 0) / xs.length;
+    const avgY = ys.reduce((a, b) => a + b, 0) / ys.length;
+    panToCoordinate(avgX, avgY, 0.85);
+  }
+
+  document.getElementById("btn-draw-rally-tour").addEventListener("click", drawRallyTour);
+  document.getElementById("btn-clear-rally-tour").addEventListener("click", () => {
+    renderRouteOnSvg(null);
+  });
+
+  rawCheckpoints.forEach((cp, idx) => {
+    createCheckpointPin(cp, idx + 1);
+  });
+
+  drawRallyTour();
+}
+
+function createCheckpointPin(cp, number) {
+  const pin = document.createElement("div");
+  pin.className = "checkpoint-map-pin";
+  pin.style.left = `${(cp.coords.x / MAP_WIDTH) * 100}%`;
+  pin.style.top = `${(cp.coords.y / MAP_HEIGHT) * 100}%`;
+
+  let typeClass = "";
+  let label = `${number}`;
+  if (cp.isStart) {
+    typeClass = "start";
+    label = "1";
+  } else if (cp.isReward) {
+    typeClass = "reward";
+    label = "🎁";
+  }
+
+  pin.innerHTML = `<div class="checkpoint-pin-circle ${typeClass}" title="${cp.code} - ${cp.name}">${label}</div>`;
+
+  pin.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const circle = state.circles.find(c => c.code === cp.code);
+    if (circle) {
+      showCircleDetails(circle, cp.coords);
+    }
+  });
+
+  el.pinsLayer.appendChild(pin);
+  state.highlightMarkers.push(pin);
 }
