@@ -1,0 +1,8270 @@
+[
+  {
+    "id": "the-stamp-side-quest-cf23",
+    "name": "The Stamp Side Quest (CF23)",
+    "day": "Both Days",
+    "fandoms": [],
+    "link": "https://x.com/dailylouisbella/status/2106361166515847295",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "AD-49",
+        "name": "mintypoo"
+      },
+      {
+        "code": "AD-50",
+        "name": "mintypoo"
+      },
+      {
+        "code": "AF-05",
+        "name": "Mary Bell Gallery x Mary Ratri | Asuneko"
+      },
+      {
+        "code": "AF-17",
+        "name": "Koji.Kun | Kelvin TrainerK x Koji.Kun"
+      },
+      {
+        "code": "AG-09",
+        "name": "fey_cia"
+      },
+      {
+        "code": "AG-10",
+        "name": "fey_cia"
+      },
+      {
+        "code": "AG-34",
+        "name": "Levrux | Ivertryst x Levrux x Nioniku"
+      },
+      {
+        "code": "B-30a",
+        "name": "Jul in June | Sabtu Jalan Jajan"
+      },
+      {
+        "code": "M-53a",
+        "name": "Naolotica | dewe & naolo"
+      },
+      {
+        "code": "R-26a",
+        "name": "BanRi | banringo"
+      },
+      {
+        "code": "C-08ab",
+        "name": "bydahel x nebac / nebac | bydahel"
+      },
+      {
+        "code": "V-22a",
+        "name": "Morupe, Rylene & Shizu | 2DImagination"
+      },
+      {
+        "code": "Q-07b",
+        "name": "Lianette | Hangstaria"
+      },
+      {
+        "code": "K-60ab",
+        "name": "Winny; Zeon | Sweet Sandleaf Tea"
+      },
+      {
+        "code": "N-28ab",
+        "name": "chiwamii | mweng & fwens"
+      },
+      {
+        "code": "J-51ab",
+        "name": "Dain | Dorinku Series / arenlattes, minumtehtarik & banamiruku | Dorinku Series"
+      },
+      {
+        "code": "J-52ab",
+        "name": "Dain | Dorinku Series / arenlattes, minumtehtarik & banamiruku | Dorinku Series"
+      },
+      {
+        "code": "C-01b",
+        "name": "ChuBit | Reystories"
+      },
+      {
+        "code": "J-29ab",
+        "name": "oja | Kelinci Duyung"
+      },
+      {
+        "code": "T-13ab",
+        "name": "CHIBONIIE | Chboniie x megamint"
+      },
+      {
+        "code": "C-31a",
+        "name": "Acheron | Dapur Alien"
+      },
+      {
+        "code": "B-43ab",
+        "name": "spirealle | bun bun studio x spirealle / hikariin | bunbun studio x spirealle"
+      },
+      {
+        "code": "B-44ab",
+        "name": "spirealle | bun bun studio x spirealle / hikariin | bunbun studio x spirealle"
+      },
+      {
+        "code": "V-27ab",
+        "name": "croissuke | Lelaki Pedang"
+      },
+      {
+        "code": "A-01ab",
+        "name": "polamelia, Nuydoodles, Nindianda & Mary Ratri | Puine & PENG* PENG"
+      },
+      {
+        "code": "A-07ab",
+        "name": "Torauma | ANPAN"
+      },
+      {
+        "code": "A-08ab",
+        "name": "Torauma | ANPAN"
+      },
+      {
+        "code": "A-19ab",
+        "name": "nemurrun | rinerunpao"
+      },
+      {
+        "code": "A-20ab",
+        "name": "nemurrun | rinerunpao"
+      },
+      {
+        "code": "A-37ab",
+        "name": "ayacchirin"
+      },
+      {
+        "code": "A-40ab",
+        "name": "Euca & Aru | Hot Coffee and Noodle"
+      },
+      {
+        "code": "B-05ab",
+        "name": "Andch24 | Hani Kohi Studio"
+      },
+      {
+        "code": "B-10ab",
+        "name": "Cybertizen"
+      },
+      {
+        "code": "B-24ab",
+        "name": "Plult Has Maw"
+      },
+      {
+        "code": "B-36a",
+        "name": "Plinn | Purple Ducks Shelter"
+      },
+      {
+        "code": "B-36b",
+        "name": "Anya | SUNPONNY"
+      },
+      {
+        "code": "B-39ab",
+        "name": "Sooba Project, Pandao Express by itzn4o, milkberry studio | Gemesdon"
+      },
+      {
+        "code": "B-40ab",
+        "name": "Sooba Project, Pandao Express by itzn4o, milkberry studio | Gemesdon"
+      },
+      {
+        "code": "B-41ab",
+        "name": "Rendeeta | SereniSea"
+      },
+      {
+        "code": "B-45a",
+        "name": "Kulkul Works"
+      },
+      {
+        "code": "B-45b",
+        "name": "Dani"
+      },
+      {
+        "code": "B-47ab",
+        "name": "Zeiketsa, Maruimomo & Arei | Dili Deli"
+      },
+      {
+        "code": "B-48ab",
+        "name": "Zeiketsa, Maruimomo & Arei | Dili Deli"
+      },
+      {
+        "code": "B-51ab",
+        "name": "Lousnaps & ubokina | Notre Atelier"
+      },
+      {
+        "code": "B-52ab",
+        "name": "Lousnaps & ubokina | Notre Atelier"
+      },
+      {
+        "code": "B-58ab",
+        "name": "Caerilorem | Antariksa"
+      },
+      {
+        "code": "B-59ab",
+        "name": "Caerilorem | Antariksa"
+      },
+      {
+        "code": "C-06b",
+        "name": "Soophyyss"
+      },
+      {
+        "code": "C-21ab",
+        "name": "Devonazure | Mbol Circle"
+      },
+      {
+        "code": "C-22ab",
+        "name": "Devonazure | Mbol Circle"
+      },
+      {
+        "code": "C-23a",
+        "name": "Oricca | Moachimo craft"
+      },
+      {
+        "code": "C-25b",
+        "name": "Xycariven Asa"
+      },
+      {
+        "code": "C-32ab",
+        "name": "Smoleland | Konfetti Kolektif"
+      },
+      {
+        "code": "C-33ab",
+        "name": "Smoleland | Konfetti Kolektif"
+      },
+      {
+        "code": "C-35ab",
+        "name": "hejo | hejoisme"
+      },
+      {
+        "code": "C-36b",
+        "name": "EsTehBunny"
+      },
+      {
+        "code": "C-47ab",
+        "name": "Season SideUp"
+      },
+      {
+        "code": "C-48ab",
+        "name": "Season SideUp"
+      },
+      {
+        "code": "D-17ab",
+        "name": "tringcat | posizee-tringkriung"
+      },
+      {
+        "code": "D-18ab",
+        "name": "tringcat | posizee-tringkriung"
+      },
+      {
+        "code": "D-19ab",
+        "name": "2DFIEND, Keith, Iwa & zepphy | Afterhours Antics"
+      },
+      {
+        "code": "D-23a",
+        "name": "Pip Napsalot"
+      },
+      {
+        "code": "D-25ab",
+        "name": "Ruppa Ruppi"
+      },
+      {
+        "code": "D-32ab",
+        "name": "Happykrel"
+      },
+      {
+        "code": "D-33ab",
+        "name": "Happykrel"
+      },
+      {
+        "code": "D-34ab",
+        "name": "Renpaichoo | Artcyne atelier"
+      },
+      {
+        "code": "D-35ab",
+        "name": "Renpaichoo | Artcyne atelier"
+      },
+      {
+        "code": "D-37ab",
+        "name": "Seblak Kencoor | Seblak Kencoor x MAGICAL GURLS?"
+      },
+      {
+        "code": "D-41ab",
+        "name": "nawnawpunkin | Koperasi Ucup Jaya"
+      },
+      {
+        "code": "D-59ab",
+        "name": "Deirikaa (del's story) | Bubblewrap"
+      },
+      {
+        "code": "E-04ab",
+        "name": "Scarsan | Scarsan x Vii"
+      },
+      {
+        "code": "E-07ab",
+        "name": "Blue, bakakaoru, let's go picnic & PIGGURUMI | TasikPositivity"
+      },
+      {
+        "code": "E-11ab",
+        "name": "Your Fortune Crafts, nephodus, Kaweka Studio & Rifda (12 Studio) | Toko Ocrafan"
+      },
+      {
+        "code": "E-28ab",
+        "name": "March's World, motjinet & smolkeii | Warung Twinky"
+      },
+      {
+        "code": "E-29ab",
+        "name": "March's World, motjinet & smolkeii | Warung Twinky"
+      },
+      {
+        "code": "E-32ab",
+        "name": "dinonemplok | Kerajaan Meng x Silly Me Laviuu"
+      },
+      {
+        "code": "E-33ab",
+        "name": "dinonemplok | Kerajaan Meng x Silly Me Laviuu"
+      },
+      {
+        "code": "E-34a",
+        "name": "Klinik Bluprient | Cat Buddies"
+      },
+      {
+        "code": "E-42ab",
+        "name": "Vaniselle Studio, meisoup_art & Suneri359"
+      },
+      {
+        "code": "F-05ab",
+        "name": "lunightic & KarmicKrow"
+      },
+      {
+        "code": "F-06ab",
+        "name": "Waroeng2an & Talam Pandann | WADIDAU"
+      },
+      {
+        "code": "F-07a",
+        "name": "bloo"
+      },
+      {
+        "code": "F-17ab",
+        "name": "NyxNyr | Namanya Apa Ya"
+      },
+      {
+        "code": "F-18ab",
+        "name": "NyxNyr | Namanya Apa Ya"
+      },
+      {
+        "code": "F-26ab",
+        "name": "Toko Okyo & Xora | Tsumetaku Sakusaku"
+      },
+      {
+        "code": "F-27ab",
+        "name": "Toko Okyo & Xora | Tsumetaku Sakusaku"
+      },
+      {
+        "code": "F-34ab",
+        "name": "merchbyqei | Sunny Day Circle"
+      },
+      {
+        "code": "F-35ab",
+        "name": "merchbyqei | Sunny Day Circle"
+      },
+      {
+        "code": "F-41ab",
+        "name": "Sol Cholil | Koening and Friends"
+      },
+      {
+        "code": "G-14ab",
+        "name": "Shrimphosis"
+      },
+      {
+        "code": "G-20ab",
+        "name": "Jiali | Moonseekr.shop"
+      },
+      {
+        "code": "G-51ab",
+        "name": "Nuy | Kelompok Antek Iseng"
+      },
+      {
+        "code": "G-52ab",
+        "name": "Nuy | Kelompok Antek Iseng"
+      },
+      {
+        "code": "H-02ab",
+        "name": "creampooffs & valley | Seafood 888"
+      },
+      {
+        "code": "H-03ab",
+        "name": "creampooffs & valley | Seafood 888"
+      },
+      {
+        "code": "H-04ab",
+        "name": "Shirai | Mint Choco Puff"
+      },
+      {
+        "code": "H-05ab",
+        "name": "Shirai | Mint Choco Puff"
+      },
+      {
+        "code": "H-13ab",
+        "name": "Muta"
+      },
+      {
+        "code": "H-14ab",
+        "name": "Muta"
+      },
+      {
+        "code": "H-17ab",
+        "name": "Tasfle & noodlebits | Wakikik"
+      },
+      {
+        "code": "H-18ab",
+        "name": "Tasfle & noodlebits | Wakikik"
+      },
+      {
+        "code": "H-25ab",
+        "name": "Feelish Cabinet x Ininikkei"
+      },
+      {
+        "code": "H-47b",
+        "name": "loviemedovie & kunaondan | Nutz Budz"
+      },
+      {
+        "code": "H-48a",
+        "name": "loviemedovie & kunaondan | Nutz Budz"
+      },
+      {
+        "code": "H-51ab",
+        "name": "sagiries | TAAHUY"
+      },
+      {
+        "code": "H-52ab",
+        "name": "sagiries | TAAHUY"
+      },
+      {
+        "code": "I-11a",
+        "name": "JOY | Maho no Konbini"
+      },
+      {
+        "code": "I-13ab",
+        "name": "Nadmonamon & renregalia | Kodok Disko"
+      },
+      {
+        "code": "I-17ab",
+        "name": "Abusedmember | TOSERBA"
+      },
+      {
+        "code": "I-25a",
+        "name": "june | Basreng Sister"
+      },
+      {
+        "code": "I-26ab",
+        "name": "jelly | mengburu cuan"
+      },
+      {
+        "code": "I-27ab",
+        "name": "jelly | mengburu cuan"
+      },
+      {
+        "code": "I-38ab",
+        "name": "skyliciart"
+      },
+      {
+        "code": "I-40ab",
+        "name": "aydchicn | YAMIKAN"
+      },
+      {
+        "code": "I-43ab",
+        "name": "Dreamycafeart / Cia | Kimcihonnytoast"
+      },
+      {
+        "code": "I-46ab",
+        "name": "Pichiruu | Lyn&Pich"
+      },
+      {
+        "code": "I-47a",
+        "name": "Mel"
+      },
+      {
+        "code": "J-04ab",
+        "name": "Maquire by K027 x Milky&Me"
+      },
+      {
+        "code": "J-05ab",
+        "name": "Maquire by K027 x Milky&Me"
+      },
+      {
+        "code": "J-06ab",
+        "name": "saltedcaramelpops | Lebah Gantenk"
+      },
+      {
+        "code": "J-08ab",
+        "name": "moondemande | Lancar Jaya Abadi"
+      },
+      {
+        "code": "J-11a",
+        "name": "iva | mimonke"
+      },
+      {
+        "code": "J-43b",
+        "name": "Kiull90 | STAY WARAS"
+      },
+      {
+        "code": "K-01ab",
+        "name": "Kopipedia (Nes) | Pasar Semanggi"
+      },
+      {
+        "code": "K-04ab",
+        "name": "ASTRISTICWORKS"
+      },
+      {
+        "code": "K-05ab",
+        "name": "ASTRISTICWORKS"
+      },
+      {
+        "code": "K-21ab",
+        "name": "Farah | Jarijemariai"
+      },
+      {
+        "code": "K-49ab",
+        "name": "Orcatea | GANBA DADA"
+      },
+      {
+        "code": "L-23a",
+        "name": "Capek Hidup"
+      },
+      {
+        "code": "L-42ab",
+        "name": "KURORIN. | krill brained"
+      },
+      {
+        "code": "M-09ab",
+        "name": "Yul | Bonbin Kompeni"
+      },
+      {
+        "code": "M-16ab",
+        "name": "Allene_len, Korri & Kalachiizu | HALUPROMAXXXXX"
+      },
+      {
+        "code": "M-20ab",
+        "name": "Hanamoons | Toko Sumber Khilaf"
+      },
+      {
+        "code": "M-26ab",
+        "name": "Mazeyellows, unji, geurim0_1, cherii49 & dhie | TOP7"
+      },
+      {
+        "code": "M-27ab",
+        "name": "Mazeyellows, unji, geurim0_1, cherii49 & dhie | TOP7"
+      },
+      {
+        "code": "M-28ab",
+        "name": "Tal | Dedemit Rangers"
+      },
+      {
+        "code": "M-30b",
+        "name": "skye | sereaals"
+      },
+      {
+        "code": "M-37a",
+        "name": "DyeNosaur"
+      },
+      {
+        "code": "M-55ab",
+        "name": "sorasti | KAPOW!"
+      },
+      {
+        "code": "M-58ab",
+        "name": "SNOWLATTES"
+      },
+      {
+        "code": "M-59ab",
+        "name": "SNOWLATTES"
+      },
+      {
+        "code": "N-47ab",
+        "name": "klaukezia & rinliane | BUMF"
+      },
+      {
+        "code": "N-48ab",
+        "name": "klaukezia & rinliane | BUMF"
+      },
+      {
+        "code": "N-54b",
+        "name": "sevibun | Bear Buds"
+      },
+      {
+        "code": "N-59ab",
+        "name": "Lunaquete | Lunaquete x Petite Rabbit Studio x mintxeclair"
+      },
+      {
+        "code": "O-02ab",
+        "name": "HONEYYPEACH X HUMAN_DRAWN"
+      },
+      {
+        "code": "O-43ab",
+        "name": "BakuPpon Studio, Vertzse & Roadkill | Horses Buses & Souls"
+      },
+      {
+        "code": "P-13ab",
+        "name": "Ramu | Pitik Kelap Kelip"
+      },
+      {
+        "code": "P-28ab",
+        "name": "Van-arts | Salty Eggs"
+      },
+      {
+        "code": "P-29ab",
+        "name": "Van-arts | Salty Eggs"
+      },
+      {
+        "code": "Q-60ab",
+        "name": "美意 Mii | Critical Works x Venuscalyptus"
+      },
+      {
+        "code": "R-20ab",
+        "name": "Kkateoki | Takoyachi"
+      },
+      {
+        "code": "R-22ab",
+        "name": "Kitsh! | DangOshi-"
+      },
+      {
+        "code": "R-34ab",
+        "name": "Puwi | Uniwargi"
+      },
+      {
+        "code": "R-57ab",
+        "name": "Marooncrescent | CTRL+S"
+      },
+      {
+        "code": "R-58ab",
+        "name": "HamuMel | Cheeb's Party"
+      },
+      {
+        "code": "R-59ab",
+        "name": "HamuMel | Cheeb's Party"
+      },
+      {
+        "code": "S-38ab",
+        "name": "Mawcens | Pee Paw Kleb"
+      },
+      {
+        "code": "S-51b",
+        "name": "Rad | Waktu indonesia Yearning"
+      },
+      {
+        "code": "T-10ab",
+        "name": "Mal/Fera | $Pr (Sarjana Pencari Rezeki)"
+      },
+      {
+        "code": "T-51ab",
+        "name": "ibuperisesat"
+      },
+      {
+        "code": "T-53ab",
+        "name": "Mossy Serpents | Petit Jardin"
+      },
+      {
+        "code": "U-02a",
+        "name": "Podenguri | gyoza station"
+      },
+      {
+        "code": "U-14ab",
+        "name": "ppiksong | Nightmare Before Depok"
+      },
+      {
+        "code": "U-42ab",
+        "name": "Arisatorin, hima_mae, serra7690 & t.pot99 | Favoritea"
+      },
+      {
+        "code": "U-52a",
+        "name": "Marychi | Mimichoco"
+      },
+      {
+        "code": "U-57ab",
+        "name": "Orbit, Zee, Mint & yeyo | ULATCATCATZ"
+      },
+      {
+        "code": "V-01a",
+        "name": "chocolattea"
+      },
+      {
+        "code": "V-06a",
+        "name": "Lovecherriesmotion | Kandang Kelinci"
+      },
+      {
+        "code": "V-09ab",
+        "name": "summerc__ & _erasleep | Hamba -Dolls"
+      },
+      {
+        "code": "V-10ab",
+        "name": "summerc__ & _erasleep | Hamba -Dolls"
+      },
+      {
+        "code": "V-13ab",
+        "name": "Sushihoshii, Gojodreee & Cirr.eng"
+      },
+      {
+        "code": "V-14ab",
+        "name": "Sushihoshii, Gojodreee & Cirr.eng"
+      },
+      {
+        "code": "V-25ab",
+        "name": "Hristval, Kuffystudio & arizuta | GEMBLONGRACHA"
+      },
+      {
+        "code": "V-26ab",
+        "name": "Hristval, Kuffystudio & arizuta | GEMBLONGRACHA"
+      },
+      {
+        "code": "V-28b",
+        "name": "reebootwind x Zouzhdi"
+      },
+      {
+        "code": "V-38ab",
+        "name": "Ornchid"
+      },
+      {
+        "code": "V-42ab",
+        "name": "Tuts | Tuts Warehouse"
+      },
+      {
+        "code": "V-49ab",
+        "name": "Zhonglii.co"
+      },
+      {
+        "code": "V-51a",
+        "name": "Rayverst | Warung Wonderlain"
+      },
+      {
+        "code": "W-01ab",
+        "name": "Maltmochie"
+      },
+      {
+        "code": "W-04ab",
+        "name": "Lacie | PAHA-Tan"
+      },
+      {
+        "code": "W-07ab",
+        "name": "Toto Kelontong"
+      },
+      {
+        "code": "W-08ab",
+        "name": "EJ/octk | Thanos Gagal Bertaubat"
+      },
+      {
+        "code": "W-13ab",
+        "name": "Podenk Mangga | LPG"
+      },
+      {
+        "code": "W-14ab",
+        "name": "Podenk Mangga | LPG"
+      },
+      {
+        "code": "W-34ab",
+        "name": "Dailylouisbella x Sunnymomochi"
+      },
+      {
+        "code": "W-35ab",
+        "name": "Dailylouisbella x Sunnymomochi"
+      },
+      {
+        "code": "W-43ab",
+        "name": "StickwithBella"
+      },
+      {
+        "code": "W-46b",
+        "name": "byBapang"
+      },
+      {
+        "code": "W-47ab",
+        "name": "Oretoretq | My Lapak Guwej"
+      },
+      {
+        "code": "W-59b",
+        "name": "bylittlextar | kdj's wives"
+      },
+      {
+        "code": "X-26ab",
+        "name": "shikanoyin | asBUN bakery"
+      },
+      {
+        "code": "X-05ab",
+        "name": "Latto | KREATIF (Kere & Aktif)"
+      },
+      {
+        "code": "X-17ab",
+        "name": "diuwukan, Pita & sumii | Girl Dinner"
+      },
+      {
+        "code": "X-18ab",
+        "name": "diuwukan, Pita & sumii | Girl Dinner"
+      },
+      {
+        "code": "X-21ab",
+        "name": "SummerOrigins | CATTS"
+      },
+      {
+        "code": "Y-17ab",
+        "name": "Arudelu | KETABRAK PAKDE VARKA"
+      },
+      {
+        "code": "Y-20ab",
+        "name": "Araaya | Jellycious"
+      },
+      {
+        "code": "Y-42ab",
+        "name": "Glaze | me:shi.mi.ro"
+      },
+      {
+        "code": "Z-01ab",
+        "name": "DALR | GEPENGERS"
+      },
+      {
+        "code": "Z-02ab",
+        "name": "DALR | GEPENGERS"
+      },
+      {
+        "code": "Z-38b",
+        "name": "Sagaruu | Bagi Loker"
+      }
+    ],
+    "total_booths": 203
+  },
+  {
+    "id": "bbsr-bareng-bareng-stamp-rally",
+    "name": "BBSR (Bareng-Bareng Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [],
+    "link": "https://x.com/arturapalette/status/2109570820041478435",
+    "start_booths": [
+      "AD-36"
+    ],
+    "reward_booths": [
+      "AD-36"
+    ],
+    "booths": [
+      {
+        "code": "AD-36",
+        "name": "Artura Guild"
+      },
+      {
+        "code": "AD-37",
+        "name": "Artura Guild"
+      },
+      {
+        "code": "AC-22",
+        "name": "KKN Desa Oshi"
+      },
+      {
+        "code": "AC-18",
+        "name": "Six Petals Beneath the Moon"
+      },
+      {
+        "code": "AC-19",
+        "name": "Six Petals Beneath the Moon"
+      },
+      {
+        "code": "AC-08",
+        "name": "Tintin Rexthalia"
+      },
+      {
+        "code": "AC-09",
+        "name": "Tintin Rexthalia"
+      },
+      {
+        "code": "AC-03",
+        "name": "EVREN & Friends"
+      },
+      {
+        "code": "AC-04",
+        "name": "EVREN & Friends"
+      },
+      {
+        "code": "AC-47",
+        "name": "Eternoia x BatuDajjal"
+      },
+      {
+        "code": "AC-48",
+        "name": "Eternoia x BatuDajjal"
+      },
+      {
+        "code": "AD-03",
+        "name": "District#7"
+      },
+      {
+        "code": "AD-04",
+        "name": "District#7"
+      },
+      {
+        "code": "R-40ab",
+        "name": "Z.E.D"
+      }
+    ],
+    "total_booths": 14
+  },
+  {
+    "id": "nu-carnival-trick-and-treat",
+    "name": "Trick & Treat: Nu Carnival Halloween Sticker Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Nu: Carnival"
+    ],
+    "link": "https://x.com/Fifirarart/status/2109252683844481317",
+    "start_booths": [
+      "AG-50"
+    ],
+    "reward_booths": [
+      "Y-44a"
+    ],
+    "booths": [
+      {
+        "code": "AG-50",
+        "name": "Wig Pod"
+      },
+      {
+        "code": "AG-51",
+        "name": "Wig Pod"
+      },
+      {
+        "code": "U-30ab",
+        "name": "TravelersEitoo8 (Day 1 only) | Cafe Au Lait"
+      },
+      {
+        "code": "U-45b",
+        "name": "Himatachi"
+      },
+      {
+        "code": "G-05ab",
+        "name": "Nyenyenye"
+      },
+      {
+        "code": "A-01ab",
+        "name": "Puine & PENG*PENG"
+      },
+      {
+        "code": "U-46ab",
+        "name": "OIIAI"
+      },
+      {
+        "code": "V-55a",
+        "name": "kuromatcha nooki"
+      },
+      {
+        "code": "V-24a",
+        "name": "pipuru"
+      },
+      {
+        "code": "X-56b",
+        "name": "B.Corp"
+      },
+      {
+        "code": "E-31ab",
+        "name": "Sukoshi Sukoshi Demek"
+      },
+      {
+        "code": "Y-44ab",
+        "name": "Para Pengokop Oshi"
+      }
+    ],
+    "total_booths": 12
+  },
+  {
+    "id": "cookierun-stamp-rally",
+    "name": "CookieRun Stamp Rally (crkgath.id)",
+    "day": "Both Days",
+    "fandoms": [
+      "Cookie Run"
+    ],
+    "link": "https://x.com/senichinya/status/2105550128019132468",
+    "start_booths": [
+      "N-46a"
+    ],
+    "reward_booths": [
+      "N-46a"
+    ],
+    "booths": [
+      {
+        "code": "AG-44",
+        "name": "MyAvi"
+      },
+      {
+        "code": "AG-45",
+        "name": "MyAvi"
+      },
+      {
+        "code": "E-27ab",
+        "name": "Vanda Nia"
+      },
+      {
+        "code": "F-34ab",
+        "name": "Merch By Qei"
+      },
+      {
+        "code": "F-35ab",
+        "name": "Merch By Qei"
+      },
+      {
+        "code": "K-49ab",
+        "name": "GANBA DADA"
+      },
+      {
+        "code": "L-09ab",
+        "name": "Fukujin Merchandise"
+      },
+      {
+        "code": "L-10ab",
+        "name": "Fukujin Merchandise"
+      },
+      {
+        "code": "M-18ab",
+        "name": "Orion Atelier"
+      },
+      {
+        "code": "N-46ab",
+        "name": "Telemiette"
+      },
+      {
+        "code": "X-09ab",
+        "name": "Digidaw Walawe"
+      }
+    ],
+    "total_booths": 11
+  },
+  {
+    "id": "love-you-to-pieces-gl-oc-stamp-rally",
+    "name": "LOVE YOU to PIECES! - Halloween GL x OC Stamp (Sticker) Rally",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Original / OC"
+    ],
+    "link": "https://x.com/twiceasmanypigs/status/2111813584800158004",
+    "start_booths": [
+      "B-49ab"
+    ],
+    "reward_booths": [
+      "R-14ab"
+    ],
+    "booths": [
+      {
+        "code": "B-49ab",
+        "name": "enamyea_ (Sate Kelinci Simpang 4)"
+      },
+      {
+        "code": "B-02ab",
+        "name": "magnolia_ebd (RGB Team x Nagidonburi, B-02-03)"
+      },
+      {
+        "code": "B-03ab",
+        "name": "sapphicotropico (RGB Team x Nagidonburi, B-02-03)"
+      },
+      {
+        "code": "E-20ab",
+        "name": "jia__yoo (Jellato)"
+      },
+      {
+        "code": "E-45a",
+        "name": "arufilpe (Warung Angker)"
+      },
+      {
+        "code": "E-54ab",
+        "name": "riicolato (E-54)"
+      },
+      {
+        "code": "I-26a",
+        "name": "XiaobunnnArt (Mengburu Cuan)"
+      },
+      {
+        "code": "L-37b",
+        "name": "biscottidiptea (Sunny Pier)"
+      },
+      {
+        "code": "P-45ab",
+        "name": "p4wjuna (Fawnset Atelier)"
+      },
+      {
+        "code": "Z-10ab",
+        "name": "ukanomiyaki (Jaerinka + Milcanna + Knownopeace)"
+      },
+      {
+        "code": "R-14ab",
+        "name": "twiceasmanypigs (CF Niat Meow Meow)"
+      }
+    ],
+    "total_booths": 11
+  },
+  {
+    "id": "ffxiv-sticker-rally-all-saints-wake",
+    "name": "FFXIV Sticker Rally: All Saints' Wake (Trick or Treat)",
+    "day": "Both Days",
+    "fandoms": [
+      "Final Fantasy XIV"
+    ],
+    "link": "https://x.com/karamelkotak/status/2106709927708516720",
+    "start_booths": [
+      "A-01a"
+    ],
+    "reward_booths": [
+      "M-36a"
+    ],
+    "booths": [
+      {
+        "code": "A-01ab",
+        "name": ""
+      },
+      {
+        "code": "B-15ab",
+        "name": ""
+      },
+      {
+        "code": "D-27ab",
+        "name": ""
+      },
+      {
+        "code": "J-49ab",
+        "name": ""
+      },
+      {
+        "code": "J-02ab",
+        "name": ""
+      },
+      {
+        "code": "N-08a",
+        "name": ""
+      },
+      {
+        "code": "A-51ab",
+        "name": ""
+      },
+      {
+        "code": "A-52ab",
+        "name": ""
+      },
+      {
+        "code": "Y-02ab",
+        "name": ""
+      },
+      {
+        "code": "M-36ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 10
+  },
+  {
+    "id": "holo-haloween-stamp-rally",
+    "name": "Holo Haloween Stamp Rally CF 23",
+    "day": "Both Days",
+    "fandoms": [
+      "Hololive"
+    ],
+    "link": "https://x.com/anyisina/status/2103809413215932844",
+    "start_booths": [
+      "AE-20"
+    ],
+    "reward_booths": [
+      "R-06a"
+    ],
+    "booths": [
+      {
+        "code": "AE-20",
+        "name": "Karunochi"
+      },
+      {
+        "code": "AE-25",
+        "name": "Love Juice"
+      },
+      {
+        "code": "AE-26",
+        "name": "Love Juice"
+      },
+      {
+        "code": "AE-31",
+        "name": "Hiudarat"
+      },
+      {
+        "code": "AE-32",
+        "name": "Hiudarat"
+      },
+      {
+        "code": "AE-35",
+        "name": "Saikako / Ruva"
+      },
+      {
+        "code": "AE-36",
+        "name": "Saikako / Ruva"
+      },
+      {
+        "code": "Q-45ab",
+        "name": "Pepperoni"
+      },
+      {
+        "code": "R-06ab",
+        "name": "Anyis"
+      },
+      {
+        "code": "Z-25ab",
+        "name": "Puunyan"
+      }
+    ],
+    "total_booths": 10
+  },
+  {
+    "id": "pokenesia-stamp-rally",
+    "name": "POKENESIA Stamp Rally Edition",
+    "day": "Both Days",
+    "fandoms": [
+      "Pokemon"
+    ],
+    "link": "https://x.com/ooka_rin/status/2102070302381576519",
+    "start_booths": [],
+    "reward_booths": [
+      "F-44a"
+    ],
+    "booths": [
+      {
+        "code": "O-17ab",
+        "name": "Terminal"
+      },
+      {
+        "code": "O-18ab",
+        "name": "Terminal"
+      },
+      {
+        "code": "F-44ab",
+        "name": "Hikaru"
+      },
+      {
+        "code": "AG-31",
+        "name": "Atelier KarraKon & Eruru"
+      },
+      {
+        "code": "AG-32",
+        "name": "Atelier KarraKon & Eruru"
+      },
+      {
+        "code": "O-13ab",
+        "name": "Calamipheion"
+      },
+      {
+        "code": "O-14ab",
+        "name": "Calamipheion"
+      },
+      {
+        "code": "M-50ab",
+        "name": "Dua Belas Butir Telur"
+      },
+      {
+        "code": "C-13ab",
+        "name": ""
+      },
+      {
+        "code": "C-14ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 10
+  },
+  {
+    "id": "aikatsu-midnight-melody-stamp-rally",
+    "name": "Midnight Melody - Aikatsu! CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Aikatsu!"
+    ],
+    "link": "https://x.com/sunnyspavillion/status/2115024120060756416",
+    "start_booths": [
+      "AE-13"
+    ],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "AE-13",
+        "name": "morin.png (Planet 11PM)"
+      },
+      {
+        "code": "E-16ab",
+        "name": "runreira (Boxers Club)"
+      },
+      {
+        "code": "G-60a",
+        "name": "Iriscencieal"
+      },
+      {
+        "code": "I-12ab",
+        "name": "shimishimlily (SUGAR AUNTIES)"
+      },
+      {
+        "code": "O-55ab",
+        "name": "ChenYoofrog (Warung Dormitia)"
+      },
+      {
+        "code": "R-41a",
+        "name": "renarqv (Chizu-Bee)"
+      },
+      {
+        "code": "R-57ab",
+        "name": "Akirozu (CTRL+S)"
+      },
+      {
+        "code": "S-45ab",
+        "name": "sunny (Sunny Pavillion)"
+      },
+      {
+        "code": "X-34a",
+        "name": "fresh_cocomilk | Wangy Koyo"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "guangshi-link-click-stamp-rally",
+    "name": "Guangshi #CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Link Click"
+    ],
+    "link": "https://x.com/saodaiyo/status/2112547035144757611",
+    "start_booths": [
+      "E-20ab"
+    ],
+    "reward_booths": [
+      "X-24b"
+    ],
+    "booths": [
+      {
+        "code": "E-20ab",
+        "name": "Jellato"
+      },
+      {
+        "code": "D-52ab",
+        "name": "Ateliernom x Luxeria"
+      },
+      {
+        "code": "H-09ab",
+        "name": "Pasar Malam"
+      },
+      {
+        "code": "H-10ab",
+        "name": "Pasar Malam"
+      },
+      {
+        "code": "R-46a",
+        "name": "Tulang Punggung Malewife"
+      },
+      {
+        "code": "S-41ab",
+        "name": "Warung Adalah Pokoknya"
+      },
+      {
+        "code": "U-20ab",
+        "name": "White Cat's Disciples"
+      },
+      {
+        "code": "U-41ab",
+        "name": "(Mental) Art-Sylum"
+      },
+      {
+        "code": "X-24b",
+        "name": "Rata Kanan"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "hetalia-stamp-rally-cf23",
+    "name": "Hetalia Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Hetalia: Axis Powers"
+    ],
+    "link": "https://x.com/Xzenonphrenic/status/2114032649769824620",
+    "start_booths": [],
+    "reward_booths": [
+      "A-41ab"
+    ],
+    "booths": [
+      {
+        "code": "T-03ab",
+        "name": "Xzenonphrenic | Retro Rooster"
+      },
+      {
+        "code": "T-21ab",
+        "name": "tigrismoon (Day 1 only) | BOLU"
+      },
+      {
+        "code": "Q-30ab",
+        "name": "_kenkofi (Day 1 only) | Tukak Ikan"
+      },
+      {
+        "code": "S-21ab",
+        "name": "Ameliasendii (Day 1 only) | Buka24Jam"
+      },
+      {
+        "code": "I-25a",
+        "name": "unemaki | Basreng Sisters"
+      },
+      {
+        "code": "B-29ab",
+        "name": "koucheese | Araku x Koupassage"
+      },
+      {
+        "code": "Y-13ab",
+        "name": "hotkolaa | Goonettes Association"
+      },
+      {
+        "code": "P-13ab",
+        "name": "IcyNorwell | Pitik Kelap Kelip"
+      },
+      {
+        "code": "A-41ab",
+        "name": "braenvomit | IDK!? x catnichiwa"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "iwtv-stamp-rally",
+    "name": "Interview with The Vampire Comifuro 23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Interview with the Vampire"
+    ],
+    "link": "https://x.com/heiziwei/status/2111673982290366837",
+    "start_booths": [
+      "AF-34"
+    ],
+    "reward_booths": [
+      "M-27a"
+    ],
+    "booths": [
+      {
+        "code": "AF-34",
+        "name": "bornspiked (both days)"
+      },
+      {
+        "code": "AF-35",
+        "name": "bornspiked (both days)"
+      },
+      {
+        "code": "AF-36",
+        "name": "sloanesmortuary (both days)"
+      },
+      {
+        "code": "AF-37",
+        "name": "sloanesmortuary (both days)"
+      },
+      {
+        "code": "M-27ab",
+        "name": "cherii49 (both days) / heiziwei (both days)"
+      },
+      {
+        "code": "N-29ab",
+        "name": "exntrc_ (Day 1 only) | Bumcle"
+      },
+      {
+        "code": "S-28ab",
+        "name": "botttoml_ess (Day 1 only) | C.U.A.N"
+      },
+      {
+        "code": "N-30ab",
+        "name": "gandumwheat (Day 2 only) | Warcing Warna-Warni"
+      },
+      {
+        "code": "N-28b",
+        "name": "per11winkle (Day 2 only) | Interview with the Minecrafter"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "jjba-stamp-rally-sman-4-morioh",
+    "name": "CF23 JJBA Stamp Rally (SMAN 4 Morioh JoJo Bizarre Adventure Prize Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [
+      "JoJo's Bizarre Adventure"
+    ],
+    "link": "https://x.com/relawan_morioh/status/2086094067402973634",
+    "start_booths": [
+      "D-19a"
+    ],
+    "reward_booths": [
+      "A-53a"
+    ],
+    "booths": [
+      {
+        "code": "D-19ab",
+        "name": "Khaven / Keith (Afterhours Antics, Part 3)"
+      },
+      {
+        "code": "I-26ab",
+        "name": "Gaby (Mengburu Cuan, Part 5)"
+      },
+      {
+        "code": "I-27ab",
+        "name": "Gaby (Mengburu Cuan, Part 5)"
+      },
+      {
+        "code": "S-20ab",
+        "name": "Ryou (Acumalaka, Part 4) / Varent (Acumalaka, Part 2)"
+      },
+      {
+        "code": "J-20ab",
+        "name": "Fuu (DPJ Circle x Nekosaurus, Part 6) / Joselyn (DPJ Circle x Nekosaurus, Par..."
+      },
+      {
+        "code": "J-15b",
+        "name": "Meh (MxK&O, Part 9, day 1 only) | Mehkaelis x Kavksharewaritb"
+      },
+      {
+        "code": "H-49ab",
+        "name": "Pie (Alpha Mart, Part 7)"
+      },
+      {
+        "code": "A-53ab",
+        "name": "Sel (FHB Circle, Part 1)"
+      },
+      {
+        "code": "A-54ab",
+        "name": "Sel (FHB Circle, Part 1)"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "michael-jackson-stamp-rally",
+    "name": "Michael Jackson Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Michael Jackson"
+    ],
+    "link": "https://x.com/yu__741/status/2114348815734247506",
+    "start_booths": [
+      "E-16ab"
+    ],
+    "reward_booths": [
+      "Q-26ab"
+    ],
+    "booths": [
+      {
+        "code": "E-16ab",
+        "name": "Boxers Club"
+      },
+      {
+        "code": "E-35ab",
+        "name": "Cat Buddies"
+      },
+      {
+        "code": "F-15b",
+        "name": "KuroKetto"
+      },
+      {
+        "code": "J-02ab",
+        "name": "Kakap Studio"
+      },
+      {
+        "code": "J-03ab",
+        "name": "Kakap Studio"
+      },
+      {
+        "code": "N-07ab",
+        "name": "HOW NICHE CAN THIS GET?"
+      },
+      {
+        "code": "N-12ab",
+        "name": "MEATBUCKET"
+      },
+      {
+        "code": "Q-26ab",
+        "name": "Delulu Decree"
+      },
+      {
+        "code": "Q-27ab",
+        "name": "Delulu Decree"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "sonic-halloween-stamp-rally",
+    "name": "Spooky Month Sonic Rally (Sonic the Hedgehog Halloween Themed Stamp Rally)",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Sonic the Hedgehog"
+    ],
+    "link": "https://x.com/chinka90/status/2111005002961764693",
+    "start_booths": [
+      "F-09a"
+    ],
+    "reward_booths": [
+      "T-11a"
+    ],
+    "booths": [
+      {
+        "code": "F-09ab",
+        "name": "Mumutazu (Suaka Warga Stress)"
+      },
+      {
+        "code": "F-10ab",
+        "name": "Mumutazu (Suaka Warga Stress)"
+      },
+      {
+        "code": "M-25b",
+        "name": "Rhym0_s"
+      },
+      {
+        "code": "N-31ab",
+        "name": "junjousega"
+      },
+      {
+        "code": "O-32ab",
+        "name": "feyy_illust"
+      },
+      {
+        "code": "O-33ab",
+        "name": "feyy_illust"
+      },
+      {
+        "code": "O-47ab",
+        "name": "Vyodkaa (mid n evil)"
+      },
+      {
+        "code": "O-48ab",
+        "name": "Vyodkaa (mid n evil)"
+      },
+      {
+        "code": "T-11ab",
+        "name": "HunnyHillZone (kerosenehearth)"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "storm-on-stage-bima-stamp-rally",
+    "name": "Storm on Stage: Bima Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/mawcens_/status/2114333657913503864",
+    "start_booths": [
+      "I-20ab"
+    ],
+    "reward_booths": [
+      "S-38ab"
+    ],
+    "booths": [
+      {
+        "code": "I-20ab",
+        "name": "papermintlucia (Cia) | The Blue Aster"
+      },
+      {
+        "code": "I-25a",
+        "name": "akirakko02 (Akko) | Basreng Sisters"
+      },
+      {
+        "code": "K-08ab",
+        "name": "pan__kmy (Bunbun) | Buciness Man"
+      },
+      {
+        "code": "V-24b",
+        "name": "C4an0123 (Can, Saturday) | Butuh My Kisah"
+      },
+      {
+        "code": "I-51ab",
+        "name": "C4an0123 (Can, Sunday) | bibel x bigmadamee"
+      },
+      {
+        "code": "R-54a",
+        "name": "1210_BWA (BWA) | Zip Zap Gang"
+      },
+      {
+        "code": "R-52ab",
+        "name": "hnyoshii (Yoshio) | Kulinara"
+      },
+      {
+        "code": "R-31a",
+        "name": "aho_Kitsune (Kuro) | hidup mati"
+      },
+      {
+        "code": "S-38ab",
+        "name": "mawcens_ (Cens) | Pee Paw Kleb"
+      }
+    ],
+    "total_booths": 9
+  },
+  {
+    "id": "amphoreus-yesterdays-buds-tomorrows-blooms",
+    "name": "Yesterday's Buds, Tomorrow's Blooms - HSR Amphoreus Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/nyacatchan/status/2111480406352740487",
+    "start_booths": [
+      "J-01a"
+    ],
+    "reward_booths": [
+      "V-50b"
+    ],
+    "booths": [
+      {
+        "code": "J-01ab",
+        "name": "Nyakar Studio"
+      },
+      {
+        "code": "R-47ab",
+        "name": "lluna et ssol"
+      },
+      {
+        "code": "R-48ab",
+        "name": "lluna et ssol"
+      },
+      {
+        "code": "U-19ab",
+        "name": "Yuwintermelon x Candarella"
+      },
+      {
+        "code": "W-43ab",
+        "name": "StickwithBella"
+      },
+      {
+        "code": "X-21ab",
+        "name": "CATTS"
+      },
+      {
+        "code": "V-51a",
+        "name": "Warung Wonderlain"
+      },
+      {
+        "code": "V-50b",
+        "name": "moonsoda mart"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "bloodymary-stamp-rally",
+    "name": "BLOODYMARY CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Iron Lung",
+      "Project Hail Mary"
+    ],
+    "link": "https://x.com/mewy101/status/2110603399771423063",
+    "start_booths": [
+      "E-09a"
+    ],
+    "reward_booths": [
+      "O-47a"
+    ],
+    "booths": [
+      {
+        "code": "E-09ab",
+        "name": "meltingpoets"
+      },
+      {
+        "code": "E-10ab",
+        "name": "meltingpoets"
+      },
+      {
+        "code": "X-47ab",
+        "name": "TroosfeyVO"
+      },
+      {
+        "code": "S-42ab",
+        "name": "mewy101"
+      },
+      {
+        "code": "R-47ab",
+        "name": "poebryn"
+      },
+      {
+        "code": "R-48ab",
+        "name": "poebryn"
+      },
+      {
+        "code": "O-47ab",
+        "name": "catsticide"
+      },
+      {
+        "code": "O-48ab",
+        "name": "catsticide"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "creepypasta-collect-my-stamps-stamp-rally",
+    "name": "Collect My Stamps: A Creepypasta CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Creepypasta"
+    ],
+    "link": "https://x.com/ar_elkheartt/status/2115044839452811539",
+    "start_booths": [
+      "Q-33a"
+    ],
+    "reward_booths": [
+      "E-20ab"
+    ],
+    "booths": [
+      {
+        "code": "Q-33a",
+        "name": "wrennrigellia | DIGIVINE"
+      },
+      {
+        "code": "E-20ab",
+        "name": "aria | Jellato"
+      },
+      {
+        "code": "N-11ab",
+        "name": "rei | Udang Jompo"
+      },
+      {
+        "code": "F-45a",
+        "name": "dex | Dead Dove Do Eat"
+      },
+      {
+        "code": "G-40ab",
+        "name": "Mochi (Day 1 only) | Kastil Wi6u"
+      },
+      {
+        "code": "X-34ab",
+        "name": "Maw (Day 2 only) | The Sporbs"
+      },
+      {
+        "code": "M-47ab",
+        "name": "yuricucked (Day 2 only) | Warung Niche"
+      },
+      {
+        "code": "S-22a",
+        "name": "Typical (Day 2 only) | Sepeda Roda Tiga"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "dcmk-game-stamp-rally",
+    "name": "DCMK Game Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Detective Conan"
+    ],
+    "link": "https://x.com/itssagaruu/status/2114722129048723878",
+    "start_booths": [
+      "D-46ab"
+    ],
+    "reward_booths": [
+      "Z-38b"
+    ],
+    "booths": [
+      {
+        "code": "D-46ab",
+        "name": "Tadika Ber-uang"
+      },
+      {
+        "code": "G-29ab",
+        "name": "camatohru & karagechopstic | Nemui(n duit amin)"
+      },
+      {
+        "code": "I-40ab",
+        "name": "YAMIKAN"
+      },
+      {
+        "code": "O-51ab",
+        "name": "Anggoon (Angkringan Goon)"
+      },
+      {
+        "code": "O-52ab",
+        "name": "Anggoon (Angkringan Goon)"
+      },
+      {
+        "code": "Q-12ab",
+        "name": ".JPEG (Jajaran PEcinta Gepeng)"
+      },
+      {
+        "code": "S-07ab",
+        "name": "Panti Oshi x vn_vannies"
+      },
+      {
+        "code": "Z-38b",
+        "name": "bagi loker 🥺"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "hee-ho-persona-protags-stamp-rally",
+    "name": "HEE-HO! Persona Protags Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Persona"
+    ],
+    "link": "https://x.com/__candarella/status/2115406902926692846",
+    "start_booths": [],
+    "reward_booths": [
+      "U-19ab"
+    ],
+    "booths": [
+      {
+        "code": "U-19ab",
+        "name": "Candarella | Yuwintermelon x Candarella"
+      },
+      {
+        "code": "B-51ab",
+        "name": "Pinkyscallop | notre atelier"
+      },
+      {
+        "code": "AD-49",
+        "name": "Kuro Lee | Lanlon.creative"
+      },
+      {
+        "code": "O-34ab",
+        "name": "Plumberiies | Sea Bau"
+      },
+      {
+        "code": "W-55ab",
+        "name": "Yxnki | Lumicewek"
+      },
+      {
+        "code": "O-12ab",
+        "name": "Shanqi Char | Shanqi Art"
+      },
+      {
+        "code": "Q-19ab",
+        "name": "Introverted Mochi"
+      },
+      {
+        "code": "K-02ab",
+        "name": "Flatbunny | Bunny Art Collective"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "honeyworks-stamp-rally-cf23",
+    "name": "Stamp Rally HoneyWorks di Comifuro 23",
+    "day": "Both Days",
+    "fandoms": [
+      "HoneyWorks"
+    ],
+    "link": "https://x.com/springshoujo/status/2113180620461351355",
+    "start_booths": [
+      "G-51ab"
+    ],
+    "reward_booths": [
+      "P-46ab"
+    ],
+    "booths": [
+      {
+        "code": "G-51ab",
+        "name": "Kelompok Antek Iseng"
+      },
+      {
+        "code": "G-52ab",
+        "name": "Kelompok Antek Iseng"
+      },
+      {
+        "code": "G-55ab",
+        "name": "Kultus DeKaVe"
+      },
+      {
+        "code": "K-22ab",
+        "name": "Irusboru"
+      },
+      {
+        "code": "L-49ab",
+        "name": "Niche Knickknacks Corner"
+      },
+      {
+        "code": "R-20ab",
+        "name": "Takoyachi"
+      },
+      {
+        "code": "R-24ab",
+        "name": "Sigma Ants"
+      },
+      {
+        "code": "P-46ab",
+        "name": "Deco*23"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "nanami-kento-stamp-rally",
+    "name": "Nanami Kento Stamp Rally (spooky actor, Halloween themed)",
+    "day": "Both Days",
+    "fandoms": [
+      "Jujutsu Kaisen"
+    ],
+    "link": "https://x.com/tsnzen/status/2110332347463995599",
+    "start_booths": [
+      "H-51a"
+    ],
+    "reward_booths": [
+      "V-13a"
+    ],
+    "booths": [
+      {
+        "code": "H-51ab",
+        "name": "nizuut"
+      },
+      {
+        "code": "H-52ab",
+        "name": "nizuut"
+      },
+      {
+        "code": "H-46ab",
+        "name": "goldeenmii"
+      },
+      {
+        "code": "H-59ab",
+        "name": "nthndn"
+      },
+      {
+        "code": "S-14ab",
+        "name": "tsnzen"
+      },
+      {
+        "code": "S-37ab",
+        "name": "rauverie (Roasted Tomatoad)"
+      },
+      {
+        "code": "V-13ab",
+        "name": "gojodreee"
+      },
+      {
+        "code": "V-14ab",
+        "name": "gojodreee"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "niji-halloween-stamp-rally",
+    "name": "Niji-Halloween Stamp Rally",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/etoileduo/status/2115026775264899580",
+    "start_booths": [
+      "Q-56a"
+    ],
+    "reward_booths": [
+      "R-29ab"
+    ],
+    "booths": [
+      {
+        "code": "R-29ab",
+        "name": "Elle (Karaa-Gumi)"
+      },
+      {
+        "code": "Q-56a",
+        "name": "mogi"
+      },
+      {
+        "code": "R-21ab",
+        "name": "eva"
+      },
+      {
+        "code": "R-22ab",
+        "name": "Kitsh (DangOshi-)"
+      },
+      {
+        "code": "Q-37ab",
+        "name": "5SHIN"
+      },
+      {
+        "code": "R-27a",
+        "name": "Fayy"
+      },
+      {
+        "code": "R-28a",
+        "name": "natsuki"
+      },
+      {
+        "code": "R-28b",
+        "name": "ami"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "phaidei-halloween-stamp-rally",
+    "name": "Phaidei Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/rttncizu/status/2107446035635388605",
+    "start_booths": [
+      "Z-21a"
+    ],
+    "reward_booths": [
+      "Y-24a"
+    ],
+    "booths": [
+      {
+        "code": "Z-21ab",
+        "name": ""
+      },
+      {
+        "code": "Z-22ab",
+        "name": ""
+      },
+      {
+        "code": "A-39ab",
+        "name": "GAI (Gepuk en Arek Iku)"
+      },
+      {
+        "code": "Y-02ab",
+        "name": "Rumah Bersalin Omega"
+      },
+      {
+        "code": "Y-03ab",
+        "name": "Rumah Bersalin Omega"
+      },
+      {
+        "code": "Y-16ab",
+        "name": ""
+      },
+      {
+        "code": "Y-23ab",
+        "name": "Renta Abadi Express"
+      },
+      {
+        "code": "Y-24ab",
+        "name": "Sarjana Cumlaude PhD"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "ryan-ghostsling-stamp-rally-minggu",
+    "name": "(RYAN) GHOSTSLING STAMP RALLY · Minggu",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Ryan Gosling"
+    ],
+    "link": "https://x.com/cyticalis/status/2112851788840018101",
+    "start_booths": [
+      "C-31a"
+    ],
+    "reward_booths": [
+      "T-06ab"
+    ],
+    "booths": [
+      {
+        "code": "C-31a",
+        "name": "Dapur Alien"
+      },
+      {
+        "code": "R-47ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "R-48ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "R-55ab",
+        "name": "Mixcu.co"
+      },
+      {
+        "code": "S-19ab",
+        "name": "CHUD CENTRAL"
+      },
+      {
+        "code": "S-20ab",
+        "name": "Acumalaka"
+      },
+      {
+        "code": "S-32b",
+        "name": "nikisolosgoku"
+      },
+      {
+        "code": "T-06ab",
+        "name": "Jersey Bulu"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "venti-where-the-wind-blows",
+    "name": "Where the Wind Blows - a Venti stamp rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/PlT_A_PAT/status/2110328797941948602",
+    "start_booths": [
+      "B-43a"
+    ],
+    "reward_booths": [
+      "W-34a"
+    ],
+    "booths": [
+      {
+        "code": "B-43ab",
+        "name": "Hika"
+      },
+      {
+        "code": "B-44ab",
+        "name": "Hika"
+      },
+      {
+        "code": "A-11ab",
+        "name": "Mint"
+      },
+      {
+        "code": "A-46ab",
+        "name": "Neetols"
+      },
+      {
+        "code": "X-17ab",
+        "name": "Pita (GIRL DINNER)"
+      },
+      {
+        "code": "X-18ab",
+        "name": "Pita (GIRL DINNER)"
+      },
+      {
+        "code": "W-34ab",
+        "name": "Angel"
+      },
+      {
+        "code": "W-35ab",
+        "name": "Angel"
+      }
+    ],
+    "total_booths": 8
+  },
+  {
+    "id": "18trip-trick-or-trip-stamp-rally",
+    "name": "Trick or Trip! 18 Trip Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "18TRIP"
+    ],
+    "link": "https://x.com/InariSakura/status/2111774306636063018",
+    "start_booths": [
+      "M-02ab"
+    ],
+    "reward_booths": [
+      "Y-20ab"
+    ],
+    "booths": [
+      {
+        "code": "M-02ab",
+        "name": "Budak Segitiga: Michi & Wasabi"
+      },
+      {
+        "code": "Q-04ab",
+        "name": "Shrimp House: Thea"
+      },
+      {
+        "code": "S-10ab",
+        "name": "maplecaeke (Terra) | Penunggu Gaji"
+      },
+      {
+        "code": "S-30ab",
+        "name": "Eskrim BBQ: Koffy (Sunday only)"
+      },
+      {
+        "code": "T-34ab",
+        "name": "Tim Sukses isi 7: Akinoko"
+      },
+      {
+        "code": "U-52a",
+        "name": "Mimichoco: Cumi & Mary"
+      },
+      {
+        "code": "Y-20ab",
+        "name": "Jellycious: Kugetsu"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "bang-dream-our-notes-stamp-rally",
+    "name": "BanG Dream! Our Notes Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "BanG Dream!"
+    ],
+    "link": "https://x.com/rienz_zy/status/2114338781503647859",
+    "start_booths": [],
+    "reward_booths": [
+      "AE-25"
+    ],
+    "booths": [
+      {
+        "code": "AE-25",
+        "name": "Ring Road"
+      },
+      {
+        "code": "AE-33",
+        "name": "Erudesu"
+      },
+      {
+        "code": "AG-38",
+        "name": "Caca Café"
+      },
+      {
+        "code": "K-22ab",
+        "name": "Irusboru"
+      },
+      {
+        "code": "L-28ab",
+        "name": "Aiiromori"
+      },
+      {
+        "code": "L-59ab",
+        "name": "rienz_zy | GEROBAK"
+      },
+      {
+        "code": "Y-59ab",
+        "name": "Mayoi Cafe"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "danstelle-halloween-stamp-rally",
+    "name": "DanStelle Comifuro23 Stamp Rally - Trick or Treat (Halloween)",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/muhacouno/status/2105633880149803495",
+    "start_booths": [
+      "A-11a"
+    ],
+    "reward_booths": [
+      "A-59a"
+    ],
+    "booths": [
+      {
+        "code": "A-11ab",
+        "name": "Kana"
+      },
+      {
+        "code": "I-21ab",
+        "name": "Alice (Crazy_Alice94)"
+      },
+      {
+        "code": "I-22ab",
+        "name": "Alice (Crazy_Alice94)"
+      },
+      {
+        "code": "T-24a",
+        "name": "Garu"
+      },
+      {
+        "code": "X-24a",
+        "name": "Chala"
+      },
+      {
+        "code": "X-53b",
+        "name": "Haco"
+      },
+      {
+        "code": "A-59ab",
+        "name": "Vish"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "death-note-stamp-rally",
+    "name": "CF23 Death Note Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Death Note"
+    ],
+    "link": "https://x.com/yoomgipurrr/status/2115097968009490637",
+    "start_booths": [
+      "B-17ab"
+    ],
+    "reward_booths": [
+      "S-56ab"
+    ],
+    "booths": [
+      {
+        "code": "B-17ab",
+        "name": "shrinpu | Asylum Cinta"
+      },
+      {
+        "code": "C-02ab",
+        "name": "caream | Hontokki x Caream"
+      },
+      {
+        "code": "E-32ab",
+        "name": "laviuu | Kerajaan Meng x Silly Me Laviuu"
+      },
+      {
+        "code": "J-32ab",
+        "name": "phoibeela | Hi.Kiui"
+      },
+      {
+        "code": "J-34ab",
+        "name": "yoom | Titik Kumpul"
+      },
+      {
+        "code": "K-10ab",
+        "name": "scaraur | BeScaList"
+      },
+      {
+        "code": "S-56ab",
+        "name": "naracchin | Gambar Kenyang"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "deltarune-cf23-stamp-rally",
+    "name": "Deltarune CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Deltarune"
+    ],
+    "link": "https://x.com/lezabudka/status/2102595654690521335",
+    "start_booths": [
+      "F-15b"
+    ],
+    "reward_booths": [
+      "X-09a"
+    ],
+    "booths": [
+      {
+        "code": "F-15b",
+        "name": "KuroKetto"
+      },
+      {
+        "code": "O-51ab",
+        "name": "Anggoon (Angkringan Goon)"
+      },
+      {
+        "code": "O-52ab",
+        "name": "Anggoon (Angkringan Goon)"
+      },
+      {
+        "code": "P-23ab",
+        "name": "Photocapy"
+      },
+      {
+        "code": "S-19ab",
+        "name": "Chud Central"
+      },
+      {
+        "code": "S-54ab",
+        "name": "Club Sandwich"
+      },
+      {
+        "code": "X-09ab",
+        "name": "Digidaw Walawe"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "dol-halloween-hit-or-trick-stamp-rally",
+    "name": "DoL Halloween Stamp Rally: HIT or TRICK!",
+    "day": "Both Days",
+    "fandoms": [
+      "Degrees of Lewdity"
+    ],
+    "link": "https://x.com/hajukashii/status/2112161228118507620",
+    "start_booths": [
+      "L-31ab"
+    ],
+    "reward_booths": [
+      "T-01ab"
+    ],
+    "booths": [
+      {
+        "code": "B-28ab",
+        "name": "B-28AB (handle not readable in the lineup image)"
+      },
+      {
+        "code": "B-50ab",
+        "name": "Cephalomeow, Impale_ite"
+      },
+      {
+        "code": "C-60b",
+        "name": "026010hzk__, rikuusoosu (Day 1 only) | Pengokop ABG Tua"
+      },
+      {
+        "code": "L-31ab",
+        "name": "Reinakocchi"
+      },
+      {
+        "code": "N-09ab",
+        "name": "hajukashii"
+      },
+      {
+        "code": "Q-23a",
+        "name": "Kittycatsoups | the napping cats"
+      },
+      {
+        "code": "T-01ab",
+        "name": "Rclaireclair"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "joongdok-setan-pasar-malam",
+    "name": "Setan Pasar Malam",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Omniscient Reader's Viewpoint"
+    ],
+    "link": "https://x.com/JDEventsINA/status/2108528032034279523",
+    "start_booths": [
+      "F-34a"
+    ],
+    "reward_booths": [
+      "U-11ab"
+    ],
+    "booths": [
+      {
+        "code": "F-34ab",
+        "name": "nana_mya26"
+      },
+      {
+        "code": "F-35ab",
+        "name": "nana_mya26"
+      },
+      {
+        "code": "G-32ab",
+        "name": "minahomine"
+      },
+      {
+        "code": "G-33ab",
+        "name": "minahomine"
+      },
+      {
+        "code": "I-12ab",
+        "name": "ferretkeju"
+      },
+      {
+        "code": "J-55ab",
+        "name": "AtheaStar73"
+      },
+      {
+        "code": "U-11ab",
+        "name": "nine_niku"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "lads-halloween-angel-and-devil",
+    "name": "Angel & Devil: Love and Deepspace (LADS) Halloween CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Love and Deepspace"
+    ],
+    "link": "https://x.com/allene_len/status/2106373744826728663",
+    "start_booths": [
+      "C-21a"
+    ],
+    "reward_booths": [
+      "T-42a"
+    ],
+    "booths": [
+      {
+        "code": "C-21ab",
+        "name": ""
+      },
+      {
+        "code": "C-22ab",
+        "name": ""
+      },
+      {
+        "code": "M-16ab",
+        "name": ""
+      },
+      {
+        "code": "M-43ab",
+        "name": ""
+      },
+      {
+        "code": "M-44ab",
+        "name": ""
+      },
+      {
+        "code": "T-45b",
+        "name": ""
+      },
+      {
+        "code": "T-42ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "mlp-midnight-carnival-stamp-rally",
+    "name": "My Little Pony Stamp Rally \"MIDNIGHT CARNIVAL\"",
+    "day": "Both Days",
+    "fandoms": [
+      "My Little Pony"
+    ],
+    "link": "https://x.com/runreira/status/2114315661845602645",
+    "start_booths": [
+      "E-16ab"
+    ],
+    "reward_booths": [
+      "S-38ab"
+    ],
+    "booths": [
+      {
+        "code": "E-16ab",
+        "name": "runreira | Boxers Club"
+      },
+      {
+        "code": "L-11ab",
+        "name": "sunwhipcake | Frontier Sho"
+      },
+      {
+        "code": "J-43b",
+        "name": "kiull90 | STAY WARAS"
+      },
+      {
+        "code": "P-48ab",
+        "name": "cupidsore | Sugar Me Mine!"
+      },
+      {
+        "code": "T-11ab",
+        "name": "poohwentz (Instagram) | Hunny Squad"
+      },
+      {
+        "code": "T-19ab",
+        "name": "Cino_Sae (Sunday only) | SadBrokeClowns"
+      },
+      {
+        "code": "S-38ab",
+        "name": "hansol_nie | Pee Paw Kleb"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "myphai-stamp-rally",
+    "name": "MyPhai Stamp Rally: Kala Mentari Menyambut Tahta",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/kaobvin/status/2104864802665611602",
+    "start_booths": [
+      "B-49ab"
+    ],
+    "reward_booths": [
+      "Y-08ab"
+    ],
+    "booths": [
+      {
+        "code": "B-49ab",
+        "name": "Sate Kelinci Simpang 4"
+      },
+      {
+        "code": "J-01ab",
+        "name": "Kyyjang (Nyakar Studio)"
+      },
+      {
+        "code": "J-54ab",
+        "name": "Kedai Pethok"
+      },
+      {
+        "code": "N-50ab",
+        "name": "GoGo! Sachet"
+      },
+      {
+        "code": "W-12ab",
+        "name": "Chaos Theory Circle"
+      },
+      {
+        "code": "X-08b",
+        "name": "Runaria"
+      },
+      {
+        "code": "Y-08ab",
+        "name": "Kompor Gas"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "original-character-stamp-rally",
+    "name": "Original Character Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [],
+    "link": "https://x.com/aerisabella/status/2104188327222280258",
+    "start_booths": [],
+    "reward_booths": [
+      "Y-13a"
+    ],
+    "booths": [
+      {
+        "code": "E-09ab",
+        "name": ""
+      },
+      {
+        "code": "E-10ab",
+        "name": ""
+      },
+      {
+        "code": "E-12ab",
+        "name": ""
+      },
+      {
+        "code": "F-59ab",
+        "name": ""
+      },
+      {
+        "code": "J-01ab",
+        "name": ""
+      },
+      {
+        "code": "S-31ab",
+        "name": ""
+      },
+      {
+        "code": "Y-13ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "pokemon-halloween-stamp-rally",
+    "name": "Pokémon Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pokemon"
+    ],
+    "link": "https://x.com/Autumn5kye/status/2114653662526185558",
+    "start_booths": [
+      "AA-09"
+    ],
+    "reward_booths": [
+      "Y-12ab"
+    ],
+    "booths": [
+      {
+        "code": "AA-09",
+        "name": "Gambarinman & AR3DS"
+      },
+      {
+        "code": "C-54ab",
+        "name": "Heecurry | Amatears Studio"
+      },
+      {
+        "code": "O-37ab",
+        "name": "emjayimpulses & Fyomarill (Day 1 only) | Senyum Asu"
+      },
+      {
+        "code": "O-13ab",
+        "name": "calamipheionnn (Day 2 only) | Calamipheion"
+      },
+      {
+        "code": "Z-19ab",
+        "name": "Oji Mart"
+      },
+      {
+        "code": "V-44b",
+        "name": "Krifu | Ichiba"
+      },
+      {
+        "code": "Y-12ab",
+        "name": "Ju.satu | NOIR:WAV3"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "rapstorm-wheel-you-be-mine-stamp-rally",
+    "name": "RapStorm Stamp Rally: Wheel You Be Mine?",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva",
+      "MagniV"
+    ],
+    "link": "https://x.com/Hamu_Mel04/status/2114356117937766581",
+    "start_booths": [
+      "R-59ab"
+    ],
+    "reward_booths": [
+      "R-58ab"
+    ],
+    "booths": [
+      {
+        "code": "R-59ab",
+        "name": "Koffiemilku (Amon) | Cheeb's Party"
+      },
+      {
+        "code": "R-41b",
+        "name": "Zethilgo (Zeth) | Staris Polaris"
+      },
+      {
+        "code": "I-20ab",
+        "name": "Papermintlucia (Cia) | The Blue Aster"
+      },
+      {
+        "code": "Z-40ab",
+        "name": "Topiorca (Lin) | Biji Bundal Bandul"
+      },
+      {
+        "code": "X-16ab",
+        "name": "Swanlache (Mei) | Malewife Bergizi & Ganteng (MBG)"
+      },
+      {
+        "code": "T-49ab",
+        "name": "Ayatosorbet (Aya) | Delulu Department"
+      },
+      {
+        "code": "R-58ab",
+        "name": "Hamu_Mel04 (Mel) | Cheeb's Party"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "ryan-ghostsling-stamp-rally",
+    "name": "(RYAN) GHOSTSLING STAMP RALLY · Sabtu",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Ryan Gosling"
+    ],
+    "link": "https://x.com/cyticalis/status/2112851788840018101",
+    "start_booths": [
+      "M-25b"
+    ],
+    "reward_booths": [
+      "Y-58ab"
+    ],
+    "booths": [
+      {
+        "code": "M-25b",
+        "name": "Federasi Barudak Introvert"
+      },
+      {
+        "code": "N-37a",
+        "name": "Kolam Rujak"
+      },
+      {
+        "code": "P-11ab",
+        "name": "FFTSB"
+      },
+      {
+        "code": "R-47ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "R-48ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "S-27b",
+        "name": "Dekafolks"
+      },
+      {
+        "code": "Y-58ab",
+        "name": "asu kayang"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "spooktacular-carnaval-persona-stamp-rally",
+    "name": "Spooktacular Carnaval: Persona Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Persona"
+    ],
+    "link": "https://x.com/akachou_tweet/status/2114349080658989390",
+    "start_booths": [
+      "AG-07"
+    ],
+    "reward_booths": [
+      "P-09ab"
+    ],
+    "booths": [
+      {
+        "code": "AG-07",
+        "name": "kagamicchi | samFOOL plaSTEAK"
+      },
+      {
+        "code": "A-04ab",
+        "name": "akachou_tweet & LecitaArtCrate | Eggbuttertoast & Akachou-tachi"
+      },
+      {
+        "code": "F-09ab",
+        "name": "shirokumani | Suaka Warga Stress"
+      },
+      {
+        "code": "G-05ab",
+        "name": "ILLBLLU_PRINCE (ill.bluu) | NYENYENYE"
+      },
+      {
+        "code": "J-29ab",
+        "name": "matomatika (Day 1 only) | Kelinci Duyung"
+      },
+      {
+        "code": "K-01ab",
+        "name": "zheavenchy | Pasar Semanggi"
+      },
+      {
+        "code": "P-09ab",
+        "name": "nanoringo_ | Star☆Light"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "the-beatles-stamp-rally",
+    "name": "The Beatles Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "The Beatles"
+    ],
+    "link": "https://x.com/rayoffbean/status/2113244642317836734",
+    "start_booths": [
+      "M-11ab"
+    ],
+    "reward_booths": [
+      "J-20ab"
+    ],
+    "booths": [
+      {
+        "code": "J-20ab",
+        "name": "rayoffbean | DPJ Circle x Nekosaurus"
+      },
+      {
+        "code": "M-11ab",
+        "name": "aldoplast | Epicentury"
+      },
+      {
+        "code": "N-07ab",
+        "name": "Horimasoshi | How Niche Can This Get"
+      },
+      {
+        "code": "P-13ab",
+        "name": "wgpg308 | Pitik Kelap Kelip"
+      },
+      {
+        "code": "Q-26ab",
+        "name": "yu__741 | Delulu Decree"
+      },
+      {
+        "code": "S-27a",
+        "name": "bupperscotch (Saturday) | sinefilth"
+      },
+      {
+        "code": "T-06ab",
+        "name": "Spacestation_L7 | Jersey Bulu"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "the-freak-circus-stamp-rally",
+    "name": "The Freak Circus Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "The Freak Circus"
+    ],
+    "link": "https://x.com/Art_SnowLand/status/2109615851678908660",
+    "start_booths": [
+      "S-46a"
+    ],
+    "reward_booths": [
+      "H-32a"
+    ],
+    "booths": [
+      {
+        "code": "S-46ab",
+        "name": "Indonesia Omega University"
+      },
+      {
+        "code": "P-37a",
+        "name": "Novase Ease"
+      },
+      {
+        "code": "P-21ab",
+        "name": "Liminal Company"
+      },
+      {
+        "code": "P-45ab",
+        "name": "Warung Ghoib"
+      },
+      {
+        "code": "A-39ab",
+        "name": "Gepuk en Arek Iku"
+      },
+      {
+        "code": "L-04ab",
+        "name": "Goleran Sekai (Chiwaru)"
+      },
+      {
+        "code": "H-32a",
+        "name": "Summer Dorinku"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "twst-midnight-reverie-stamp-rally",
+    "name": "Midnight Reverie - Twisted Wonderland Unofficial CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Disney Twisted-Wonderland"
+    ],
+    "link": "https://x.com/Kopipedia_/status/2111065324955054363",
+    "start_booths": [
+      "G-29a"
+    ],
+    "reward_booths": [
+      "K-01a"
+    ],
+    "booths": [
+      {
+        "code": "G-29ab",
+        "name": "camatohru / ginkgonoko"
+      },
+      {
+        "code": "R-20ab",
+        "name": "ReIN1324"
+      },
+      {
+        "code": "X-09ab",
+        "name": "lezabudka"
+      },
+      {
+        "code": "J-54ab",
+        "name": "sno_lilseiraa"
+      },
+      {
+        "code": "M-16ab",
+        "name": "korri_noko"
+      },
+      {
+        "code": "K-42ab",
+        "name": "FiiRd4"
+      },
+      {
+        "code": "K-01ab",
+        "name": "Kopipedia_"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "varflins-duskfall-eternity",
+    "name": "Duskfall Eternity - Varka x Flins Gothic Wedding Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/orenjimaru_2/status/2108572303554687397",
+    "start_booths": [
+      "A-12a"
+    ],
+    "reward_booths": [
+      "A-12a"
+    ],
+    "booths": [
+      {
+        "code": "A-12ab",
+        "name": "Orenjimaru"
+      },
+      {
+        "code": "AE-41",
+        "name": "Bingumon"
+      },
+      {
+        "code": "K-06ab",
+        "name": "Binu Merch"
+      },
+      {
+        "code": "T-13ab",
+        "name": "ABON | CHBONIIE X MEGAMINT"
+      },
+      {
+        "code": "Q-14ab",
+        "name": "OJISUNS"
+      },
+      {
+        "code": "X-16ab",
+        "name": ""
+      },
+      {
+        "code": "X-27ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "who-killed-kim-soleum",
+    "name": "Who Killed Kim Soleum?",
+    "day": "Both Days",
+    "fandoms": [
+      "Even If I Fall Into a Ghost Story"
+    ],
+    "link": "https://x.com/fizzyjacuzzi/status/2108535450784743899",
+    "start_booths": [
+      "U-32a"
+    ],
+    "reward_booths": [
+      "B-28a"
+    ],
+    "booths": [
+      {
+        "code": "U-32ab",
+        "name": "Alf"
+      },
+      {
+        "code": "U-33ab",
+        "name": "Alf"
+      },
+      {
+        "code": "U-29b",
+        "name": "Sago"
+      },
+      {
+        "code": "S-24b",
+        "name": "Jac"
+      },
+      {
+        "code": "J-39a",
+        "name": "Ash"
+      },
+      {
+        "code": "B-29ab",
+        "name": "Cheese"
+      },
+      {
+        "code": "B-28ab",
+        "name": "sakuwauwa"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "witch-hat-atelier-stamp-rally-cf23",
+    "name": "Witch Hat Atelier Stamp Rally CF23 \"Magic, tea and you\"",
+    "day": "Both Days",
+    "fandoms": [
+      "Witch Hat Atelier"
+    ],
+    "link": "https://x.com/Hornetie/status/2107077173068845367",
+    "start_booths": [
+      "AA-04"
+    ],
+    "reward_booths": [
+      "M-18a"
+    ],
+    "booths": [
+      {
+        "code": "AA-04",
+        "name": "LEOREN"
+      },
+      {
+        "code": "R-22ab",
+        "name": "DangOshi-"
+      },
+      {
+        "code": "M-30a",
+        "name": "Jadilah Bunga Matahari"
+      },
+      {
+        "code": "M-20ab",
+        "name": "Toko Sumber Khilaf"
+      },
+      {
+        "code": "Q-50ab",
+        "name": "Lazuhuy"
+      },
+      {
+        "code": "K-49ab",
+        "name": "GANBA DADA"
+      },
+      {
+        "code": "M-18ab",
+        "name": "Orion Ateliér"
+      }
+    ],
+    "total_booths": 7
+  },
+  {
+    "id": "adventure-time-halloween-stamp-rally",
+    "name": "Adventure Time x Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Adventure Time"
+    ],
+    "link": "https://x.com/Rhi3E/status/2110409801461338176",
+    "start_booths": [
+      "S-55a"
+    ],
+    "reward_booths": [
+      "S-55a"
+    ],
+    "booths": [
+      {
+        "code": "S-55a",
+        "name": "Korban Westernisasi"
+      },
+      {
+        "code": "T-11ab",
+        "name": "Hunny Squad"
+      },
+      {
+        "code": "S-56ab",
+        "name": "GAMBAR KENYANG"
+      },
+      {
+        "code": "S-46ab",
+        "name": "Indonesia Omega University"
+      },
+      {
+        "code": "S-53ab",
+        "name": "Archive of Oddities"
+      },
+      {
+        "code": "S-54ab",
+        "name": "Club Sandwich"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "ak-sui-siblings-garden-of-grotesqueries-stamp-rally",
+    "name": "Garden of Grotesqueries: Strange Exhibits · Section A",
+    "day": "Both Days",
+    "fandoms": [
+      "Arknights"
+    ],
+    "link": "https://x.com/shensous/status/2114332795434885233",
+    "start_booths": [],
+    "reward_booths": [
+      "K-53ab"
+    ],
+    "booths": [
+      {
+        "code": "Z-14ab",
+        "name": "dengdaengmo (Samlana) | (OTW) OPEN TO WORK"
+      },
+      {
+        "code": "C-32ab",
+        "name": "shaccharin | Konfetti Kolektif"
+      },
+      {
+        "code": "AF-44",
+        "name": "dinokanoo | dinokano & piekachoux"
+      },
+      {
+        "code": "E-09ab",
+        "name": "luckywolf_ (Raina) | Braincell Attack!"
+      },
+      {
+        "code": "K-52ab",
+        "name": "avemetyuu | SO.LID Circle"
+      },
+      {
+        "code": "K-53ab",
+        "name": "shensous (sera) & magu27R0 (magu) | 4am High Bar"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "beerlens-sweet-check-up-stamp-rally",
+    "name": "#BeerLens ; Sweet Check-Up Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/nagiayambakar/status/2112899226514637120",
+    "start_booths": [
+      "S-02ab"
+    ],
+    "reward_booths": [
+      "F-32ab"
+    ],
+    "booths": [
+      {
+        "code": "S-02ab",
+        "name": "Chiee | Chronically Online Cool Kids"
+      },
+      {
+        "code": "X-50ab",
+        "name": "Bek | Mulung malang"
+      },
+      {
+        "code": "S-38ab",
+        "name": "Zephyr | Pee Paw Kleb"
+      },
+      {
+        "code": "U-41ab",
+        "name": "Kie | (Mental) Art-Sylum"
+      },
+      {
+        "code": "U-32ab",
+        "name": "Seha | Meoya"
+      },
+      {
+        "code": "F-32ab",
+        "name": "Jun | Junjou Efu"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "bkdkbk-wedding-stamp-rally",
+    "name": "BKDKBK: Wedding Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "My Hero Academia"
+    ],
+    "link": "https://x.com/Shokupanpa/status/2113625346868383869",
+    "start_booths": [
+      "I-46ab"
+    ],
+    "reward_booths": [
+      "T-53ab"
+    ],
+    "booths": [
+      {
+        "code": "I-46ab",
+        "name": "Shokupanpa"
+      },
+      {
+        "code": "I-47a",
+        "name": "_cousaka | cousaka"
+      },
+      {
+        "code": "R-20ab",
+        "name": "kkateok1 | Takoyachi"
+      },
+      {
+        "code": "X-19ab",
+        "name": "meumuv | ロン-T"
+      },
+      {
+        "code": "V-47a",
+        "name": "Vanro_Art | Fartist x Tatonary"
+      },
+      {
+        "code": "T-53ab",
+        "name": "MossySerpents | Petit Jardin"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "blue-lock-fairy-tale-stamp-rally",
+    "name": "Blue Lock: Fairy Tale Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Blue Lock"
+    ],
+    "link": "https://x.com/kiikun_chan/status/2113933985311310195",
+    "start_booths": [
+      "J-38ab"
+    ],
+    "reward_booths": [
+      "A-53ab"
+    ],
+    "booths": [
+      {
+        "code": "J-38ab",
+        "name": "MYSTIQUINN | Pabrik Anak Gepeng"
+      },
+      {
+        "code": "J-39a",
+        "name": "ARIYSU_ | Pusat Delulu"
+      },
+      {
+        "code": "F-20ab",
+        "name": "ufoundmyart | Pencari Permen"
+      },
+      {
+        "code": "V-51a",
+        "name": "ALVIENAZZ | Warung Wonderlain"
+      },
+      {
+        "code": "J-56b",
+        "name": "kiikun_chan (Day 1 only) | Kiikun Chan"
+      },
+      {
+        "code": "A-53ab",
+        "name": "SELPUKU | FHB Circle"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "dilf-stamp-rally",
+    "name": "DILF Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [],
+    "link": "https://x.com/reytenstiel/status/2105236215356334437",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "R-55ab",
+        "name": "Mixcu.co"
+      },
+      {
+        "code": "S-51b",
+        "name": "Waktu Indonesia Yearning"
+      },
+      {
+        "code": "R-47ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "R-48ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "S-27b",
+        "name": "Dekafolks"
+      },
+      {
+        "code": "T-19ab",
+        "name": "SadBrokeClowns"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "dirtymurdergames-stamp-rally",
+    "name": "DIRTYMURDERGAMES Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Boyfriend to Death",
+      "The Price of Flesh",
+      "You Kill Me Everytime"
+    ],
+    "link": "https://x.com/MrSabamiso/status/2107095297893736867",
+    "start_booths": [
+      "AC-06"
+    ],
+    "reward_booths": [
+      "P-23a"
+    ],
+    "booths": [
+      {
+        "code": "AC-06",
+        "name": "VILITERA CREATIVE HUB"
+      },
+      {
+        "code": "N-16ab",
+        "name": "Kacang Laut Dugem"
+      },
+      {
+        "code": "F-56ab",
+        "name": "RPG (Rest-Pray-Gacha)"
+      },
+      {
+        "code": "R-32ab",
+        "name": "Nakama Tachi"
+      },
+      {
+        "code": "R-33ab",
+        "name": "Nakama Tachi"
+      },
+      {
+        "code": "P-23ab",
+        "name": "PHOTOCAPY"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "enstars-tiny-steps-stamp-rally",
+    "name": "Tiny Steps - Ensemble Stars!! CF23 Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Ensemble Stars!"
+    ],
+    "link": "https://x.com/kwallaa_/status/2108144097403785712",
+    "start_booths": [
+      "M-53b"
+    ],
+    "reward_booths": [
+      "W-24a"
+    ],
+    "booths": [
+      {
+        "code": "M-53b",
+        "name": "WIKA (BE(R)LI-MA)"
+      },
+      {
+        "code": "R-47ab",
+        "name": "nezzaia"
+      },
+      {
+        "code": "R-48ab",
+        "name": "nezzaia"
+      },
+      {
+        "code": "U-22ab",
+        "name": "Rai"
+      },
+      {
+        "code": "U-36b",
+        "name": "Navy (MNC)"
+      },
+      {
+        "code": "W-24ab",
+        "name": "Yul (Behind the Sin)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "epic-the-musical-stamp-rally",
+    "name": "EPIC the Musical Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "EPIC: The Musical"
+    ],
+    "link": "https://x.com/Autumn5kye/status/2113952222690295915",
+    "start_booths": [
+      "C-54ab"
+    ],
+    "reward_booths": [
+      "J-20b"
+    ],
+    "booths": [
+      {
+        "code": "C-54ab",
+        "name": "Heecurryyy | Amatears Studio"
+      },
+      {
+        "code": "F-01a",
+        "name": "Art_Tenx | Pamiri Mart"
+      },
+      {
+        "code": "E-30b",
+        "name": "catstra_ | Tiga Babi Kecil"
+      },
+      {
+        "code": "P-45ab",
+        "name": "InessaReuzechi | Warung Ghoib"
+      },
+      {
+        "code": "Z-19ab",
+        "name": "Autumn5kye | Oji Mart"
+      },
+      {
+        "code": "J-20b",
+        "name": "rayoffbean | DPJ Circle x Nekosaurus"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "faelight-stamp-rally",
+    "name": "Faelight Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/lilalaito/status/2114358970513306094",
+    "start_booths": [
+      "B-16ab"
+    ],
+    "reward_booths": [
+      "X-58b"
+    ],
+    "booths": [
+      {
+        "code": "B-16ab",
+        "name": "houdidesu | Lunar Goose"
+      },
+      {
+        "code": "N-16ab",
+        "name": "thegajeholic | Kacang Laut Dugem"
+      },
+      {
+        "code": "U-30ab",
+        "name": "Goodluck__4444 | Cafe Au Lait"
+      },
+      {
+        "code": "W-30b",
+        "name": "lilalaito & kagurinne | Raccoon Cinema"
+      },
+      {
+        "code": "X-24b",
+        "name": "maogicians | Rata Kanan"
+      },
+      {
+        "code": "X-58b",
+        "name": "triplethrice"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "forsaken-keepsakes-scaramouche",
+    "name": "Forsaken Keepsakes - a Scaramouche vintage stamp rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/maltmochie/status/2108549087943618587",
+    "start_booths": [],
+    "reward_booths": [
+      "W-01a"
+    ],
+    "booths": [
+      {
+        "code": "W-01ab",
+        "name": "maltmochie"
+      },
+      {
+        "code": "A-19ab",
+        "name": "cilorine"
+      },
+      {
+        "code": "A-20ab",
+        "name": "cilorine"
+      },
+      {
+        "code": "A-11ab",
+        "name": "Mint (mint-tan)"
+      },
+      {
+        "code": "Q-04ab",
+        "name": "Thea"
+      },
+      {
+        "code": "Q-05ab",
+        "name": "Thea"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "ivantill-zomst-alnst-stamp-rally",
+    "name": "IvanTill ZOMST - ALNST Stamp Rally: Zombie Wedding • After life with You",
+    "day": "Both Days",
+    "fandoms": [
+      "Alien Stage",
+      "Zombie Stage"
+    ],
+    "link": "https://x.com/sehachii/status/2113967826797207577",
+    "start_booths": [
+      "A-04ab"
+    ],
+    "reward_booths": [
+      "U-32ab"
+    ],
+    "booths": [
+      {
+        "code": "A-04ab",
+        "name": "akachou_tweet | Eggbuttertoast & Akachou-tachi"
+      },
+      {
+        "code": "B-15ab",
+        "name": "chocorocotan | 3th Valentines"
+      },
+      {
+        "code": "F-09ab",
+        "name": "shirokumani | Suaka Warga Stress"
+      },
+      {
+        "code": "G-59ab",
+        "name": "apputaachan | Applepudding"
+      },
+      {
+        "code": "V-58ab",
+        "name": "AlzuraKyler | Asbuners x CCD"
+      },
+      {
+        "code": "U-32ab",
+        "name": "sehachii | Meoya"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "jagat-lelembut-memanggil-pandavva-stamp-rally",
+    "name": "Pandavva's Stamp Rally: Jagat Lelembut Memanggil",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/pancakaryamerch/status/2114699075232936406",
+    "start_booths": [
+      "B-54ab"
+    ],
+    "reward_booths": [
+      "R-55ab"
+    ],
+    "booths": [
+      {
+        "code": "B-54ab",
+        "name": "Ocean Citrus"
+      },
+      {
+        "code": "L-13ab",
+        "name": "Uma Sekai Project"
+      },
+      {
+        "code": "Q-39ab",
+        "name": "Kerajaan Shannz"
+      },
+      {
+        "code": "R-35ab",
+        "name": "pancakarya"
+      },
+      {
+        "code": "R-45a",
+        "name": "mentaikort"
+      },
+      {
+        "code": "R-55ab",
+        "name": "Mixcu.co"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "jagat-maya-halloween-stamp-rally",
+    "name": "Jagat Maya Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Jagat Maya"
+    ],
+    "link": "https://x.com/pahanejiwangy/status/2113548017865208206",
+    "start_booths": [
+      "D-19ab"
+    ],
+    "reward_booths": [
+      "R-52ab"
+    ],
+    "booths": [
+      {
+        "code": "D-19ab",
+        "name": "2DFIEND x iwadotpng | Afterhours Antics"
+      },
+      {
+        "code": "B-54ab",
+        "name": "atirednose | Ocean Citrus"
+      },
+      {
+        "code": "G-07ab",
+        "name": "Junkk_i | Dan Naga"
+      },
+      {
+        "code": "R-52ab",
+        "name": "hnyoshii | Kulinara"
+      },
+      {
+        "code": "T-50ab",
+        "name": "joseradjiman | MOFUMOFU LANANG"
+      },
+      {
+        "code": "S-01ab",
+        "name": "xsx_san | Warteg husbu-waifu"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "kuzuha-stamp-rally",
+    "name": "KUZUHA (Nijisanji JP) Stamp Rally · Sabtu",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/zhuetsu/status/2114342509098996163",
+    "start_booths": [
+      "I-44ab"
+    ],
+    "reward_booths": [
+      "P-60ab"
+    ],
+    "booths": [
+      {
+        "code": "I-44ab",
+        "name": "Kimcihonnytoast"
+      },
+      {
+        "code": "O-41ab",
+        "name": "Bonbon Bakery"
+      },
+      {
+        "code": "R-36ab",
+        "name": "Prizm Promise"
+      },
+      {
+        "code": "R-23a",
+        "name": ""
+      },
+      {
+        "code": "Q-59ab",
+        "name": "Mnemonik"
+      },
+      {
+        "code": "P-60ab",
+        "name": "OTP Canonizer"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "kuzuha-stamp-rally-minggu",
+    "name": "KUZUHA (Nijisanji JP) Stamp Rally · Minggu",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/zhuetsu/status/2114342509098996163",
+    "start_booths": [
+      "I-44ab"
+    ],
+    "reward_booths": [
+      "P-60ab"
+    ],
+    "booths": [
+      {
+        "code": "I-44ab",
+        "name": "Kimcihonnytoast"
+      },
+      {
+        "code": "O-41ab",
+        "name": "Bonbon Bakery"
+      },
+      {
+        "code": "R-36ab",
+        "name": "Prizm Promise"
+      },
+      {
+        "code": "R-24ab",
+        "name": "RADA OFF"
+      },
+      {
+        "code": "Q-59ab",
+        "name": "Mnemonik"
+      },
+      {
+        "code": "P-60ab",
+        "name": "OTP Canonizer"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "lohen-date-night-stamp-rally",
+    "name": "'Date Night' with Lohen Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/rayverst/status/2108536958502965534",
+    "start_booths": [
+      "B-36a"
+    ],
+    "reward_booths": [
+      "X-46ab"
+    ],
+    "booths": [
+      {
+        "code": "V-51a",
+        "name": "Warung Wonderlain"
+      },
+      {
+        "code": "C-01b",
+        "name": "Reystories"
+      },
+      {
+        "code": "B-36a",
+        "name": "Purple Ducks Shelter"
+      },
+      {
+        "code": "X-17ab",
+        "name": "girl dinner"
+      },
+      {
+        "code": "T-50ab",
+        "name": "MOFUMOFU LANANG"
+      },
+      {
+        "code": "X-46ab",
+        "name": "Halusin Nasi"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "lost-pages-wind-breaker-stamp-rally",
+    "name": "Lost Pages Wind Breaker Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Wind Breaker"
+    ],
+    "link": "https://x.com/Kopipedia_/status/2113603682445173202",
+    "start_booths": [
+      "B-15ab"
+    ],
+    "reward_booths": [
+      "V-58ab"
+    ],
+    "booths": [
+      {
+        "code": "B-15ab",
+        "name": "chocorocotan | 3th Valentines"
+      },
+      {
+        "code": "K-01ab",
+        "name": "Kopipedia_ | Pasar Semanggi"
+      },
+      {
+        "code": "K-07b",
+        "name": "_aliyangel | Besto Friendo"
+      },
+      {
+        "code": "R-31a",
+        "name": "aho_Kitsune | Hidup Mati"
+      },
+      {
+        "code": "V-58ab",
+        "name": "AlzuraKyler | ASBUNERS x CCD"
+      },
+      {
+        "code": "X-59a",
+        "name": "00hrsr"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "lotm-halloween-stamp-rally",
+    "name": "LOTM Halloween Stamp Rally",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Lord of the Mysteries"
+    ],
+    "link": "https://x.com/rafa_kecap/status/2113634868278243757",
+    "start_booths": [
+      "AG-07"
+    ],
+    "reward_booths": [
+      "X-37ab"
+    ],
+    "booths": [
+      {
+        "code": "AG-07",
+        "name": "rafa_kecap x kagamicchi | samFOOL plaSTEAK"
+      },
+      {
+        "code": "J-20ab",
+        "name": "Yukiee__ | DPJ Circle x Nekosaurus"
+      },
+      {
+        "code": "H-44ab",
+        "name": "0zuk1e | Sora"
+      },
+      {
+        "code": "S-24b",
+        "name": "catastraophee | Burger BANGER"
+      },
+      {
+        "code": "W-15ab",
+        "name": "Lupus26D3 | Perseus.Circle"
+      },
+      {
+        "code": "X-37ab",
+        "name": "rangerungu_ | The Four Hjönkmen"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "mairuma-cf23-stamp-rally",
+    "name": "Mairuma CF23 Stamp Rally (Angel or Devil)",
+    "day": "Both Days",
+    "fandoms": [
+      "Welcome to Demon School! Iruma-kun"
+    ],
+    "link": "https://x.com/merchbyqei/status/2111798515760529802",
+    "start_booths": [
+      "D-46ab"
+    ],
+    "reward_booths": [
+      "T-50ab"
+    ],
+    "booths": [
+      {
+        "code": "D-46ab",
+        "name": "kitsunatcha (Tadika Ber-uang)"
+      },
+      {
+        "code": "E-30b",
+        "name": "catstra_ (Tiga Babi Kecil, Day 1 only)"
+      },
+      {
+        "code": "F-34ab",
+        "name": "merchbyqei (Sunny Day Circle)"
+      },
+      {
+        "code": "H-58ab",
+        "name": "seppipi_ (Sef_Liz)"
+      },
+      {
+        "code": "O-42ab",
+        "name": "irukiri_lvr (gurt yo)"
+      },
+      {
+        "code": "T-50ab",
+        "name": "joseradjiman (MOFUMOFU LANANG)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "marvel-halloween-stamp-rally",
+    "name": "Marvel Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Marvel"
+    ],
+    "link": "https://x.com/vespertiines/status/2111769194085888160",
+    "start_booths": [
+      "N-22ab"
+    ],
+    "reward_booths": [
+      "U-16a"
+    ],
+    "booths": [
+      {
+        "code": "N-22ab",
+        "name": "vespertiines (rame-san)"
+      },
+      {
+        "code": "N-26ab",
+        "name": "wildkarrd_ (Everything Bagel, Day 1 only)"
+      },
+      {
+        "code": "S-41ab",
+        "name": "Felyarty"
+      },
+      {
+        "code": "S-43ab",
+        "name": "calogue_"
+      },
+      {
+        "code": "S-12ab",
+        "name": "Misticly_ (Lone Stargazers)"
+      },
+      {
+        "code": "U-16a",
+        "name": "Vampriass_ (Looky Mart Corporation)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "mxtx-stamp-rally-halloween",
+    "name": "MXTX Stamp Rally - Halloween Edition",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "MXTX (Mo Xiang Tong Xiu)",
+      "Scum Villain's Self-Saving System",
+      "Grandmaster of Demonic Cultivation",
+      "Heaven Official's Blessing"
+    ],
+    "link": "https://x.com/lasbiarez/status/2111459542974575029",
+    "start_booths": [
+      "F-59a"
+    ],
+    "reward_booths": [
+      "S-46a"
+    ],
+    "booths": [
+      {
+        "code": "F-59ab",
+        "name": "Lala (Terkonsep)"
+      },
+      {
+        "code": "Y-13ab",
+        "name": "Salt (Goonettes Association)"
+      },
+      {
+        "code": "Y-16ab",
+        "name": "Tea (Tokek Melayang)"
+      },
+      {
+        "code": "X-32ab",
+        "name": "Iv (Hibiscuit Atelier)"
+      },
+      {
+        "code": "X-33ab",
+        "name": "Iv (Hibiscuit Atelier)"
+      },
+      {
+        "code": "S-46ab",
+        "name": "Atlas (Indonesia Omega University)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "notesun-target-x-agent-stamp-rally",
+    "name": "Notesun Target x Agent Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "NoteSun"
+    ],
+    "link": "https://x.com/Jigglynoodlez/status/2114374057886204368",
+    "start_booths": [
+      "D-19ab"
+    ],
+    "reward_booths": [
+      "S-03a"
+    ],
+    "booths": [
+      {
+        "code": "D-19ab",
+        "name": "iwadotpng (Iwa) | Afterhours Antics"
+      },
+      {
+        "code": "I-20ab",
+        "name": "papermintlucia (Cia) | The Blue Aster"
+      },
+      {
+        "code": "L-13ab",
+        "name": "Jigglynoodlez (Lynn) | Uma Sekai Project"
+      },
+      {
+        "code": "Q-12ab",
+        "name": "00maiZea00 (Maizea) | .JPEG (Jajaran PEcinta Gepeng)"
+      },
+      {
+        "code": "R-45b",
+        "name": "akuiikanoren (Iikan) | iikanoren"
+      },
+      {
+        "code": "S-03a",
+        "name": "pas12__ (Atu) | Chronically Online Cool Kids"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "one-piece-thriller-bark-stamp-rally",
+    "name": "One Piece Stamp Rally: Journey to Thriller Bark",
+    "day": "Both Days",
+    "fandoms": [
+      "One Piece"
+    ],
+    "link": "https://x.com/iris__yume/status/2113924616372854967",
+    "start_booths": [
+      "Y-20ab"
+    ],
+    "reward_booths": [
+      "F-20ab"
+    ],
+    "booths": [
+      {
+        "code": "F-20ab",
+        "name": "ufoundmyart | Pencari Permen"
+      },
+      {
+        "code": "I-25a",
+        "name": "akirakko02 | Basreng Sisters"
+      },
+      {
+        "code": "I-38ab",
+        "name": "skyliciart"
+      },
+      {
+        "code": "I-45ab",
+        "name": "peacharuna | Marimo Club"
+      },
+      {
+        "code": "W-23ab",
+        "name": "iris__103 / iris__yume | Kultus Pemuja Susu"
+      },
+      {
+        "code": "Y-20ab",
+        "name": "katsudonburi | Jellycious"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "orv-stamp-rally-cf23",
+    "name": "ORV Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Omniscient Reader's Viewpoint"
+    ],
+    "link": "https://x.com/tiredyukii_/status/2112087001491280361",
+    "start_booths": [
+      "P-60ab"
+    ],
+    "reward_booths": [
+      "V-02ab"
+    ],
+    "booths": [
+      {
+        "code": "P-60ab",
+        "name": "zhuetsu (OTP Canonizer)"
+      },
+      {
+        "code": "U-04ab",
+        "name": "akaeneru (Artist Alley Still Gotta Work)"
+      },
+      {
+        "code": "U-05ab",
+        "name": "tiredyukii_ (Artist Alley Still Gotta Work)"
+      },
+      {
+        "code": "U-11ab",
+        "name": "nine_niku (9NIKU)"
+      },
+      {
+        "code": "U-32ab",
+        "name": "sehachii (Meoya)"
+      },
+      {
+        "code": "V-02ab",
+        "name": "cumiomega (ZIPZIP)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "pokestamp-o-lantern-stamp-rally",
+    "name": "PokeStamp-o’-Lantern",
+    "day": "Both Days",
+    "fandoms": [
+      "Pokemon"
+    ],
+    "link": "https://x.com/vesperdawnz/status/2115442986830250212",
+    "start_booths": [
+      "D-19ab"
+    ],
+    "reward_booths": [
+      "O-01ab"
+    ],
+    "booths": [
+      {
+        "code": "D-19ab",
+        "name": "Lin & Zepphy | Afterhours Antics"
+      },
+      {
+        "code": "F-15b",
+        "name": "Kael | KuroKetto"
+      },
+      {
+        "code": "O-13ab",
+        "name": "Hanamoru | Calamipheion"
+      },
+      {
+        "code": "N-57ab",
+        "name": "Triii | Bonbunny n Homies"
+      },
+      {
+        "code": "O-41ab",
+        "name": "Supernyaovah | Bonbon Bakery"
+      },
+      {
+        "code": "O-01ab",
+        "name": "Tocka | Sirkel Kebut Semalam"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "resident-evil-stamp-rally",
+    "name": "RESIDENT EVIL Stamp Rally #CF23 (Raccoon City outbreak)",
+    "day": "Both Days",
+    "fandoms": [
+      "Resident Evil"
+    ],
+    "link": "https://x.com/keretaikan07/status/2111787755663761536",
+    "start_booths": [
+      "E-20ab"
+    ],
+    "reward_booths": [
+      "W-58a"
+    ],
+    "booths": [
+      {
+        "code": "E-20ab",
+        "name": "jia__yoo (Jellato)"
+      },
+      {
+        "code": "N-18ab",
+        "name": "Yogurutooo_ (Bebek Madura Mas Wijaya)"
+      },
+      {
+        "code": "N-15b",
+        "name": "pineashpple_"
+      },
+      {
+        "code": "N-13ab",
+        "name": "chaveriot (7ikanz)"
+      },
+      {
+        "code": "N-11ab",
+        "name": "keretaikan07, kkuurui (Udang Jompo)"
+      },
+      {
+        "code": "W-58a",
+        "name": "dweamiez (kdj's wives)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "sky-children-of-the-light-stamp-rally",
+    "name": "Sky: Children of the Light Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Sky: Children of the Light"
+    ],
+    "link": "https://x.com/mofumiruku/status/2113239257498407400",
+    "start_booths": [
+      "1108"
+    ],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "X-22ab",
+        "name": "mofumiruku | Mofumiruku"
+      },
+      {
+        "code": "H-20ab",
+        "name": "gib_moni | GibMoni x Himeartwork"
+      },
+      {
+        "code": "G-40a",
+        "name": "freakcat17 (Day 2 only) | WE LOVE CATS"
+      },
+      {
+        "code": "H-38ab",
+        "name": "Waci_illstr | Waci illstr"
+      },
+      {
+        "code": "N-34ab",
+        "name": "Bina_qwq | Bina's Corner"
+      },
+      {
+        "code": "P-45ab",
+        "name": "Warung Ghoib (Day 1 only)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "spookyboo-bangboo-stamp-rally",
+    "name": "Spookyboo! CF 23 Stamp Rally (Bangboo)",
+    "day": "Both Days",
+    "fandoms": [
+      "Zenless Zone Zero"
+    ],
+    "link": "https://x.com/merch_fesss/status/2104804742912184813",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "AG-40",
+        "name": "Pandass"
+      },
+      {
+        "code": "AG-41",
+        "name": "Pandass"
+      },
+      {
+        "code": "L-07ab",
+        "name": "Kajotono"
+      },
+      {
+        "code": "M-42ab",
+        "name": "Packs Off"
+      },
+      {
+        "code": "X-20ab",
+        "name": "Nirtch"
+      },
+      {
+        "code": "Y-42ab",
+        "name": "Meshimiro (me.shi.mi.ro)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "suitcase-keepsakes-r1999-stamp-rally",
+    "name": "Suitcase Keepsakes: CF23 Reverse: 1999 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Reverse: 1999"
+    ],
+    "link": "https://x.com/Sanguin_olency/status/2104431852086018133",
+    "start_booths": [
+      "K-30a"
+    ],
+    "reward_booths": [
+      "Y-43a"
+    ],
+    "booths": [
+      {
+        "code": "K-30a",
+        "name": "Adasmanis"
+      },
+      {
+        "code": "O-42ab",
+        "name": "Sock"
+      },
+      {
+        "code": "S-01ab",
+        "name": "Sanguinolency (Warteg Husbu-Waifu) / Klhoin"
+      },
+      {
+        "code": "S-07ab",
+        "name": "Vaudefox"
+      },
+      {
+        "code": "X-09ab",
+        "name": "Lezabudka"
+      },
+      {
+        "code": "Y-43ab",
+        "name": "Lazulliey"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "sunnote-in-another-life-stamp-rally",
+    "name": "SunNote CF23 Stamp Rally: In Another Life",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "SunNote"
+    ],
+    "link": "https://x.com/namukayo/status/2113555023405662663",
+    "start_booths": [
+      "F-16ab"
+    ],
+    "reward_booths": [
+      "V-24b"
+    ],
+    "booths": [
+      {
+        "code": "F-16ab",
+        "name": "matchalililatte (Lili) | Jualan Demi Oshi Lu"
+      },
+      {
+        "code": "I-20ab",
+        "name": "papermintlucia (Cia) | The Blue Aster"
+      },
+      {
+        "code": "R-25ab",
+        "name": "V11E02R (Ver) & yugenjreng (Jiakh) | Seperempat porsi"
+      },
+      {
+        "code": "R-31a",
+        "name": "mgwnsong (Disong) | hidup mati"
+      },
+      {
+        "code": "R-51ab",
+        "name": "namukayo (Namu) | namt00rii"
+      },
+      {
+        "code": "V-24b",
+        "name": "C4an0123 (Can) | Butuh My Kisah"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "teyvat-trick-or-treat-stamp-rally",
+    "name": "Teyvat Trick-or-Treat: A Genshin Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/pyrranha/status/2114326942342418832",
+    "start_booths": [
+      "N-08a"
+    ],
+    "reward_booths": [
+      "X-38a"
+    ],
+    "booths": [
+      {
+        "code": "N-08a",
+        "name": "gelatineon | Kaleng Kukis"
+      },
+      {
+        "code": "T-13ab",
+        "name": "chb0n113 (Saturday only) | CHBONIIE X MEGAMINT"
+      },
+      {
+        "code": "Y-57ab",
+        "name": "verusccca | Pengu & Veru"
+      },
+      {
+        "code": "X-17ab",
+        "name": "emiaegi | girl dinner"
+      },
+      {
+        "code": "X-23b",
+        "name": "I4I52II9 | Meng Rosallete"
+      },
+      {
+        "code": "X-38a",
+        "name": "pyrranha | Pasar Ikan Jl. Arapaima"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "trial-of-seven-akotsk-stamp-rally",
+    "name": "Trial of Seven (A Knight of the Seven Kingdoms Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [
+      "A Knight of the Seven Kingdoms"
+    ],
+    "link": "https://x.com/xi_vdl/status/2114008572921291042",
+    "start_booths": [
+      "C-01a"
+    ],
+    "reward_booths": [
+      "W-12ab"
+    ],
+    "booths": [
+      {
+        "code": "C-01a",
+        "name": "srikayart (Day 1 only) | Gajah Ngomik"
+      },
+      {
+        "code": "N-45ab",
+        "name": "Arimacanvas & nibble_fang (2 stamps) | Yayasan Anak Desain"
+      },
+      {
+        "code": "S-27a",
+        "name": "xi_vdl (Day 1 only) | sinefilth..."
+      },
+      {
+        "code": "S-28ab",
+        "name": "botttoml_ess (Day 1 only) | C.U.A.N"
+      },
+      {
+        "code": "S-51b",
+        "name": "demenoomoom | Waktu Indonesia Yearning"
+      },
+      {
+        "code": "W-12ab",
+        "name": "artatouille | Chaos Theory Circle"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "vvarna-putih-abu-abu-pandavva-stamp-rally",
+    "name": "VVarna Putih Abu-Abu - Pandavva High School AU Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/Zhiiroo1/status/2112053886957822367",
+    "start_booths": [
+      "F-25ab"
+    ],
+    "reward_booths": [
+      "T-47ab"
+    ],
+    "booths": [
+      {
+        "code": "F-25ab",
+        "name": "dannaichigo (ANNAICHIGO X BLOSSOM ARTS)"
+      },
+      {
+        "code": "L-07ab",
+        "name": "Zhiiroo1 (Artholic / Kajotono)"
+      },
+      {
+        "code": "R-58ab",
+        "name": "koffiemilku (Cheeb's Party, R58-59)"
+      },
+      {
+        "code": "S-07ab",
+        "name": "vn_vannies (Panti Oshi x vn_vannies)"
+      },
+      {
+        "code": "T-49ab",
+        "name": "ayatosorbet (Delulu Department)"
+      },
+      {
+        "code": "T-47ab",
+        "name": "natgrez (Goin Veral)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "wednesday-night-show-criminal-vs-detective",
+    "name": "WEDNESDAY Night Show: Criminal Vs Detective!",
+    "day": "Both Days",
+    "fandoms": [
+      "Even If I Fall Into a Ghost Story"
+    ],
+    "link": "https://x.com/sekriii_/status/2105322429715448162",
+    "start_booths": [],
+    "reward_booths": [
+      "U-05a"
+    ],
+    "booths": [
+      {
+        "code": "D-11ab",
+        "name": "zecckey (Criminal Campaign)"
+      },
+      {
+        "code": "U-05ab",
+        "name": "sekriii_ (Criminal Campaign) / tiredyukii_ (Detective Campaign)"
+      },
+      {
+        "code": "X-24b",
+        "name": "amedoriii (Criminal Campaign)"
+      },
+      {
+        "code": "W-12ab",
+        "name": "8Y_LYN_01 (Detective Campaign)"
+      },
+      {
+        "code": "Y-35ab",
+        "name": "xoruxiaa (Detective Campaign) / _chkcn (chibi artist)"
+      },
+      {
+        "code": "Y-36ab",
+        "name": "xoruxiaa (Detective Campaign) / _chkcn (chibi artist)"
+      }
+    ],
+    "total_booths": 6
+  },
+  {
+    "id": "andteam-stamp-rally",
+    "name": "&TEAM STAMP RALLY",
+    "day": "Both Days",
+    "fandoms": [
+      "&TEAM"
+    ],
+    "link": "https://x.com/velvetpurin/status/2115096247262650617",
+    "start_booths": [
+      "C-20ab",
+      "E-28ab",
+      "J-52ab",
+      "V-36b",
+      "U-13ab"
+    ],
+    "reward_booths": [
+      "U-13ab"
+    ],
+    "booths": [
+      {
+        "code": "C-20ab",
+        "name": "funtasthicc | FunkyFontaClub"
+      },
+      {
+        "code": "E-28ab",
+        "name": "velvetpurin | Warung Twinky"
+      },
+      {
+        "code": "J-52ab",
+        "name": "minumtehsusu | Dorinku Series"
+      },
+      {
+        "code": "V-36b",
+        "name": "funkywatii | Supercute"
+      },
+      {
+        "code": "U-13ab",
+        "name": "ppiksong | Nightmare Before Depok"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "ardamina-stamp-rally",
+    "name": "Ardamina Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Arknights: Endfield"
+    ],
+    "link": "https://x.com/soyusoda/status/2089926341932286125",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "A-39ab",
+        "name": "rttncizu & alannamiaw | Hot Coffee and Noodle x GAI"
+      },
+      {
+        "code": "A-40ab",
+        "name": "ombaban_ | Hot Coffee and Noodle x GAI"
+      },
+      {
+        "code": "A-48ab",
+        "name": "soyusoda | soulnmalice x soyusoda"
+      },
+      {
+        "code": "A-53ab",
+        "name": "sashacall | FHB Circle"
+      },
+      {
+        "code": "Z-14ab",
+        "name": "s1989514_ | (OTW) OPEN TO WORK"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "batboys-a-nightwing-halloween-stamp-rally",
+    "name": "Batboys: A Nightwing Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "DC Comics"
+    ],
+    "link": "https://x.com/koucheese/status/2112908965030019337",
+    "start_booths": [
+      "B-29ab"
+    ],
+    "reward_booths": [
+      "S-44ab"
+    ],
+    "booths": [
+      {
+        "code": "B-29ab",
+        "name": "koucheese | Araku x Koupassage"
+      },
+      {
+        "code": "G-22ab",
+        "name": "qikaezu | Lunette"
+      },
+      {
+        "code": "S-23a",
+        "name": "lamiaspxce | Semicolon"
+      },
+      {
+        "code": "S-39ab",
+        "name": "nyao_scribbles | UGD: UNIT GAWAT DUIT"
+      },
+      {
+        "code": "S-44ab",
+        "name": "4_chtung | Shrolony's Cromboloni"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "batboys-a-robin-halloween-stamp-rally",
+    "name": "Batboys: A Robin Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "DC Comics"
+    ],
+    "link": "https://x.com/laviuu_/status/2113995398293623031",
+    "start_booths": [
+      "E-33ab"
+    ],
+    "reward_booths": [
+      "R-52ab"
+    ],
+    "booths": [
+      {
+        "code": "E-33ab",
+        "name": "laviuu_ | Kerajaan Meng x Silly Me Laviuu"
+      },
+      {
+        "code": "S-43ab",
+        "name": "Possumtion | Shrolony's Cromboloni"
+      },
+      {
+        "code": "S-15ab",
+        "name": "futatomato_ | wWIP.jpeg"
+      },
+      {
+        "code": "S-14ab",
+        "name": "tsnzen | WARJOK"
+      },
+      {
+        "code": "R-52ab",
+        "name": "walastation_ | Kulinara"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "batboys-red-hood-halloween-stamp-rally",
+    "name": "Batboys: A Red Hood Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "DC Comics"
+    ],
+    "link": "https://x.com/Ka_Ri611/status/2113248182918668671",
+    "start_booths": [
+      "B-29ab"
+    ],
+    "reward_booths": [
+      "U-12ab"
+    ],
+    "booths": [
+      {
+        "code": "B-29ab",
+        "name": "arararaiv | Araku x Koupassage"
+      },
+      {
+        "code": "N-37a",
+        "name": "Ka_Ri611 | Kolam Rujak"
+      },
+      {
+        "code": "R-43ab",
+        "name": "dagobebek | Bebeq Empire"
+      },
+      {
+        "code": "S-50b",
+        "name": "dum_mbee | Papenas"
+      },
+      {
+        "code": "U-12ab",
+        "name": "tetoii02 | Star Jumper"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "bladies-spooky-day",
+    "name": "Bladie's Spooky Day",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/themaakii/status/2113283857147642083",
+    "start_booths": [
+      "M-16ab"
+    ],
+    "reward_booths": [
+      "M-16ab"
+    ],
+    "booths": [
+      {
+        "code": "M-16ab",
+        "name": "themaakii | halupromaxxxxx"
+      },
+      {
+        "code": "U-17ab",
+        "name": "nae_sinclair | Nandemo Creative x Random Artist"
+      },
+      {
+        "code": "T-42ab",
+        "name": "madstefu | Madstefu x Harem After Dark"
+      },
+      {
+        "code": "W-07ab",
+        "name": "HkkHoke | Toto Kelontong"
+      },
+      {
+        "code": "A-47ab",
+        "name": "soulnmalice | soulnmalice x soyusoda"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "bsd-stamp-rally-cf23",
+    "name": "Bungou Stray Dogs Stamp Rally CF23 (#bsdstamprally)",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Bungo Stray Dogs"
+    ],
+    "link": "https://x.com/ufoundmyart/status/2111037046253101200",
+    "start_booths": [
+      "F-20a"
+    ],
+    "reward_booths": [
+      "P-57a"
+    ],
+    "booths": [
+      {
+        "code": "F-20ab",
+        "name": ""
+      },
+      {
+        "code": "I-21ab",
+        "name": ""
+      },
+      {
+        "code": "I-22ab",
+        "name": ""
+      },
+      {
+        "code": "J-54ab",
+        "name": ""
+      },
+      {
+        "code": "P-57a",
+        "name": ""
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "bythebeat-halloween-stamp-rally",
+    "name": "BYTHEBEAT; #CF23 HALLOWEEN STAMP RALLY",
+    "day": "Both Days",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/G0MMI/status/2114725689920569735",
+    "start_booths": [
+      "B-17ab"
+    ],
+    "reward_booths": [
+      "Z-26ab"
+    ],
+    "booths": [
+      {
+        "code": "B-17ab",
+        "name": "Asylum Cinta"
+      },
+      {
+        "code": "B-18ab",
+        "name": "Asylum Cinta"
+      },
+      {
+        "code": "R-37ab",
+        "name": "Trial & Error"
+      },
+      {
+        "code": "V-03ab",
+        "name": "INKOFI"
+      },
+      {
+        "code": "Z-26ab",
+        "name": "GOMXTAE"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "daiya-no-ace-stamp-rally",
+    "name": "Daiya no Ace Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Ace of Diamond"
+    ],
+    "link": "https://x.com/eijunsw/status/2113069230061134149",
+    "start_booths": [
+      "K-21ab"
+    ],
+    "reward_booths": [
+      "K-21ab"
+    ],
+    "booths": [
+      {
+        "code": "K-21ab",
+        "name": "Kulacino"
+      },
+      {
+        "code": "M-55ab",
+        "name": ""
+      },
+      {
+        "code": "F-01a",
+        "name": ""
+      },
+      {
+        "code": "W-07ab",
+        "name": ""
+      },
+      {
+        "code": "P-20ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "dontako-halloween-stamp-rally",
+    "name": "DonTako Halloween Themed Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/arthysea/status/2112153493922521491",
+    "start_booths": [
+      "E-45a"
+    ],
+    "reward_booths": [
+      "U-41ab"
+    ],
+    "booths": [
+      {
+        "code": "E-45a",
+        "name": "NasindomLe (Warung Angker)"
+      },
+      {
+        "code": "J-10ab",
+        "name": "medicinalin (rest:solace)"
+      },
+      {
+        "code": "R-21ab",
+        "name": "MeikaNova (PonDéPon)"
+      },
+      {
+        "code": "R-36ab",
+        "name": "arthysea (Prizm Promise)"
+      },
+      {
+        "code": "U-41ab",
+        "name": "DTK174___ ((Mental) Art-Sylum)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "fem-pandavva-stamp-rally",
+    "name": "FEM PANDAVVA Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/hansol_nie/status/2114704164555210775",
+    "start_booths": [
+      "J-43b"
+    ],
+    "reward_booths": [
+      "S-38ab"
+    ],
+    "booths": [
+      {
+        "code": "J-43b",
+        "name": "STAY WARAS"
+      },
+      {
+        "code": "R-47ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "R-48ab",
+        "name": "Lluna et Ssol"
+      },
+      {
+        "code": "S-38ab",
+        "name": "hansol_nie & mawcens_ | Pee Paw Kleb"
+      },
+      {
+        "code": "Z-40ab",
+        "name": "Biji Bundal Bandul"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "fire-emblem-stamp-rally",
+    "name": "Fire Emblem Stamp Rally: Seize the Thrones",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Fire Emblem"
+    ],
+    "link": "https://x.com/lilunarose/status/2104777498513068241",
+    "start_booths": [
+      "H-20ab"
+    ],
+    "reward_booths": [
+      "Y-23ab"
+    ],
+    "booths": [
+      {
+        "code": "H-20ab",
+        "name": "lilunarose (Himeartwork) | GibMoni x Himeartwork"
+      },
+      {
+        "code": "M-53a",
+        "name": "eclat | DYENROTT"
+      },
+      {
+        "code": "N-14ab",
+        "name": "cyrellinate | 7ikanz"
+      },
+      {
+        "code": "U-12ab",
+        "name": "satartuwu (Kishi Artorius) | Star Jumper"
+      },
+      {
+        "code": "Y-23ab",
+        "name": "ashentales | Renta Abadi Express x MixedSnack"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "flins-birthday-stamp-rally",
+    "name": "Flins' Birthday Stamp Rally 2026",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/eimimay/status/2111100578562707631",
+    "start_booths": [],
+    "reward_booths": [
+      "W-28a"
+    ],
+    "booths": [
+      {
+        "code": "A-12ab",
+        "name": "Orenjimaru"
+      },
+      {
+        "code": "T-13ab",
+        "name": "Abon | CHBONIIE X MEGAMINT"
+      },
+      {
+        "code": "A-47ab",
+        "name": "Soulnmalice"
+      },
+      {
+        "code": "W-45a",
+        "name": "Bunneeart"
+      },
+      {
+        "code": "W-28ab",
+        "name": "Eimimay"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "gdcg-halloween-party-stamp-rally",
+    "name": "Halloween Party GDCG Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Even If I Fall Into a Ghost Story"
+    ],
+    "link": "https://x.com/kcpghost/status/2110653964865970553",
+    "start_booths": [
+      "AG-07"
+    ],
+    "reward_booths": [
+      "U-15a"
+    ],
+    "booths": [
+      {
+        "code": "AG-07",
+        "name": "Rafa Kecap / KusoTaisa"
+      },
+      {
+        "code": "Z-07ab",
+        "name": "Mchii / Nekonekomii"
+      },
+      {
+        "code": "P-60ab",
+        "name": "Cungie"
+      },
+      {
+        "code": "U-29a",
+        "name": "Nams"
+      },
+      {
+        "code": "U-15a",
+        "name": "Pici"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "guilty-gear-halloween-stamp-rally",
+    "name": "Guilty Gear Halloween Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Guilty Gear"
+    ],
+    "link": "https://x.com/zhaundice/status/2114713842056122667",
+    "start_booths": [
+      "AD-16"
+    ],
+    "reward_booths": [
+      "S-16ab"
+    ],
+    "booths": [
+      {
+        "code": "AD-16",
+        "name": "Ataraxia Gear x Vorma"
+      },
+      {
+        "code": "AD-17",
+        "name": "Ataraxia Gear x Vorma"
+      },
+      {
+        "code": "N-07ab",
+        "name": "HOW NICHE CAN THIS GET?"
+      },
+      {
+        "code": "P-30b",
+        "name": "Epiconomy"
+      },
+      {
+        "code": "S-16ab",
+        "name": "Tomat kotak"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "haikyuu-setters-spooky-antics",
+    "name": "The Setters' Spooky Antics (Haikyuu!! Setters Stamp Rally)",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Haikyu!!"
+    ],
+    "link": "https://x.com/veviphany/status/2114583162563285180",
+    "start_booths": [
+      "H-04ab"
+    ],
+    "reward_booths": [
+      "V-24b"
+    ],
+    "booths": [
+      {
+        "code": "H-04ab",
+        "name": "miaonggi (Shirai) | Mint Choco Puff"
+      },
+      {
+        "code": "J-54ab",
+        "name": "SnowhiteArt | Kedai Pethok"
+      },
+      {
+        "code": "J-08ab",
+        "name": "bysketchva | Lancar Jaya Abadi"
+      },
+      {
+        "code": "J-01ab",
+        "name": "nyachii1 | Nyakar Studio"
+      },
+      {
+        "code": "V-24b",
+        "name": "veviphany | Butuh My Kisah"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "holorally-hololive-stamp-rally",
+    "name": "Holorally! CF23 Hololive Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Hololive"
+    ],
+    "link": "https://x.com/Veewa_Studios/status/2108093777424601495",
+    "start_booths": [],
+    "reward_booths": [
+      "P-52a"
+    ],
+    "booths": [
+      {
+        "code": "P-52ab",
+        "name": "Veewa Studios"
+      },
+      {
+        "code": "V-33ab",
+        "name": "Eepyflux (Federasi MBG)"
+      },
+      {
+        "code": "L-33ab",
+        "name": "MIKOCHI"
+      },
+      {
+        "code": "B-54ab",
+        "name": "Ocean Citrus"
+      },
+      {
+        "code": "Q-01ab",
+        "name": "Chocolatte (Choco x Fei)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "hsr-astral-express-halloween-stamp-rally",
+    "name": "HSR Astral Express Halloween Stamp Rally: Astral Express Haunted Night",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/salmon__raw/status/2101957961748975772",
+    "start_booths": [
+      "J-09ab"
+    ],
+    "reward_booths": [
+      "X-48ab"
+    ],
+    "booths": [
+      {
+        "code": "J-09ab",
+        "name": "rest:solace"
+      },
+      {
+        "code": "K-43ab",
+        "name": "Bebeq Quartet"
+      },
+      {
+        "code": "W-17ab",
+        "name": "Little Apple"
+      },
+      {
+        "code": "X-26ab",
+        "name": "asBUN bakery (with @cloverscrbls)"
+      },
+      {
+        "code": "X-48ab",
+        "name": "Salmon Raw"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "hxh-stamp-rally",
+    "name": "Hunter x Hunter Stamp Rally - Pass the test, be a Hunter!",
+    "day": "Both Days",
+    "fandoms": [
+      "Hunter x Hunter"
+    ],
+    "link": "https://x.com/LuckyEro19/status/2109881627505475991",
+    "start_booths": [
+      "I-20a"
+    ],
+    "reward_booths": [
+      "AA-23"
+    ],
+    "booths": [
+      {
+        "code": "I-20ab",
+        "name": "taiyou95"
+      },
+      {
+        "code": "I-40ab",
+        "name": "danusuck"
+      },
+      {
+        "code": "R-20ab",
+        "name": "kkateoki"
+      },
+      {
+        "code": "J-26ab",
+        "name": "fulushoo"
+      },
+      {
+        "code": "AA-23",
+        "name": "Laliqha (Lika)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "leon-kennedy-halloween-stamp-rally",
+    "name": "Leon Kennedy Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Resident Evil"
+    ],
+    "link": "https://x.com/wanderyz/status/2113942049418510613",
+    "start_booths": [
+      "J-42ab"
+    ],
+    "reward_booths": [
+      "T-59a"
+    ],
+    "booths": [
+      {
+        "code": "T-59a",
+        "name": "nekoluckx | Paguyuban Baddie"
+      },
+      {
+        "code": "N-13ab",
+        "name": "chaveriot | 7ikanz"
+      },
+      {
+        "code": "N-12ab",
+        "name": "MalsUnicorn | Meatbucket"
+      },
+      {
+        "code": "P-37b",
+        "name": "tiyamisuu_ | Lucky Charm"
+      },
+      {
+        "code": "J-42ab",
+        "name": "wanderyz | Biawak Coquette Khas Depok"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "love-live-stamp-rally",
+    "name": "Love Live Stamp Rally @Comic Frontier 23",
+    "day": "Both Days",
+    "fandoms": [
+      "Love Live!"
+    ],
+    "link": "https://x.com/azureshiori/status/2114664937209655431",
+    "start_booths": [
+      "AF-02"
+    ],
+    "reward_booths": [
+      "AF-02"
+    ],
+    "booths": [
+      {
+        "code": "U-48a",
+        "name": "Rena | Dream Ache"
+      },
+      {
+        "code": "U-43ab",
+        "name": "Usumi | Besok Ajh"
+      },
+      {
+        "code": "R-54b",
+        "name": "Sonsona | Mineral"
+      },
+      {
+        "code": "L-45b",
+        "name": "CUCON LOPLEP"
+      },
+      {
+        "code": "L-43ab",
+        "name": "Jajan Woi!"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "maid-by-accident-vtuber-sticker-rally",
+    "name": "VTuber Sticker Rally #maidbyaccident",
+    "day": "Both Days",
+    "fandoms": [
+      "VTuber"
+    ],
+    "link": "https://x.com/MaidbyAccident/status/2114974507786293719",
+    "start_booths": [
+      "AB-27"
+    ],
+    "reward_booths": [
+      "AB-27"
+    ],
+    "booths": [
+      {
+        "code": "AC-28",
+        "name": "SToCK"
+      },
+      {
+        "code": "AC-18",
+        "name": "Six Petals Beneath the Moon"
+      },
+      {
+        "code": "AC-01",
+        "name": "Terserah.VT"
+      },
+      {
+        "code": "AC-44",
+        "name": "Saiwai"
+      },
+      {
+        "code": "AC-29",
+        "name": "magicom"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "maplecat-kazuscara-stamp-rally",
+    "name": "MapleCat: Even in This World I Want to be With You (Kazuscara)",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/diuwukan/status/2111745755266310618",
+    "start_booths": [
+      "J-09ab"
+    ],
+    "reward_booths": [
+      "X-17ab"
+    ],
+    "booths": [
+      {
+        "code": "J-09ab",
+        "name": ""
+      },
+      {
+        "code": "A-40ab",
+        "name": ""
+      },
+      {
+        "code": "V-03ab",
+        "name": ""
+      },
+      {
+        "code": "U-40ab",
+        "name": ""
+      },
+      {
+        "code": "X-17ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "mcyt-stamp-rally",
+    "name": "MCYT Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Minecraft YouTubers (MCYT)"
+    ],
+    "link": "https://x.com/nitztsu/status/2115405520257613876",
+    "start_booths": [
+      "M-60ab"
+    ],
+    "reward_booths": [
+      "S-01ab"
+    ],
+    "booths": [
+      {
+        "code": "M-60ab",
+        "name": "nitztsu | Tri Koro Baka x Soraiven"
+      },
+      {
+        "code": "O-60b",
+        "name": "jeejwiwo, miyo_wwpi, boxbutlonger | SDM (Speak Detective Mutiny)"
+      },
+      {
+        "code": "O-53b",
+        "name": "Yureijii"
+      },
+      {
+        "code": "O-40ab",
+        "name": "06xzin | DKVreaky"
+      },
+      {
+        "code": "S-01ab",
+        "name": "klhoin | Warteg husbu-waifu"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "mtp-halloween-stamp-rally",
+    "name": "Moriarty the Patriot CF23 Halloween Stamp Rally (#MTPRally23)",
+    "day": "Both Days",
+    "fandoms": [
+      "Moriarty the Patriot"
+    ],
+    "link": "https://x.com/ervyuu/status/2108512994904940570",
+    "start_booths": [
+      "J-24a"
+    ],
+    "reward_booths": [
+      "U-03a"
+    ],
+    "booths": [
+      {
+        "code": "J-24ab",
+        "name": "Pucuk Dodolan"
+      },
+      {
+        "code": "J-17ab",
+        "name": "Shin Merch"
+      },
+      {
+        "code": "U-25a",
+        "name": "Tugas Kewirausahaan"
+      },
+      {
+        "code": "X-58a",
+        "name": "ParTea Time"
+      },
+      {
+        "code": "U-03ab",
+        "name": "MPUT"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "nature-wanderer-oc-stamp-rally",
+    "name": "Nature Wanderer OC Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [],
+    "link": "https://x.com/amatearsstudio/status/2106631752903217323",
+    "start_booths": [
+      "AD-08"
+    ],
+    "reward_booths": [
+      "V-52a"
+    ],
+    "booths": [
+      {
+        "code": "AD-08",
+        "name": "MYUN.CO"
+      },
+      {
+        "code": "B-30a",
+        "name": "Jul in June | Sabtu Jalan Jajan"
+      },
+      {
+        "code": "C-54ab",
+        "name": "Amatears Studio"
+      },
+      {
+        "code": "U-26ab",
+        "name": ""
+      },
+      {
+        "code": "V-52a",
+        "name": "Bakso Kelinci"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "nitrochiral-stamp-rally",
+    "name": "Nitro Chiral Stamp Rally (#NitroChiral)",
+    "day": "Both Days",
+    "fandoms": [
+      "Nitro+Chiral"
+    ],
+    "link": "https://x.com/qinnikult/status/2111078113153290478",
+    "start_booths": [
+      "I-31a"
+    ],
+    "reward_booths": [
+      "Y-13a"
+    ],
+    "booths": [
+      {
+        "code": "I-31ab",
+        "name": "Chez (Hardcore Otaku)"
+      },
+      {
+        "code": "J-11a",
+        "name": "Bibi (Mimonke)"
+      },
+      {
+        "code": "M-18ab",
+        "name": "Qin (Orion Atelier)"
+      },
+      {
+        "code": "R-36ab",
+        "name": "Xaf (Prizm Promise)"
+      },
+      {
+        "code": "Y-13ab",
+        "name": "Momo (Goonettes Association)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "notesun-irama-mentari-kkn-stamp-rally",
+    "name": "KKN: Kuliah, Kencan, Nyari Status - a NoteSun CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "NoteSun"
+    ],
+    "link": "https://x.com/kaodreee/status/2115064464588583291",
+    "start_booths": [
+      "S-02ab"
+    ],
+    "reward_booths": [
+      "V-13ab"
+    ],
+    "booths": [
+      {
+        "code": "S-02ab",
+        "name": "chiee | Chronically Online Cool Kids"
+      },
+      {
+        "code": "R-60ab",
+        "name": "Mikki & Dib | Jempol Sapi"
+      },
+      {
+        "code": "J-28a",
+        "name": "Joey (Day 1 only) | teakuyas"
+      },
+      {
+        "code": "X-50ab",
+        "name": "Bebek | Mulung Malang"
+      },
+      {
+        "code": "V-13ab",
+        "name": "Odre | sushihoshii & gojodreee"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "notesun-yakuza-stamp-rally",
+    "name": "Notesun Yakuza Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "NoteSun"
+    ],
+    "link": "https://x.com/itsmeNosaly/status/2107825744118415811",
+    "start_booths": [
+      "AG-03"
+    ],
+    "reward_booths": [
+      "R-34a"
+    ],
+    "booths": [
+      {
+        "code": "AG-03",
+        "name": "warung Papeda"
+      },
+      {
+        "code": "L-13ab",
+        "name": ""
+      },
+      {
+        "code": "L-14ab",
+        "name": ""
+      },
+      {
+        "code": "R-50ab",
+        "name": ""
+      },
+      {
+        "code": "R-34ab",
+        "name": "Uniwargi"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "pandavva-memories-with-you-stamp-rally",
+    "name": "MEMORIES WITH YOU: A Pandavva Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/qinxiin/status/2114301311902691624",
+    "start_booths": [
+      "PH6-01",
+      "A-25ab"
+    ],
+    "reward_booths": [
+      "PH6-01"
+    ],
+    "booths": [
+      {
+        "code": "A-25ab",
+        "name": "kikikatsv | Arteins"
+      },
+      {
+        "code": "S-04ab",
+        "name": "qinxiin | Qinxiin"
+      },
+      {
+        "code": "T-13ab",
+        "name": "chb0n113 (Day 1 only) | CHBONIIE X MEGAMINT"
+      },
+      {
+        "code": "Y-17ab",
+        "name": "arudeluu | KETABRAK PAKDE VARKA"
+      },
+      {
+        "code": "Z-39ab",
+        "name": "pmznx_ | Biji Bundal Bandul"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "passion-20th-anniversary-freebies-rally",
+    "name": "PASSION 20th Anniversary Freebies Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Passion (Yuuji)"
+    ],
+    "link": "https://x.com/raruraria/status/2114326079100117094",
+    "start_booths": [
+      "W-02ab"
+    ],
+    "reward_booths": [
+      "W-02ab"
+    ],
+    "booths": [
+      {
+        "code": "W-02ab",
+        "name": "jeanotwt (Ano) | Nibled Eclair"
+      },
+      {
+        "code": "U-31ab",
+        "name": "raruraria (Raru, Day 1 only) | Nihon Gak, Ka?"
+      },
+      {
+        "code": "F-23a",
+        "name": "Cale (@yeonowen on Instagram) | Supernatural Disaster Management Agency"
+      },
+      {
+        "code": "I-58ab",
+        "name": "oriorioshio (Ori) | Udang Mentega"
+      },
+      {
+        "code": "Y-02ab",
+        "name": "garekinclong (Son) | Rumah Bersalin Omega"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "phaidei-heonios-stamp-rally",
+    "name": "【Heonios】PhaiDei Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/akachou_tweet/status/2113963728395973056",
+    "start_booths": [
+      "C-49ab"
+    ],
+    "reward_booths": [
+      "V-58ab"
+    ],
+    "booths": [
+      {
+        "code": "C-49ab",
+        "name": "Muzhhart | StillWIP"
+      },
+      {
+        "code": "A-04ab",
+        "name": "Akachou and Tamakurowo | Eggbuttertoast & Akachou-tachi (2 stamps)"
+      },
+      {
+        "code": "A-42ab",
+        "name": "Jam | jam8366"
+      },
+      {
+        "code": "A-47ab",
+        "name": "Soyusoda | Soulnmalice x Soyusoda"
+      },
+      {
+        "code": "V-58ab",
+        "name": "AlzuraKyler | Asbuners x CCD"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "phainaxa-halloween-stamp-rally",
+    "name": "Phainaxa Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/BersinSin/status/2113592341043073212",
+    "start_booths": [
+      "R-36ab"
+    ],
+    "reward_booths": [
+      "X-09ab"
+    ],
+    "booths": [
+      {
+        "code": "R-36ab",
+        "name": "xxaf__ | Prizm Promise"
+      },
+      {
+        "code": "R-23b",
+        "name": "noon_aokii | Kanehoshi"
+      },
+      {
+        "code": "X-09ab",
+        "name": "BersinSin | Tukang Bersin X Digidaw Walawe"
+      },
+      {
+        "code": "W-55ab",
+        "name": "Shiirinrin | Lumicewek"
+      },
+      {
+        "code": "K-52ab",
+        "name": "kare_katsudon | So-Lid Circle"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "rotbb-blossoming-youth-stamp-rally",
+    "name": "ROTBB Stamp Rally: Blossoming Youth",
+    "day": "Both Days",
+    "fandoms": [
+      "Return of the Blossoming Blade"
+    ],
+    "link": "https://x.com/qwertyuiop_36/status/2101839105332220058",
+    "start_booths": [
+      "AG-07"
+    ],
+    "reward_booths": [
+      "U-37b"
+    ],
+    "booths": [
+      {
+        "code": "AG-07",
+        "name": "samFOOL plaSTEAK"
+      },
+      {
+        "code": "F-01a",
+        "name": ""
+      },
+      {
+        "code": "U-02a",
+        "name": ""
+      },
+      {
+        "code": "U-48b",
+        "name": "Syoran"
+      },
+      {
+        "code": "U-37b",
+        "name": "Budak Cheong Myeong"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "sandbina-once-upon-a-forevermore",
+    "name": "Once Upon a Forevermore - a fantasy AU Sandbina stamp rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/maltmochie/status/2109610615010632182",
+    "start_booths": [],
+    "reward_booths": [
+      "W-01a"
+    ],
+    "booths": [
+      {
+        "code": "W-01ab",
+        "name": "maltmochie"
+      },
+      {
+        "code": "X-17ab",
+        "name": "Emi"
+      },
+      {
+        "code": "X-18ab",
+        "name": "Emi"
+      },
+      {
+        "code": "W-39ab",
+        "name": "comy"
+      },
+      {
+        "code": "V-47ab",
+        "name": "Tipa"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "scarian-stamp-rally",
+    "name": "Scarian Stamp Rally (#scarian)",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Minecraft YouTubers (MCYT)"
+    ],
+    "link": "https://x.com/Yureijii/status/2109522458885996570",
+    "start_booths": [
+      "L-40a"
+    ],
+    "reward_booths": [
+      "P-04a"
+    ],
+    "booths": [
+      {
+        "code": "L-40ab",
+        "name": ""
+      },
+      {
+        "code": "O-47ab",
+        "name": ""
+      },
+      {
+        "code": "O-48ab",
+        "name": ""
+      },
+      {
+        "code": "O-53b",
+        "name": "Yureijii"
+      },
+      {
+        "code": "P-04ab",
+        "name": "Caprae Observatory"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "shoujosei-stamp-rally",
+    "name": "Comifuro 23 Special Shoujosei Stamp Rally (Be Ladies, But We Stay Girls)",
+    "day": "Saturday (Day 1)",
+    "fandoms": [],
+    "link": "https://x.com/moonrabbitspace/status/2108573413237477787",
+    "start_booths": [
+      "C-54a"
+    ],
+    "reward_booths": [
+      "V-50a"
+    ],
+    "booths": [
+      {
+        "code": "C-54ab",
+        "name": "Amatears Studio"
+      },
+      {
+        "code": "G-45ab",
+        "name": "Purl Bliss (Ruby & Pearl's Atelier) / RubEllite (Ruby & Pearl's Atelier)"
+      },
+      {
+        "code": "N-23a",
+        "name": "Cheysidere (Nyau Deau)"
+      },
+      {
+        "code": "U-24ab",
+        "name": "Furananko"
+      },
+      {
+        "code": "V-50a",
+        "name": "natasha.h_1 (Waduh.exe)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "shuake-mafia-au-stamp-rally",
+    "name": "shuake stamp rally cf23 - mafia AU",
+    "day": "Both Days",
+    "fandoms": [
+      "Persona"
+    ],
+    "link": "https://x.com/durenoot/status/2115086929368895998",
+    "start_booths": [
+      "D-27ab"
+    ],
+    "reward_booths": [
+      "W-55ab"
+    ],
+    "booths": [
+      {
+        "code": "D-27ab",
+        "name": "_10rb3 | Badut Berjualan (tm)"
+      },
+      {
+        "code": "F-09ab",
+        "name": "durenoot & chinka90 | Suaka Warga Stress"
+      },
+      {
+        "code": "Z-11ab",
+        "name": "Maichiatto62 | Warung Pojokan"
+      },
+      {
+        "code": "P-38a",
+        "name": "Crimson_host (Day 1 only) | La Pentoles"
+      },
+      {
+        "code": "W-55ab",
+        "name": "yxnki_ | Lumicewek"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "splatoon-stamp-rally",
+    "name": "Splatoon Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Splatoon"
+    ],
+    "link": "https://x.com/tarotnight_/status/2115072125480644997",
+    "start_booths": [
+      "P-58ab",
+      "L-11ab",
+      "L-26ab",
+      "M-45ab",
+      "P-51ab"
+    ],
+    "reward_booths": [
+      "P-58ab"
+    ],
+    "booths": [
+      {
+        "code": "L-11ab",
+        "name": "MarvelBlazee | Frontier Sho"
+      },
+      {
+        "code": "L-26ab",
+        "name": "freshnfits (Fresh 'n Fits) | GOSANKE"
+      },
+      {
+        "code": "M-45ab",
+        "name": "SupremelySalt | To Be Added"
+      },
+      {
+        "code": "P-51ab",
+        "name": "lyr_ae | Papercut Tavern"
+      },
+      {
+        "code": "P-58ab",
+        "name": "phantato (@wryyyyn_) | NyamTigTato"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "stardew-valley-stamp-rally",
+    "name": "(unofficial) Stardew Valley Stamp Rally @ Comifuro 23",
+    "day": "Both Days",
+    "fandoms": [
+      "Stardew Valley"
+    ],
+    "link": "https://x.com/temmiesky/status/2111313757272191185",
+    "start_booths": [
+      "AD-49"
+    ],
+    "reward_booths": [
+      "Z-31ab"
+    ],
+    "booths": [
+      {
+        "code": "AD-49",
+        "name": "Lanlon.creative"
+      },
+      {
+        "code": "N-45ab",
+        "name": "Yayasan Anak Desain (with @nibble_fang)"
+      },
+      {
+        "code": "A-41ab",
+        "name": "IDK!? x Catnichiwa"
+      },
+      {
+        "code": "P-28ab",
+        "name": "Salty Eggs"
+      },
+      {
+        "code": "Z-31ab",
+        "name": "My Bini Campur Aduk"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "stellis-haunted-case-file-tot-stamp-rally",
+    "name": "Stellis Haunted Case File - Tears of Themis Halloween Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Tears of Themis"
+    ],
+    "link": "https://x.com/vanillcmilk/status/2111437328430363031",
+    "start_booths": [
+      "B-36a"
+    ],
+    "reward_booths": [
+      "X-32ab"
+    ],
+    "booths": [
+      {
+        "code": "B-36a",
+        "name": "pducks_shelter (Purple Ducks Shelter)"
+      },
+      {
+        "code": "F-02ab",
+        "name": "zelugene (Matchaos, F02-F03)"
+      },
+      {
+        "code": "P-46ab",
+        "name": "chocokana_, miimuupng, vanillcmilk (Deco*23)"
+      },
+      {
+        "code": "T-38b",
+        "name": "rainicih (Rainicih Workshop)"
+      },
+      {
+        "code": "X-32ab",
+        "name": "carrot__soup (Hibiscuit Atelier, X32-X33)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "stormcookie-stamp-rally",
+    "name": "The Wedding: A StormCookie Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Stormcookie",
+      "Pandavva",
+      "VERSA"
+    ],
+    "link": "https://x.com/bukanfui/status/2114310353375068351",
+    "start_booths": [
+      "R-34ab"
+    ],
+    "reward_booths": [
+      "R-34ab"
+    ],
+    "booths": [
+      {
+        "code": "R-34ab",
+        "name": "Puwi, Ciu, Sen (Uniwargi)"
+      },
+      {
+        "code": "V-24b",
+        "name": "C A N (Butuh My Kisah, Saturday)"
+      },
+      {
+        "code": "I-51ab",
+        "name": "C A N (bibel x bigmadamee, Sunday)"
+      },
+      {
+        "code": "X-16ab",
+        "name": "Mei | Malewife Bergizi & Ganteng (MBG)"
+      },
+      {
+        "code": "T-22ab",
+        "name": "Mashi (Husbando Specialist)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "stormlens-once-upon-a-time-stamp-rally",
+    "name": "StormLens Stamp Rally: Once upon a time",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/itsmeNosaly/status/2115030741792997473",
+    "start_booths": [
+      "AG-03"
+    ],
+    "reward_booths": [
+      "X-16ab"
+    ],
+    "booths": [
+      {
+        "code": "AG-03",
+        "name": "akxnra | mikaasuma x warung PAPEDA x ZA"
+      },
+      {
+        "code": "R-50ab",
+        "name": "Saly | The Chill Beans"
+      },
+      {
+        "code": "K-11ab",
+        "name": "Shun | Lelaki Idaman Mamah"
+      },
+      {
+        "code": "J-08ab",
+        "name": "hika & @donotfreeze__ | Lancar Jaya Abadi"
+      },
+      {
+        "code": "X-16ab",
+        "name": "Mei Juni | Malewife Bergizi & Ganteng (MBG)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "strange-eden-stamp-rally",
+    "name": "STRANGE EDEN Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Strange Eden"
+    ],
+    "link": "https://x.com/bbleventeen/status/2115009997004513629",
+    "start_booths": [
+      "X-24b"
+    ],
+    "reward_booths": [
+      "Q-04ab"
+    ],
+    "booths": [
+      {
+        "code": "X-24b",
+        "name": "Ele | Rata Kanan"
+      },
+      {
+        "code": "M-02ab",
+        "name": "Michi | Budak Segitiga"
+      },
+      {
+        "code": "N-46ab",
+        "name": "Ome | Telemiette"
+      },
+      {
+        "code": "Q-15a",
+        "name": "Lyn | Sarjana Kawaii"
+      },
+      {
+        "code": "Q-04ab",
+        "name": "Thea | Shrimp House"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "supernatural-stamp-rally",
+    "name": "CF23 Supernatural Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Supernatural"
+    ],
+    "link": "https://x.com/sloanesmortuary/status/2112892886379622616",
+    "start_booths": [],
+    "reward_booths": [
+      "AF-36"
+    ],
+    "booths": [
+      {
+        "code": "AF-36",
+        "name": "sloanesmortuary | The Commonwealth"
+      },
+      {
+        "code": "E-16ab",
+        "name": "ribbittoo | Boxers Club"
+      },
+      {
+        "code": "F-45a",
+        "name": "meowpacici | Dead Dove Do Eat"
+      },
+      {
+        "code": "M-50ab",
+        "name": "vassago00_ | Dua Belas Butir Telur"
+      },
+      {
+        "code": "N-07ab",
+        "name": "Rawonee_ | HOW NICHE CAN THIS GET?"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "thunderbolts-stamp-rally",
+    "name": "Thunderbolts Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Marvel"
+    ],
+    "link": "https://x.com/chyariin/status/2114263169405505636",
+    "start_booths": [
+      "E-16ab"
+    ],
+    "reward_booths": [
+      "T-03ab"
+    ],
+    "booths": [
+      {
+        "code": "E-16ab",
+        "name": "ribbittoo | Boxers Club"
+      },
+      {
+        "code": "J-34ab",
+        "name": "ringriering | Titik Kumpul"
+      },
+      {
+        "code": "S-42ab",
+        "name": "cyanorth_ | Doa w/ Ibu"
+      },
+      {
+        "code": "S-20ab",
+        "name": "chyariin x lizuriii | Acumalaka"
+      },
+      {
+        "code": "T-03ab",
+        "name": "Sandstormii2 | Retro Rooster"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "transum-stamp-rally",
+    "name": "Transum Stamp Rally (with GM-MarKA)",
+    "day": "Sunday (Day 2)",
+    "fandoms": [
+      "Trains & Railways"
+    ],
+    "link": "https://x.com/gm_marka",
+    "start_booths": [
+      "F-21ab"
+    ],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "F-21ab",
+        "name": "KuroiYoru__ | STASIUN PORIS hati-hati melangkah"
+      },
+      {
+        "code": "L-26ab",
+        "name": "SpearheadCircle | GOSANKE"
+      },
+      {
+        "code": "A-29ab",
+        "name": "jejenjreng | Wibusaurus Jaya Premium"
+      },
+      {
+        "code": "T-07b",
+        "name": "The Nerds"
+      },
+      {
+        "code": "T-16ab",
+        "name": "ZOMBIEOFFENDER | BFSJ - Battle for Stasiun Jatinegara"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "tws-hun-to-us-stamp-rally",
+    "name": "HUN:TO US CF23 TWS Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "TWS"
+    ],
+    "link": "https://x.com/fleurensh/status/2113994934240043102",
+    "start_booths": [
+      "E-28ab"
+    ],
+    "reward_booths": [
+      "V-38ab"
+    ],
+    "booths": [
+      {
+        "code": "E-28ab",
+        "name": "marchsworld | Warung Twinky"
+      },
+      {
+        "code": "J-25ab",
+        "name": "gukanaki | TERIDI"
+      },
+      {
+        "code": "M-26ab",
+        "name": "geurim0_1 & beenlicious | TOP7"
+      },
+      {
+        "code": "V-38ab",
+        "name": "ornchid | Ornchid"
+      },
+      {
+        "code": "W-58a",
+        "name": "dweamiez | kdj's wives"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "usukcan-hetalia-stamp-rally",
+    "name": "USUKCAN Hetalia Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Hetalia: Axis Powers"
+    ],
+    "link": "https://x.com/tash_usk/status/2114692260218736950",
+    "start_booths": [
+      "B-28ab"
+    ],
+    "reward_booths": [
+      "S-51a"
+    ],
+    "booths": [
+      {
+        "code": "B-28ab",
+        "name": "Koucheese | Araku x Koupassage"
+      },
+      {
+        "code": "O-33b",
+        "name": "Tash | Ayam Bara"
+      },
+      {
+        "code": "I-25a",
+        "name": "Unemaki | Basreng Sisters"
+      },
+      {
+        "code": "K-06ab",
+        "name": "Kafifien | BINUMERCH X KAFIFIEN"
+      },
+      {
+        "code": "S-51a",
+        "name": "Kiki | Warung Birong"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "valorant-stamp-rally",
+    "name": "VALORANT STAMP RALLY (Match found. Alright agents, ready up!)",
+    "day": "Both Days",
+    "fandoms": [
+      "Valorant"
+    ],
+    "link": "https://x.com/fantalsi_/status/2109201071801528355",
+    "start_booths": [
+      "B-28ab"
+    ],
+    "reward_booths": [
+      "H-48b"
+    ],
+    "booths": [
+      {
+        "code": "B-28ab",
+        "name": "arararaiv (Araku x Koupassage)"
+      },
+      {
+        "code": "T-34ab",
+        "name": "butterbanger (Tim Sukses Isi 7)"
+      },
+      {
+        "code": "L-42ab",
+        "name": "kuroo_riin (Krill Brained)"
+      },
+      {
+        "code": "Y-04ab",
+        "name": "commierisu, kik1cm_ (Kayuji)"
+      },
+      {
+        "code": "H-48b",
+        "name": "fantalsi_ (Nutz Budz)"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "varflins-the-brides-orchid",
+    "name": "The Bride's Orchid - Varka x Flins Gothic Wedding Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/orenjimaru_2/status/2108572303554687397",
+    "start_booths": [
+      "A-12a"
+    ],
+    "reward_booths": [
+      "A-12a"
+    ],
+    "booths": [
+      {
+        "code": "A-12ab",
+        "name": "Orenjimaru / Cali (guest, at Orenjimaru's table)"
+      },
+      {
+        "code": "R-55ab",
+        "name": "Mixcu.co"
+      },
+      {
+        "code": "W-02ab",
+        "name": ""
+      },
+      {
+        "code": "W-03ab",
+        "name": ""
+      },
+      {
+        "code": "M-20ab",
+        "name": "Toko Sumber Khilaf"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "votum-aeternum-stormbeer-wedding",
+    "name": "Votum Aeternum - the eternal oath: StormBeer's Wedding Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/topiorca/status/2110702699583013091",
+    "start_booths": [
+      "F-32a"
+    ],
+    "reward_booths": [
+      "Z-40a"
+    ],
+    "booths": [
+      {
+        "code": "F-32ab",
+        "name": "JVN (Junjou Efu)"
+      },
+      {
+        "code": "F-33ab",
+        "name": "JVN (Junjou Efu)"
+      },
+      {
+        "code": "R-54a",
+        "name": "Bwatagor"
+      },
+      {
+        "code": "S-02ab",
+        "name": "Chie"
+      },
+      {
+        "code": "Z-40ab",
+        "name": "Topiorca"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "wc2026-football-stamp-rally",
+    "name": "WC2026 Football Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Football"
+    ],
+    "link": "https://x.com/dotfasta/status/2113979490636591125",
+    "start_booths": [
+      "D-49ab"
+    ],
+    "reward_booths": [
+      "P-54b"
+    ],
+    "booths": [
+      {
+        "code": "D-49ab",
+        "name": "kaizsenzo | POOKIEPUFF GIRLS!"
+      },
+      {
+        "code": "E-16ab",
+        "name": "ribbittoo | Boxers Club"
+      },
+      {
+        "code": "G-32ab",
+        "name": "dotfasta (Day 2 only) | Yellowings"
+      },
+      {
+        "code": "S-27a",
+        "name": "xi_vdl (Day 1 only) | sinefilth..."
+      },
+      {
+        "code": "P-54b",
+        "name": "reinoirr | reinoir's pitch"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "wind-breaker-suni-stamp-rally",
+    "name": "WIND BREAKER - SUNI Stamp Rally #MENCARI_SUO",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Wind Breaker"
+    ],
+    "link": "https://x.com/pink_matcha/status/2114326109169029589",
+    "start_booths": [
+      "P-13a"
+    ],
+    "reward_booths": [
+      "J-53a"
+    ],
+    "booths": [
+      {
+        "code": "P-13ab",
+        "name": "HeiFuukaze"
+      },
+      {
+        "code": "K-01ab",
+        "name": "Kopipedia (Pasar Semanggi)"
+      },
+      {
+        "code": "K-07b",
+        "name": "_cosmiclemon (BESTO FRIENDO) / mon (BESTO FRIENDO)"
+      },
+      {
+        "code": "J-53a",
+        "name": "pinkxmatcha"
+      },
+      {
+        "code": "J-53b",
+        "name": "CheerfulSun"
+      }
+    ],
+    "total_booths": 5
+  },
+  {
+    "id": "ak-sui-siblings-garden-of-grotesqueries-stamp-rally-b",
+    "name": "Garden of Grotesqueries: Strange Exhibits · Section B",
+    "day": "Both Days",
+    "fandoms": [
+      "Arknights"
+    ],
+    "link": "https://x.com/shensous/status/2114332795434885233",
+    "start_booths": [],
+    "reward_booths": [
+      "K-53ab"
+    ],
+    "booths": [
+      {
+        "code": "N-36b",
+        "name": "karamellisokeri (Melli) | Karamellisokeri"
+      },
+      {
+        "code": "K-46ab",
+        "name": "michi_tenayuki (Tenayuki) & _fslmn (Salmon) | Asinan Jabodetabek"
+      },
+      {
+        "code": "D-51ab",
+        "name": "anggorabun (Luxeria) | Ateliernom x Luxeria"
+      },
+      {
+        "code": "J-01ab",
+        "name": "lekiwilah (Tsuki) | Nyakar Studio"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "all-wishes-come-true-baxian-stamp-rally",
+    "name": "All Wishes Come True Stamp Rally (CF23 Baxian Stamp Rally)",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "All Wishes Come True"
+    ],
+    "link": "https://x.com/lunariste/status/2101354742240915614",
+    "start_booths": [],
+    "reward_booths": [
+      "U-20a"
+    ],
+    "booths": [
+      {
+        "code": "AG-15",
+        "name": "Peroronchino0"
+      },
+      {
+        "code": "J-28a",
+        "name": "joey_ruvoa"
+      },
+      {
+        "code": "S-31ab",
+        "name": "eileenwdj"
+      },
+      {
+        "code": "U-20ab",
+        "name": "lunariste"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "aventurine-waveflair-stamp-rally",
+    "name": "The Gambler's Paid Vacation : Aventurine Waveflair Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/pokana_po/status/2114650317019087350",
+    "start_booths": [
+      "Z-04ab"
+    ],
+    "reward_booths": [
+      "A-51ab"
+    ],
+    "booths": [
+      {
+        "code": "Z-04ab",
+        "name": "Perdizzion | PeRaz Bebek"
+      },
+      {
+        "code": "W-31ab",
+        "name": "Ririku | Ririkaru Studios"
+      },
+      {
+        "code": "I-58ab",
+        "name": "Lily | Udang Mentega"
+      },
+      {
+        "code": "A-51ab",
+        "name": "Pokana | Salmontachi"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "batboys-red-robin-halloween-stamp-rally",
+    "name": "Batboys: A Red Robin Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "DC Comics"
+    ],
+    "link": "https://x.com/sakuwauwa/status/2113601550451089608",
+    "start_booths": [
+      "B-28ab"
+    ],
+    "reward_booths": [
+      "S-10ab"
+    ],
+    "booths": [
+      {
+        "code": "B-28ab",
+        "name": "sakuwauwa | Araku x Koupassage"
+      },
+      {
+        "code": "S-24b",
+        "name": "fizzyjacuzzi x catastraophee | Burger Banger"
+      },
+      {
+        "code": "R-47ab",
+        "name": "AUDlTOREE | Lluna et Ssol"
+      },
+      {
+        "code": "S-10ab",
+        "name": "melatikana | Penunggu Gaji"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "beerlens-vampire-stamp-rally",
+    "name": "BeerLens Vampire Stamp Rally (18+)",
+    "day": "Both Days",
+    "fandoms": [
+      "BeerLens"
+    ],
+    "link": "https://x.com/akxnra/status/2113936159516873111",
+    "start_booths": [
+      "AG-03"
+    ],
+    "reward_booths": [
+      "R-50ab"
+    ],
+    "booths": [
+      {
+        "code": "AG-03",
+        "name": "akxnra | Mikaasuma x Warung Papeda x ZA"
+      },
+      {
+        "code": "S-38ab",
+        "name": "itszephyrrr | Pee Paw Kleb"
+      },
+      {
+        "code": "R-14ab",
+        "name": "asddxddfghjkl | CF Niat Meow Meow"
+      },
+      {
+        "code": "R-50ab",
+        "name": "solmatcha & itsmeNosaly | The Chill Beans"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "blur-spooky-song-stamp-rally",
+    "name": "blur: Spooky Song - Comifuro 23 Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Blur"
+    ],
+    "link": "https://x.com/teakuyas/status/2106727283696468172",
+    "start_booths": [
+      "B-42a"
+    ],
+    "reward_booths": [
+      "W-38a"
+    ],
+    "booths": [
+      {
+        "code": "B-42ab",
+        "name": "Sharkiepio (StableMerchants)"
+      },
+      {
+        "code": "J-28a",
+        "name": "teakuyas (day 1 only)"
+      },
+      {
+        "code": "U-57ab",
+        "name": "Sparklie Market"
+      },
+      {
+        "code": "W-38ab",
+        "name": "thatwasaria (Nyawit)"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "by-the-beat-stamp-rally",
+    "name": "By The Beat (Angel Devil) - BTB Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/baksodanborax/status/2112470409761436045",
+    "start_booths": [
+      "G-30b"
+    ],
+    "reward_booths": [
+      "R-54b"
+    ],
+    "booths": [
+      {
+        "code": "G-30b",
+        "name": "Gaspol Circle"
+      },
+      {
+        "code": "G-40ab",
+        "name": "Kastil Wi6u"
+      },
+      {
+        "code": "J-25ab",
+        "name": "TERIDI"
+      },
+      {
+        "code": "R-54b",
+        "name": "Mineral"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "dan-heng-halloween-stamp-rally",
+    "name": "Dan Heng Halloween Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/tigrismoon/status/2113974042185327078",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "N-43ab",
+        "name": "Ame (dracelune) | Dripsain Komunicrazy Rizzual"
+      },
+      {
+        "code": "P-43ab",
+        "name": "Akira (makanindomie3) | MONDAE x PT Yasudahlah"
+      },
+      {
+        "code": "T-21ab",
+        "name": "Artem (tigrismoon) | BOLU"
+      },
+      {
+        "code": "Y-20ab",
+        "name": "Mio (miorenari) | Jellycious"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "dear-ely-hi3-flame-chasers",
+    "name": "Dear Ely - A Honkai Impact 3rd Stamp Rally: Flame Chasers centric",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai Impact 3rd"
+    ],
+    "link": "https://x.com/Kokotuo__/status/2100904279896924304",
+    "start_booths": [
+      "M-22ab"
+    ],
+    "reward_booths": [
+      "Y-23ab"
+    ],
+    "booths": [
+      {
+        "code": "Y-37a",
+        "name": "Kokotuo"
+      },
+      {
+        "code": "X-26ab",
+        "name": ""
+      },
+      {
+        "code": "Y-23ab",
+        "name": "Renta Abadi Express"
+      },
+      {
+        "code": "M-22ab",
+        "name": ""
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "detroit-become-human-stamp-rally",
+    "name": "Detroit: Become Human Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Detroit: Become Human"
+    ],
+    "link": "https://x.com/mehkaelis/status/2114337292064080312",
+    "start_booths": [
+      "J-15b"
+    ],
+    "reward_booths": [
+      "S-50a"
+    ],
+    "booths": [
+      {
+        "code": "J-15b",
+        "name": "mehkaelis & Oniniiartz_ | Mehkaelis x Kavksharewaritb"
+      },
+      {
+        "code": "N-07ab",
+        "name": "Rawonee_ | HOW NICHE CAN THIS GET?"
+      },
+      {
+        "code": "S-50a",
+        "name": "r3mycola | Remycola"
+      },
+      {
+        "code": "T-18ab",
+        "name": "jikoohaii | Irasushop"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "gsgw-still-gotta-sleep",
+    "name": "Dropped into a Ghost Story... Still gotta Sleep?!",
+    "day": "Both Days",
+    "fandoms": [
+      "Even If I Fall Into a Ghost Story"
+    ],
+    "link": "https://x.com/chocorocotan/status/2106276588065309082",
+    "start_booths": [
+      "B-15a"
+    ],
+    "reward_booths": [
+      "U-29a"
+    ],
+    "booths": [
+      {
+        "code": "B-15ab",
+        "name": "chocorocotan"
+      },
+      {
+        "code": "K-53ab",
+        "name": "magu27R0"
+      },
+      {
+        "code": "U-19ab",
+        "name": "yuwintermelon"
+      },
+      {
+        "code": "U-29ab",
+        "name": "sagopearis"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "hockey-nhl-stamp-rally",
+    "name": "Hockey/NHL STAMP RALLY",
+    "day": "Both Days",
+    "fandoms": [
+      "NHL"
+    ],
+    "link": "https://x.com/kerdusWINE/status/2115434758612328647",
+    "start_booths": [
+      "AF-36"
+    ],
+    "reward_booths": [
+      "U-09ab"
+    ],
+    "booths": [
+      {
+        "code": "AF-36",
+        "name": "INTERCRUSHER | The Commonwealth"
+      },
+      {
+        "code": "F-41ab",
+        "name": "delusionalknife | Koening & Friends"
+      },
+      {
+        "code": "T-10ab",
+        "name": "kerdusWINE | S.pr (Sarjana Pencari Rezeki)"
+      },
+      {
+        "code": "U-09ab",
+        "name": "pacarwesker | The Black Cat"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "hoyo-pink-girls-swan-lake-marionette",
+    "name": "Hoyo Pink Girls Stamp Rally - Swan Lake Marionette Edition",
+    "day": "Both Days",
+    "fandoms": [
+      "HoYoverse"
+    ],
+    "link": "https://x.com/moonlightbunyyy/status/2111728152531947799",
+    "start_booths": [
+      "B-55a"
+    ],
+    "reward_booths": [
+      "W-50a"
+    ],
+    "booths": [
+      {
+        "code": "B-55ab",
+        "name": "Seica"
+      },
+      {
+        "code": "M-22ab",
+        "name": "Yeon"
+      },
+      {
+        "code": "Y-45ab",
+        "name": "Hyou"
+      },
+      {
+        "code": "W-50ab",
+        "name": "Bunny"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "hypmic-stamp-rally",
+    "name": "Hypmic Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Hypnosis Mic"
+    ],
+    "link": "https://x.com/achee310/status/2113146669042905406",
+    "start_booths": [
+      "Q-56ab"
+    ],
+    "reward_booths": [
+      "U-30ab"
+    ],
+    "booths": [
+      {
+        "code": "Q-56ab",
+        "name": "syha_ruru | Absolute Deadline"
+      },
+      {
+        "code": "T-12ab",
+        "name": "achee310 | Cisauk Frontier"
+      },
+      {
+        "code": "T-50ab",
+        "name": "joseradjiman | MOFUMOFU LANANG"
+      },
+      {
+        "code": "U-30ab",
+        "name": "TravelersEitoo8 | Cafe au lait"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "kagerou-days-stamp-rally",
+    "name": "Kagerou Days Stamp Rally - Kagerou Project",
+    "day": "Both Days",
+    "fandoms": [
+      "Kagerou Project"
+    ],
+    "link": "https://x.com/kowesilly/status/2103812329678967242",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "J-20a",
+        "name": "alda/licchi"
+      },
+      {
+        "code": "U-15a",
+        "name": "Taz"
+      },
+      {
+        "code": "B-49ab",
+        "name": "aisha (Sate Kelinci Simpang 4)"
+      },
+      {
+        "code": "Q-07b",
+        "name": "Lianette (Saturday) | Hangstaria"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "lost-in-wonderland-varhen-stamp-rally",
+    "name": "Lost in Wonderland: Varka x Lohen Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/refuuwa/status/2113616541552161254",
+    "start_booths": [
+      "J-09ab"
+    ],
+    "reward_booths": [
+      "X-58b"
+    ],
+    "booths": [
+      {
+        "code": "J-09ab",
+        "name": "zeedraws"
+      },
+      {
+        "code": "U-40ab",
+        "name": "refuuwa | PHT (PUJASERA HOMO TRAGIS)"
+      },
+      {
+        "code": "X-17ab",
+        "name": "PLT_A_PAT | girl dinner"
+      },
+      {
+        "code": "X-58b",
+        "name": "triplethrice (Day 1 only) | triplethrice"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "masquerade-fantasia-mahoyaku",
+    "name": "Masquerade Fantasia (A MHYK Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [
+      "Mahoyaku"
+    ],
+    "link": "https://x.com/46bin_o/status/2110638189539098791",
+    "start_booths": [],
+    "reward_booths": [
+      "N-42a"
+    ],
+    "booths": [
+      {
+        "code": "Y-20ab",
+        "name": "InariSakura"
+      },
+      {
+        "code": "S-30ab",
+        "name": "KoffyLatte (Day 2 only) | Es Krim BBQ"
+      },
+      {
+        "code": "X-07ab",
+        "name": "mintycado"
+      },
+      {
+        "code": "N-42ab",
+        "name": "leateaves / 46bin_o"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "pengabdi-setamp-horror-stamp-rally",
+    "name": "Pengabdi Setamp!! - Halloween Horror Games Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Poppy Playtime",
+      "Resident Evil",
+      "Fatal Frame",
+      "Junji Ito",
+      "Limbus Company",
+      "Silent Hill",
+      "Shintaro Kago"
+    ],
+    "link": "https://x.com/nthndn/status/2113253016761757894",
+    "start_booths": [
+      "J-48ab"
+    ],
+    "reward_booths": [
+      "H-59ab"
+    ],
+    "booths": [
+      {
+        "code": "J-48ab",
+        "name": "buffyudon x spesdelune | BEKINTOL"
+      },
+      {
+        "code": "S-49ab",
+        "name": "master_rename | Tongkol RGB"
+      },
+      {
+        "code": "H-58ab",
+        "name": "sarunasrn_ x sef_liz"
+      },
+      {
+        "code": "H-59ab",
+        "name": "nthndn x yoakai | Sapoto Studio"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "puppets-midnight-masquerade-scaramouche",
+    "name": "The Puppet's Midnight Masquerade (Scaramouche Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/v10ballad/status/2107337741323428059",
+    "start_booths": [
+      "H-30ab"
+    ],
+    "reward_booths": [
+      "X-17ab"
+    ],
+    "booths": [
+      {
+        "code": "H-30ab",
+        "name": "halfhoomancat (Banboo.corner)"
+      },
+      {
+        "code": "V-45ab",
+        "name": "v10ballad, bluvgundy, KiYuraMC, ichomint (Seonmul Aegis)"
+      },
+      {
+        "code": "W-13ab",
+        "name": "kanabunsuii (Lapak Pamer Gacha)"
+      },
+      {
+        "code": "X-17ab",
+        "name": "diuwukan (girl dinner)"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "rumah-makan-gemm",
+    "name": "Rumah Makan GEMM (GMMTV CF23 Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [
+      "GMMTV"
+    ],
+    "link": "https://x.com/jaemongus/status/2109254318381834694",
+    "start_booths": [
+      "AC-37"
+    ],
+    "reward_booths": [
+      "U-57a"
+    ],
+    "booths": [
+      {
+        "code": "AC-37",
+        "name": "Tenshin Tenshi (Evita)"
+      },
+      {
+        "code": "AC-38",
+        "name": "Tenshin Tenshi (Evita)"
+      },
+      {
+        "code": "S-32b",
+        "name": "nikisolosgoku"
+      },
+      {
+        "code": "U-57ab",
+        "name": "ULATCATCATZ (Zee)"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "sacabambaspis-stamp-rally",
+    "name": "Sacabambaspis Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Sacabambaspis"
+    ],
+    "link": "https://x.com/pungupungu_box/status/2112440732602823102",
+    "start_booths": [],
+    "reward_booths": [
+      "W-51ab"
+    ],
+    "booths": [
+      {
+        "code": "AG-31",
+        "name": "Karrarin (Atelier Karrakon & Eruru, AG-31&32)"
+      },
+      {
+        "code": "AG-48",
+        "name": "Callus Ran (AG-48&49)"
+      },
+      {
+        "code": "C-32ab",
+        "name": "Smoleland (Konfetti Kolektif, C-32&33)"
+      },
+      {
+        "code": "W-51ab",
+        "name": "Pungubox and Gryffee (SuperIkan, W-51&52: two stamps)"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "sasunaru-stamp-rally-solar-eclipse",
+    "name": "SASUNARU Stamp Rally 2026: Solar Eclipse",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Naruto"
+    ],
+    "link": "https://x.com/gocingggu/status/2109215826519937425",
+    "start_booths": [
+      "E-15a"
+    ],
+    "reward_booths": [
+      "C-28b"
+    ],
+    "booths": [
+      {
+        "code": "E-15a",
+        "name": "Bebas Serah (Nycken) / Bebas Serah (Akaneko)"
+      },
+      {
+        "code": "R-42a",
+        "name": "BWWTSPP (Azuré)"
+      },
+      {
+        "code": "C-29ab",
+        "name": "Es Campur Maniez (Cherriimi)"
+      },
+      {
+        "code": "C-28b",
+        "name": "Es Campur Maniez (Gocinggg)"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "teyvat-after-dark-stamp-rally",
+    "name": "Teyvat After Dark: a Genshin x Halloween Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Genshin Impact"
+    ],
+    "link": "https://x.com/perdizzion/status/2113227619265393057",
+    "start_booths": [],
+    "reward_booths": [
+      "Z-04ab"
+    ],
+    "booths": [
+      {
+        "code": "A-45ab",
+        "name": "miothle | miothle's atelier"
+      },
+      {
+        "code": "A-53ab",
+        "name": "Yamyouw | FHB Circle"
+      },
+      {
+        "code": "M-31ab",
+        "name": "illytto | ILLY.ART"
+      },
+      {
+        "code": "Z-04ab",
+        "name": "perdizzion | PeRaz Bebek"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "the-devil-wears-prada-stamp-rally",
+    "name": "The Devil Wears Prada (TDWP) Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "The Devil Wears Prada"
+    ],
+    "link": "https://x.com/carnelise/status/2105996891024666728",
+    "start_booths": [
+      "N-26a"
+    ],
+    "reward_booths": [
+      "T-03a"
+    ],
+    "booths": [
+      {
+        "code": "N-26ab",
+        "name": "Everything Bagel"
+      },
+      {
+        "code": "P-42b",
+        "name": "Kusakusa"
+      },
+      {
+        "code": "P-53b",
+        "name": "Bakteri Baik"
+      },
+      {
+        "code": "T-03ab",
+        "name": "Retro Rooster"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "the-lamb-rite-pandavva-stamp-rally",
+    "name": "The Lamb Rite [Pandavva's Stamp Rally]",
+    "day": "Both Days",
+    "fandoms": [
+      "Pandavva"
+    ],
+    "link": "https://x.com/topiorca/status/2114334842129379753",
+    "start_booths": [
+      "I-25a"
+    ],
+    "reward_booths": [
+      "Y-17ab"
+    ],
+    "booths": [
+      {
+        "code": "I-25a",
+        "name": "Akko | Basreng Sisters"
+      },
+      {
+        "code": "R-13ab",
+        "name": "Anya | chesshiya"
+      },
+      {
+        "code": "Z-40ab",
+        "name": "Lin | Biji Bundal Bandul"
+      },
+      {
+        "code": "Y-17ab",
+        "name": "Aru & Lavi | KETABRAK PAKDE VARKA"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "ultraman-halloween-stamp-rally",
+    "name": "Ultraman Halloween Stamp Rally (Is that villaines? But why they're nice?)",
+    "day": "Both Days",
+    "fandoms": [
+      "Ultraman"
+    ],
+    "link": "https://x.com/Clarentin_id/status/2112089867291398373",
+    "start_booths": [
+      "K-12b"
+    ],
+    "reward_booths": [
+      "R-52ab"
+    ],
+    "booths": [
+      {
+        "code": "K-12b",
+        "name": "toripingu, Mpelskuyyy, shuimica, Docopurr_ (CAFE M78)"
+      },
+      {
+        "code": "K-12a",
+        "name": "AlexiasRei (Cringe Pookies)"
+      },
+      {
+        "code": "Q-17ab",
+        "name": "nacch_an (Toserba Ignotus)"
+      },
+      {
+        "code": "R-52ab",
+        "name": "_re_reya, Clarentin_id (Kulinara)"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "zzz-man-stamp-rally",
+    "name": "ZZZ Man Stamp Rally: Your Angelic and Devilish Man",
+    "day": "Both Days",
+    "fandoms": [
+      "Zenless Zone Zero"
+    ],
+    "link": "https://x.com/skelletory/status/2113889466519785521",
+    "start_booths": [
+      "A-53ab"
+    ],
+    "reward_booths": [
+      "W-56ab"
+    ],
+    "booths": [
+      {
+        "code": "A-53ab",
+        "name": "sashacall | FHB Circle"
+      },
+      {
+        "code": "F-26ab",
+        "name": "yuuichin_ | Terima Kos Janda x Tsumetaku Sakusaku"
+      },
+      {
+        "code": "AE-13",
+        "name": "_Risupon_ | Planet 11PM"
+      },
+      {
+        "code": "W-56ab",
+        "name": "skelletory | Sajen Perhusbuan"
+      }
+    ],
+    "total_booths": 4
+  },
+  {
+    "id": "ardour-tdbk-mini-rally",
+    "name": "Ardour Mini Rally (todobaku's wedding mini rally event)",
+    "day": "Both Days",
+    "fandoms": [
+      "My Hero Academia"
+    ],
+    "link": "https://x.com/tdbk_nest/status/2110536133172183209",
+    "start_booths": [],
+    "reward_booths": [
+      "I-11a"
+    ],
+    "booths": [
+      {
+        "code": "I-11a",
+        "name": "Maho no Konbini"
+      },
+      {
+        "code": "N-01ab",
+        "name": "Nasykuching"
+      },
+      {
+        "code": "W-07ab",
+        "name": "toto kelontong"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "bully-stamp-rally",
+    "name": "B+LLY STAMP RALLY",
+    "day": "Both Days",
+    "fandoms": [
+      "Bully (Canis Canem Edit)"
+    ],
+    "link": "https://x.com/wokensign/status/2115438393282994676",
+    "start_booths": [
+      "B-42ab"
+    ],
+    "reward_booths": [
+      "N-07ab"
+    ],
+    "booths": [
+      {
+        "code": "B-42ab",
+        "name": "sharkiepio_, alvbrillian | StableMerchants"
+      },
+      {
+        "code": "E-20ab",
+        "name": "ar_elkheartt | Jellato"
+      },
+      {
+        "code": "N-07ab",
+        "name": "wokensign, dannyizlost | HOW NICHE CAN THIS GET?"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "cf23-mcsr-stamp-rally",
+    "name": "CF23 MCSR Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Minecraft Speedrunning"
+    ],
+    "link": "https://x.com/senncoo/status/2113459410202939555",
+    "start_booths": [
+      "O-51ab"
+    ],
+    "reward_booths": [
+      "O-47ab"
+    ],
+    "booths": [
+      {
+        "code": "O-51ab",
+        "name": "laiyyess, fourstrawz, insff3rable, DeiDeirdre_ | Anggoon"
+      },
+      {
+        "code": "O-55ab",
+        "name": "cararliees (Stronghold) | Warung Dormitia"
+      },
+      {
+        "code": "O-47ab",
+        "name": "senncoo (The End) | medieval: mid n evil"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "devil-may-cry-stamp-rally",
+    "name": "Devil May Cry Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Devil May Cry"
+    ],
+    "link": "https://x.com/zhienzhienx_x/status/2113230565927157893",
+    "start_booths": [
+      "M-60ab"
+    ],
+    "reward_booths": [
+      "M-60ab"
+    ],
+    "booths": [
+      {
+        "code": "M-60ab",
+        "name": "zhienzhienx_x, soraiven_ | Tri Koro Baka x Soraiven"
+      },
+      {
+        "code": "N-12ab",
+        "name": "driedpockets, rindomi3, munchesdoobie | MEATBUCKET"
+      },
+      {
+        "code": "M-11ab",
+        "name": "knigendary | Epicentury"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "elmas-diary-yorushika-stamp-rally",
+    "name": "Elma's Diary - A Yorushika Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Yorushika"
+    ],
+    "link": "https://x.com/yorucast/status/2110707642956202107",
+    "start_booths": [
+      "G-53b"
+    ],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "G-53b",
+        "name": "huesimile.studio (Lund)"
+      },
+      {
+        "code": "G-54ab",
+        "name": "Adonan (Linkoping)"
+      },
+      {
+        "code": "K-30a",
+        "name": "Yoru Archive (Stockholm) / Yoru Archive (Gamla Stan)"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "formula-1-motogp-sticker-rally",
+    "name": "Formula 1 & MotoGP Sticker Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Formula 1",
+      "MotoGP"
+    ],
+    "link": "https://x.com/25thsraven/status/2114702559692919153",
+    "start_booths": [
+      "S-41ab"
+    ],
+    "reward_booths": [
+      "T-03ab"
+    ],
+    "booths": [
+      {
+        "code": "S-41ab",
+        "name": "25thsraven, Felyarty, jimbskips, sur4ceng | Warung Adalah Pokoknya"
+      },
+      {
+        "code": "T-10ab",
+        "name": "CAC0ETH3S_, whitepadi_ | S.pr (Sarjana Pencari Rezeki)"
+      },
+      {
+        "code": "T-03ab",
+        "name": "Xzenonphrenic, ghostheatherr | Retro Rooster"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "halloween-101-for-xavier-stamp-rally",
+    "name": "Halloween 101 for Xavier",
+    "day": "Both Days",
+    "fandoms": [
+      "Love and Deepspace"
+    ],
+    "link": "https://x.com/BebekTerbang12/status/2114898590103662943",
+    "start_booths": [
+      "K-09ab"
+    ],
+    "reward_booths": [
+      "T-36ab"
+    ],
+    "booths": [
+      {
+        "code": "K-09ab",
+        "name": "Bebek | BeScaList"
+      },
+      {
+        "code": "T-34ab",
+        "name": "herayashira, hicmiaw & michiko_yuuta | Tim Sukses Isi 7"
+      },
+      {
+        "code": "T-36ab",
+        "name": "haeyanaza & zoulynx | Cari Apa Kak?"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "inasure-stamp-rally",
+    "name": "Inasure Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Aldnoah.Zero"
+    ],
+    "link": "https://x.com/garekinclong/status/2108535763998761397",
+    "start_booths": [],
+    "reward_booths": [],
+    "booths": [
+      {
+        "code": "Y-02ab",
+        "name": "Rumah Bersalin Omega"
+      },
+      {
+        "code": "C-45b",
+        "name": "Evternity"
+      },
+      {
+        "code": "D-16ab",
+        "name": "~La Creatura~"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "link-click-time-photo-trio-stamp-rally",
+    "name": "Link Click ; Time Photo Trio Special stamp rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Link Click"
+    ],
+    "link": "https://x.com/Dddodokkabi/status/2114311048882974836",
+    "start_booths": [
+      "A-04ab"
+    ],
+    "reward_booths": [
+      "U-40ab"
+    ],
+    "booths": [
+      {
+        "code": "A-04ab",
+        "name": "akachou_tweet | Eggbuttertoast & Akachou-tachi"
+      },
+      {
+        "code": "U-42ab",
+        "name": "arisatorin | Favoritea"
+      },
+      {
+        "code": "U-40ab",
+        "name": "Dddodokkabi & kkaonim | PHT (PUJASERA HOMO TRAGIS)"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "mahou-shoujo-ready-set-transform-stamp-rally",
+    "name": "CF23 Mahou Shoujo Stamp Rally: Ready, Set, Transform!",
+    "day": "Both Days",
+    "fandoms": [
+      "Cardcaptor Sakura",
+      "Puella Magi Madoka Magica",
+      "Ojamajo Doremi",
+      "Tokyo Mew Mew",
+      "Shugo Chara!",
+      "Pretty Cure"
+    ],
+    "link": "https://x.com/orcherion/status/2115108255785783695",
+    "start_booths": [
+      "L-57ab",
+      "C-54ab",
+      "G-30b"
+    ],
+    "reward_booths": [
+      "L-57ab"
+    ],
+    "booths": [
+      {
+        "code": "C-54ab",
+        "name": "Remishena | Amatears Studio"
+      },
+      {
+        "code": "G-30b",
+        "name": "Chizubear (Day 1 only) | Gaspol Circle"
+      },
+      {
+        "code": "L-57ab",
+        "name": "Orcherion"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "metallic-beast-voltaction",
+    "name": "METALLIC BEAST: a Nijisanji Voltaction Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/mvtchayam/status/2114950956526055747",
+    "start_booths": [
+      "R-22ab"
+    ],
+    "reward_booths": [
+      "Y-09ab"
+    ],
+    "booths": [
+      {
+        "code": "R-22ab",
+        "name": "DangOshi-: Kitsch & Aen"
+      },
+      {
+        "code": "R-28b",
+        "name": "artamiest: Ami"
+      },
+      {
+        "code": "R-36ab",
+        "name": "Prizm Promise: Leo"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "nijidatoka-stamp-rally",
+    "name": "NIJIDATOKA #CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Nijisanji"
+    ],
+    "link": "https://x.com/spreadwater/status/2114332799817974040",
+    "start_booths": [
+      "R-23a"
+    ],
+    "reward_booths": [
+      "R-22ab"
+    ],
+    "booths": [
+      {
+        "code": "R-23a",
+        "name": "raeshuto | raeshuto"
+      },
+      {
+        "code": "R-22ab",
+        "name": "mwukmu & hawucchi | DangOshi-"
+      },
+      {
+        "code": "R-20ab",
+        "name": "spreadwater | Takoyachi"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "project-hail-mary-phm-stamp-rally",
+    "name": "Project Hail Rally: Comifuro 23 PHM Stamp Rally Event",
+    "day": "Both Days",
+    "fandoms": [
+      "Project Hail Mary"
+    ],
+    "link": "https://x.com/sparkliemarket/status/2111812194312851609",
+    "start_booths": [
+      "E-32ab"
+    ],
+    "reward_booths": [
+      "Y-37a"
+    ],
+    "booths": [
+      {
+        "code": "E-32ab",
+        "name": "dinonemplok (Kerajaan Meng x Silly Me Laviuu)"
+      },
+      {
+        "code": "U-57ab",
+        "name": "sparkliemarket, KEEPIEKEEPERS (Ulat Catcatz)"
+      },
+      {
+        "code": "Y-37a",
+        "name": "Kokotuo__ (Kokotuo)"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "sweet-temptation-haobin-stamp-rally",
+    "name": "Sweet Temptation: A Haobin Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "ZEROBASEONE"
+    ],
+    "link": "https://x.com/beenlicious/status/2114333942832890170",
+    "start_booths": [
+      "M-26ab"
+    ],
+    "reward_booths": [
+      "V-13ab"
+    ],
+    "booths": [
+      {
+        "code": "M-26ab",
+        "name": "beenlicious | TOP7"
+      },
+      {
+        "code": "V-02ab",
+        "name": "fillieca | ZIPZIP"
+      },
+      {
+        "code": "V-13ab",
+        "name": "sushihoshii_ | Sushihoshii & Gojodreee"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "tomarry-stamp-rally",
+    "name": "Tomarry Stamp Rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Harry Potter"
+    ],
+    "link": "https://x.com/Tomarrymort_Fix/status/2115044828052705782",
+    "start_booths": [
+      "T-53ab"
+    ],
+    "reward_booths": [
+      "C-28b"
+    ],
+    "booths": [
+      {
+        "code": "T-53ab",
+        "name": "Mossy Serpent | Petit Jardin"
+      },
+      {
+        "code": "V-22a",
+        "name": "Rylene | 2D imagi-nation"
+      },
+      {
+        "code": "C-28b",
+        "name": "Gocinggg | gocing x Pokatelier"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "traversing-the-universe-klance-stamp-rally",
+    "name": "Traversing the Universe - a Klance stamp rally",
+    "day": "Saturday (Day 1)",
+    "fandoms": [
+      "Voltron: Legendary Defender"
+    ],
+    "link": "https://x.com/lumiegorenk/status/2114668529748435178",
+    "start_booths": [
+      "U-07ab"
+    ],
+    "reward_booths": [
+      "Y-23ab"
+    ],
+    "booths": [
+      {
+        "code": "U-07ab",
+        "name": "Floeny | Penghuni Lapas"
+      },
+      {
+        "code": "V-17ab",
+        "name": "Lumiegorenk | ISI AJA SENDIRI"
+      },
+      {
+        "code": "Y-23ab",
+        "name": "Renta Abadi Express x MixedSnack"
+      }
+    ],
+    "total_booths": 3
+  },
+  {
+    "id": "choisol-beware-of-the-wolf-stamp-rally",
+    "name": "BEWARE OF THE WOLF!! Choisol stamp rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Even If I Fall Into a Ghost Story"
+    ],
+    "link": "https://x.com/choibetawi/status/2114724546075132235",
+    "start_booths": [
+      "V-59ab"
+    ],
+    "reward_booths": [
+      "X-49ab"
+    ],
+    "booths": [
+      {
+        "code": "V-59ab",
+        "name": "ASBUNERS x CCD"
+      },
+      {
+        "code": "X-49ab",
+        "name": "PT Sari Boti"
+      }
+    ],
+    "total_booths": 2
+  },
+  {
+    "id": "kelabu-nanook-khaslana-stamp-rally",
+    "name": "KELABU: Kala Raga Terbelenggu Hampa (Nanook x Khaslana) Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/Flocavenia/status/2112161599729594696",
+    "start_booths": [
+      "Z-17ab"
+    ],
+    "reward_booths": [
+      "X-07ab"
+    ],
+    "booths": [
+      {
+        "code": "Z-17ab",
+        "name": "Flocavenia (Utopia)"
+      },
+      {
+        "code": "X-07ab",
+        "name": "rubac0u (Ubanangitis)"
+      }
+    ],
+    "total_booths": 2
+  },
+  {
+    "id": "lads-lunch-break-stamp-rally",
+    "name": "Lunch Break Event (Comifuro23 2026 Stamp Rally)",
+    "day": "Both Days",
+    "fandoms": [
+      "Love and Deepspace"
+    ],
+    "link": "https://x.com/nijinoji/status/2111689935694577989",
+    "start_booths": [
+      "T-37b"
+    ],
+    "reward_booths": [
+      "T-54ab"
+    ],
+    "booths": [
+      {
+        "code": "T-37b",
+        "name": "nijinoji (Off-Duty Salaryworkers)"
+      },
+      {
+        "code": "T-54ab",
+        "name": "BRWLVS"
+      }
+    ],
+    "total_booths": 2
+  },
+  {
+    "id": "phaideinaxa-mini-stamp-rally",
+    "name": "Phaideinaxa Mini Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "Honkai: Star Rail"
+    ],
+    "link": "https://x.com/Oyakorodesu/status/2113247923366752495",
+    "start_booths": [
+      "Z-03ab"
+    ],
+    "reward_booths": [
+      "A-51ab"
+    ],
+    "booths": [
+      {
+        "code": "Z-03ab",
+        "name": "raztberry | PeRaz Bebek"
+      },
+      {
+        "code": "A-51ab",
+        "name": "Oyakorodesu, re_kioo | SALMONTACHI"
+      }
+    ],
+    "total_booths": 2
+  },
+  {
+    "id": "spooky-thecary-stamp-rally",
+    "name": "Spooky-thecary Stamp Rally (Maomao)",
+    "day": "Both Days",
+    "fandoms": [
+      "The Apothecary Diaries"
+    ],
+    "link": "https://x.com/TheKawaiiLab_/status/2108832473765519527",
+    "start_booths": [
+      "K-02a"
+    ],
+    "reward_booths": [
+      "K-02a"
+    ],
+    "booths": [
+      {
+        "code": "K-02ab",
+        "name": "Bunny Art Collective"
+      },
+      {
+        "code": "K-03ab",
+        "name": "Bunny Art Collective"
+      }
+    ],
+    "total_booths": 2
+  },
+  {
+    "id": "tkei-halloween-stamp-rally",
+    "name": "TKEI Halloween CF23 Stamp Rally",
+    "day": "Both Days",
+    "fandoms": [
+      "The Hundred Line: Last Defense Academy"
+    ],
+    "link": "https://x.com/noct2aa/status/2110756360426246327",
+    "start_booths": [
+      "N-42a"
+    ],
+    "reward_booths": [
+      "O-08a"
+    ],
+    "booths": [
+      {
+        "code": "N-42ab",
+        "name": "Sintillea (Sin)"
+      },
+      {
+        "code": "O-08ab",
+        "name": "Kafe Koi2aa (Noct)"
+      }
+    ],
+    "total_booths": 2
+  },
+  {
+    "id": "undertale-x-deltarune-stamp-rally",
+    "name": "UNDERTALE x DELTARUNE STAMP RALLY (De’Ltale Diner)",
+    "day": "Both Days",
+    "fandoms": [
+      "Undertale",
+      "Deltarune"
+    ],
+    "link": "https://x.com/kejiyaa21/status/2101600801550709065",
+    "start_booths": [
+      "Z-21ab"
+    ],
+    "reward_booths": [
+      "U-04ab"
+    ],
+    "booths": [
+      {
+        "code": "Z-21ab",
+        "name": "kejiyaa21 | TRIO KWEK KWEK"
+      },
+      {
+        "code": "U-04ab",
+        "name": "akaeneru | Artist Alley Still Gotta Work"
+      }
+    ],
+    "total_booths": 2
+  }
+]

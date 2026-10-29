@@ -1,0 +1,30 @@
+# Python scripts and scratch files
+*.py
+*.txt
+*.pdf
+*.log
+
+# Intermediate crops and test screenshots
+above_col1_3.png
+below_col1_3.png
+hall*.png
+header*.png
+info*.png
+letter*.png
+lost*.png
+mid*.png
+sample*.png
+sec*.jpg
+top*.png
+rallies_raw.json
+ocr_floormap.json
+all_floormap_ocr.json
+extracted_assets/
+preview_*.png
+floormap.png
+
+# Keep core webapp assets
+!floormap_web.png
+!floormap_web.jpg
+!preview.png
+catalog_data.json
