@@ -103,15 +103,76 @@
     <div class="panel-content">
       <!-- TAB 1: ROUTE & NAVIGATION -->
       <div id="tab-route-content" class="tab-page">
-    <div class="panel-header">
-      <div class="panel-title">
-        <i data-lucide="map-pin" style="color: #38bdf8; width: 20px; height: 20px;"></i>
-        <span>Panduan Rute Booth</span>
+
+
+      <!-- Selected Circle Details Card -->
+      <div id="circle-detail-card" class="circle-card" style="display: none;">
+        <img id="detail-banner" class="circle-banner" src="" alt="Circle Banner" onerror="this.style.display='none'">
+        <div class="circle-body">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+            <div>
+              <span id="detail-code" class="circle-code-badge">C-24a</span>
+              <h3 id="detail-name" class="circle-name" style="margin-top: 4px;">Pada Suatu Hari</h3>
+            </div>
+            <div style="display: flex; gap: 6px;">
+              <button id="btn-detail-star" class="btn-icon" style="width: 32px; height: 32px;" title="Tambah ke Wishlist">
+                <i data-lucide="star" style="width: 15px; height: 15px; color: #fbbf24;"></i>
+              </button>
+              <button id="btn-close-detail-card" class="btn-icon" style="width: 32px; height: 32px;" title="Tutup Detail Booth">
+                <i data-lucide="x" style="width: 15px; height: 15px;"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div id="detail-tags" class="tag-list">
+            <!-- Badges e.g. Comic, Artbook, Day 1 -->
+          </div>
+
+          <!-- Fandom -->
+          <div style="font-size: 12.5px; color: #94a3b8; line-height: 1.4;">
+            <strong style="color: #cbd5e1;">Fandom:</strong>
+            <span id="detail-fandom">-</span>
+          </div>
+
+          <!-- Action Buttons -->
+          <div style="display: flex; gap: 8px; margin-top: 4px;">
+            <button id="btn-set-as-dest" class="btn-primary" style="flex: 1; padding: 10px; font-size: 13px;">
+              <i data-lucide="navigation-2" style="width: 16px; height: 16px;"></i>
+              <span>Ke Booth Ini</span>
+            </button>
+            <button id="btn-set-as-start" class="btn-secondary" style="padding: 10px; font-size: 13px;" title="Saya sedang di sini">
+              <i data-lucide="map-pin" style="width: 16px; height: 16px;"></i>
+              <span>Posisi Saya</span>
+            </button>
+          </div>
+
+          <!-- Merchandise / Items Offered -->
+          <div id="detail-items-container" style="display: none;">
+            <div class="detail-section-title">📦 Barang yang Dijual:</div>
+            <div id="detail-items-tags" class="tag-list" style="margin-top: 4px;"></div>
+          </div>
+
+          <!-- Pre-order & Catalogue Links -->
+          <div id="detail-links-container" style="display: none;">
+            <div class="detail-section-title">🔗 Pre-Order & Form:</div>
+            <div id="detail-po-links" style="display: flex; flex-direction: column; gap: 6px; margin-top: 4px;"></div>
+          </div>
+
+          <!-- Social Media Posts & Announcements -->
+          <div id="detail-posts-container" style="display: none;">
+            <div class="detail-section-title">📢 Info Medsos (Twitter/IG):</div>
+            <div id="detail-posts-list" style="display: flex; flex-direction: column; gap: 6px; max-height: 180px; overflow-y: auto;"></div>
+          </div>
+
+          <!-- Socials & Contacts -->
+          <div>
+            <div class="detail-section-title">🌐 Kontak & Medsos:</div>
+            <div id="detail-socials" style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px;"></div>
+          </div>
+        </div>
       </div>
-      <button id="btn-close-side-panel" class="btn-icon" style="width: 32px; height: 32px;">
-        <i data-lucide="chevron-left" style="width: 18px; height: 18px;"></i>
-      </button>
-    </div>
+
 
       <!-- Route Selection Box -->
       <div class="route-card">
@@ -172,50 +233,6 @@
           <i data-lucide="x" style="width: 14px; height: 14px;"></i>
           <span>Hapus Rute</span>
         </button>
-      </div>
-
-      <!-- Selected Circle Details Card -->
-      <div id="circle-detail-card" class="circle-card" style="display: none;">
-        <img id="detail-banner" class="circle-banner" src="" alt="Circle Banner" onerror="this.style.display='none'">
-        <div class="circle-body">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
-            <div>
-              <span id="detail-code" class="circle-code-badge">C-24a</span>
-              <h3 id="detail-name" class="circle-name" style="margin-top: 4px;">Pada Suatu Hari</h3>
-            </div>
-            <button id="btn-detail-star" class="btn-icon" style="width: 34px; height: 34px;" title="Tambah ke Wishlist">
-              <i data-lucide="star" style="width: 16px; height: 16px; color: #fbbf24;"></i>
-            </button>
-          </div>
-
-          <!-- Tags -->
-          <div id="detail-tags" class="tag-list">
-            <!-- Badges e.g. Comic, Artbook, Day 1 -->
-          </div>
-
-          <!-- Fandom -->
-          <div style="font-size: 12.5px; color: #94a3b8; line-height: 1.4;">
-            <strong style="color: #cbd5e1;">Fandom:</strong>
-            <span id="detail-fandom">-</span>
-          </div>
-
-          <!-- Action Buttons -->
-          <div style="display: flex; gap: 8px; margin-top: 4px;">
-            <button id="btn-set-as-dest" class="btn-primary" style="flex: 1; padding: 10px; font-size: 13px;">
-              <i data-lucide="navigation-2" style="width: 16px; height: 16px;"></i>
-              <span>Ke Booth Ini</span>
-            </button>
-            <button id="btn-set-as-start" class="btn-secondary" style="padding: 10px; font-size: 13px;" title="Saya sedang di sini">
-              <i data-lucide="map-pin" style="width: 16px; height: 16px;"></i>
-              <span>Posisi Saya</span>
-            </button>
-          </div>
-
-          <!-- Socials -->
-          <div id="detail-socials" style="display: flex; gap: 10px; margin-top: 6px;">
-            <!-- Social links -->
-          </div>
-        </div>
       </div>
 
     </div>

@@ -362,6 +362,14 @@ function showCircleDetails(circle, boothCoords) {
   state.selectedCircle = { ...circle, coords: boothCoords };
   
   el.circleDetailCard.style.display = 'flex';
+  if (el.circleDetailCard.parentElement) {
+    el.circleDetailCard.parentElement.prepend(el.circleDetailCard);
+  }
+  const pc = document.querySelector('.panel-content');
+  if (pc) pc.scrollTop = 0;
+  setTimeout(() => {
+    el.circleDetailCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
   el.detailCode.textContent = circle.code;
   el.detailName.textContent = circle.name;
   el.detailFandom.textContent = [circle.fandom, circle.other_fandom].filter(Boolean).join(' • ') || 'General / Original';
@@ -373,41 +381,122 @@ function showCircleDetails(circle, boothCoords) {
     el.detailBanner.style.display = 'none';
   }
   
-  // Render tags
+  // Render general tags
   const tagsHtml = [];
   if (circle.day) tagsHtml.push(`<span class="tag-item highlight">${circle.day}</span>`);
-  if (circle.comic) tagsHtml.push('<span class="tag-item">📖 Komik</span>');
-  if (circle.artbook) tagsHtml.push('<span class="tag-item">🎨 Artbook</span>');
-  if (circle.goods) tagsHtml.push('<span class="tag-item">✨ Goods</span>');
-  if (circle.craft) tagsHtml.push('<span class="tag-item">🧵 Craft</span>');
-  if (circle.novel) tagsHtml.push('<span class="tag-item">📚 Novel</span>');
-  if (circle.music) tagsHtml.push('<span class="tag-item">🎵 Music</span>');
-  if (circle.cosplay) tagsHtml.push('<span class="tag-item">🎭 Cosplay</span>');
+  if (circle.rating && circle.rating !== "General") tagsHtml.push(`<span class="tag-item" style="color: #f87171;">${circle.rating}</span>`);
   if (boothCoords && boothCoords.hall) tagsHtml.push(`<span class="tag-item">Hall ${boothCoords.hall}</span>`);
   el.detailTags.innerHTML = tagsHtml.join('');
 
-  // Socials
+  // 1. Items Offered Badges
+  const itemsContainer = document.getElementById("detail-items-container");
+  const itemsTags = document.getElementById("detail-items-tags");
+  const itemBadges = [];
+
+  const ITEM_LABELS = {
+    "artbook": "🎨 Artbook / Ilustrasi",
+    "goods": "✨ Merchandise / Goods (Ganci, Standee, Stiker)",
+    "comic": "📖 Komik / Doujinshi",
+    "novel": "📚 Light Novel / Fiksimini",
+    "game": "🎮 Video Game / TCG",
+    "music": "🎵 Musik / CD Album",
+    "handmade-crafts": "🧵 Handmade Crafts / Aksesoris",
+    "photobook-cosplay": "🎭 Cosplay Photobook / Cheki",
+    "commission": "✏️ Open Commission"
+  };
+
+  if (circle.items_offered && Array.isArray(circle.items_offered)) {
+    circle.items_offered.forEach(item => {
+      const label = ITEM_LABELS[item] || item.toUpperCase();
+      itemBadges.push(`<span class="tag-item highlight" style="font-size: 11px;">${label}</span>`);
+    });
+  } else {
+    // Fallback to boolean flags
+    if (circle.goods) itemBadges.push('<span class="tag-item highlight">✨ Merchandise / Goods</span>');
+    if (circle.artbook) itemBadges.push('<span class="tag-item highlight">🎨 Artbook</span>');
+    if (circle.comic) itemBadges.push('<span class="tag-item highlight">📖 Komik</span>');
+    if (circle.craft) itemBadges.push('<span class="tag-item highlight">🧵 Handmade Crafts</span>');
+    if (circle.novel) itemBadges.push('<span class="tag-item highlight">📚 Novel</span>');
+    if (circle.game) itemBadges.push('<span class="tag-item highlight">🎮 Game / TCG</span>');
+    if (circle.music) itemBadges.push('<span class="tag-item highlight">🎵 Musik</span>');
+    if (circle.cosplay) itemBadges.push('<span class="tag-item highlight">🎭 Cosplay</span>');
+    if (circle.commission) itemBadges.push('<span class="tag-item highlight">✏️ Commission</span>');
+  }
+
+  if (itemBadges.length > 0) {
+    itemsContainer.style.display = 'block';
+    itemsTags.innerHTML = itemBadges.join('');
+  } else {
+    itemsContainer.style.display = 'none';
+  }
+
+  // 2. Pre-Order & Online Catalogue Links
+  const linksContainer = document.getElementById("detail-links-container");
+  const poLinks = document.getElementById("detail-po-links");
+  const linkList = circle.catalogue_links || [];
+  if (linkList.length > 0 || circle.market) {
+    linksContainer.style.display = 'block';
+    const linkItems = [];
+    linkList.forEach(l => {
+      linkItems.push(`<a href="${l.url}" target="_blank" class="po-link-btn">📝 ${l.label} ↗</a>`);
+    });
+    if (circle.market && !linkList.some(l => l.url === circle.market)) {
+      linkItems.push(`<a href="${circle.market}" target="_blank" class="po-link-btn">🛍️ Marketplace / Katalog Online ↗</a>`);
+    }
+    poLinks.innerHTML = linkItems.join('');
+  } else {
+    linksContainer.style.display = 'none';
+  }
+
+  // 3. Social Media Posts & Announcements (Instagram / X)
+  const postsContainer = document.getElementById("detail-posts-container");
+  const postsList = document.getElementById("detail-posts-list");
+  const postList = circle.catalogue_posts || [];
+  if (postList.length > 0) {
+    postsContainer.style.display = 'block';
+    postsList.innerHTML = postList.map(p => {
+      const cleanText = p.text ? p.text.replace(/\n/g, '<br>') : '';
+      return `
+        <div class="detail-post-card">
+          <div>${cleanText}</div>
+          ${p.url ? `<a href="${p.url}" target="_blank" class="detail-post-link">Buka Postingan ↗</a>` : ''}
+        </div>
+      `;
+    }).join('');
+  } else {
+    postsContainer.style.display = 'none';
+  }
+
+  // 4. Social Links & Profiles
   const socHtml = [];
   if (circle.tw) socHtml.push(`<a href="${circle.tw}" target="_blank" class="btn-secondary" style="padding: 4px 8px; font-size: 11px;">Twitter/X</a>`);
   if (circle.ig) socHtml.push(`<a href="${circle.ig}" target="_blank" class="btn-secondary" style="padding: 4px 8px; font-size: 11px;">Instagram</a>`);
-  if (circle.market) socHtml.push(`<a href="${circle.market}" target="_blank" class="btn-secondary" style="padding: 4px 8px; font-size: 11px;">Catalog Link</a>`);
-  el.detailSocials.innerHTML = socHtml.join('');
+  if (circle.yt && circle.yt !== "-") socHtml.push(`<a href="${circle.yt}" target="_blank" class="btn-secondary" style="padding: 4px 8px; font-size: 11px;">YouTube</a>`);
+  if (circle.fb && circle.fb !== "-") socHtml.push(`<a href="${circle.fb}" target="_blank" class="btn-secondary" style="padding: 4px 8px; font-size: 11px;">Facebook</a>`);
 
-  // Star status
+  // Extra socials from enrich
+  if (circle.extra_socials) {
+    circle.extra_socials.forEach(s => {
+      if (!socHtml.some(h => h.includes(s.url))) {
+        socHtml.push(`<a href="${s.url}" target="_blank" class="btn-secondary" style="padding: 4px 8px; font-size: 11px;">${s.platform}</a>`);
+      }
+    });
+  }
+
+  el.detailSocials.innerHTML = socHtml.join('') || '<span style="font-size: 11px; color: #64748b;">Tidak ada link medsos publik</span>';
+
   updateDetailStarButton();
   
-  // Pan to booth
   if (boothCoords) {
     panToCoordinate(boothCoords.x, boothCoords.y, 1.4);
   }
 
-  // Open sidebar if collapsed
   setSidebarCollapsed(false);
+  setMobileSheetState('half');
+  const pc = document.querySelector('.panel-content');
+  if (pc) pc.scrollTop = 0;
 }
 
-// -----------------------------------------------------------------------------
-// Route Pathfinding & Turn-by-Turn Guidance
-// -----------------------------------------------------------------------------
 function calculateRoute(start, dest) {
   if (!start || !dest) return null;
 
@@ -748,6 +837,8 @@ function renderAutocompleteList(query) {
       const cCode = c.code.toLowerCase();
       const cName = c.name.toLowerCase();
       const cFandom = (c.fandom + ' ' + (c.other_fandom || '')).toLowerCase();
+      const cPosts = (c.catalogue_posts || []).map(p => p.text).join(' ').toLowerCase();
+      const cItems = (c.items_offered || []).join(' ').toLowerCase();
       
       let score = 0;
       if (!q) {
@@ -763,7 +854,11 @@ function renderAutocompleteList(query) {
       } else if (cName.includes(q)) {
         score = 40;
       } else if (cFandom.includes(q)) {
+        score = 25;
+      } else if (cItems.includes(q)) {
         score = 20;
+      } else if (cPosts.includes(q)) {
+        score = 15;
       }
 
       if (c.is_corporate && score > 0) {
@@ -1032,6 +1127,13 @@ function setupEventListeners() {
   });
 
   // Detail Card Actions
+  const btnCloseCard = document.getElementById('btn-close-detail-card');
+  if (btnCloseCard) {
+    btnCloseCard.addEventListener('click', () => {
+      el.circleDetailCard.style.display = 'none';
+    });
+  }
+
   el.btnDetailStar.addEventListener('click', () => {
     if (state.selectedCircle) {
       toggleWishlist(state.selectedCircle.code);
