@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cf23-map-v6';
+const CACHE_NAME = 'cf23-map-v8';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

@@ -147,8 +147,25 @@ async function init() {
   initBlockAndFandomUI();
   initMobileSheetGestures();
   initStampRallyUI();
+  initUniversalModalEvents();
   setupEventListeners();
   setupMapInteraction();
+
+  // Query param test triggers
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("test") === "modal") {
+    setTimeout(() => {
+      const c = state.circles.find(item => item.code.includes("AA-04") || item.code.includes("C-24"));
+      const coords = state.coordsData?.booths[c.code] || findBoothCoords(c.code);
+      if (c && coords) openCircleModal(c, coords);
+    }, 600);
+  } else if (params.get("test") === "fandom") {
+    setTimeout(() => {
+      document.querySelector("[data-tab=\"tab-fandom\"]").click();
+      setTimeout(() => selectFandom("Genshin Impact"), 300);
+    }, 600);
+  }
+
   
   // Set initial map position centered near Entrance
   resetMapView();
@@ -1550,9 +1567,9 @@ function selectBlock(block) {
     card.addEventListener("click", () => {
       const code = card.dataset.code;
       const c = state.circles.find(item => item.code === code);
-      const coords = state.coordsData?.booths[code];
+      const coords = state.coordsData?.booths[code] || findBoothCoords(code);
       if (c && coords) {
-        showCircleDetails(c, coords);
+        openCircleModal(c, coords);
       }
     });
   });
@@ -1609,15 +1626,120 @@ function selectFandom(fandomName) {
     return text.includes(fandomName.toLowerCase());
   });
 
-  const banner = document.getElementById("fandom-active-banner");
-  const bannerText = document.getElementById("fandom-active-text");
-  banner.style.display = "flex";
-  bannerText.textContent = `${fandomName} (${matchingCircles.length} booth disorot)`;
+  // Switch to Fandom Dropdown View
+  document.getElementById("fandom-dir-view").style.display = "none";
+  const dropdownView = document.getElementById("fandom-dropdown-view");
+  dropdownView.style.display = "block";
 
-  // Plot highlights
+  document.getElementById("fandom-dropdown-title").textContent = fandomName;
+  document.getElementById("fandom-dropdown-count").textContent = `${matchingCircles.length} Booth`;
+
+  // Render all booths selling this fandom
+  function renderFandomBooths(filterQuery = "") {
+    const container = document.getElementById("fandom-booths-list-container");
+    const q = filterQuery.toLowerCase().trim();
+    const filtered = matchingCircles.filter(c => {
+      if (!q) return true;
+      return c.code.toLowerCase().includes(q) || c.name.toLowerCase().includes(q);
+    });
+
+    if (filtered.length === 0) {
+      container.innerHTML = `<div style="padding: 20px; text-align: center; color: #64748b; font-size: 12.5px;">Tidak ada booth yang cocok dengan "${filterQuery}"</div>`;
+      return;
+    }
+
+    container.innerHTML = filtered.map(c => {
+      const coords = state.coordsData?.booths[c.code] || findBoothCoords(c.code);
+      const itemsList = c.items_offered || [];
+      const hasGoods = c.goods || itemsList.includes("goods");
+      const hasArtbook = c.artbook || itemsList.includes("artbook");
+      const hasComic = c.comic || itemsList.includes("comic");
+      const hasSocial = Boolean(c.tw || c.ig || (c.extra_socials && c.extra_socials.length > 0));
+
+      return `
+        <div class="fandom-card-btn" data-code="${c.code}" style="flex-direction: column; align-items: flex-start; gap: 6px;">
+          <div style="display: flex; justify-content: space-between; width: 100%; align-items: flex-start; gap: 6px;">
+            <div>
+              <span class="circle-code-badge" style="font-size: 11px;">${c.code}</span>
+              <div class="fandom-name" style="margin-top: 3px; font-size: 13.5px;">${c.name}</div>
+            </div>
+            <button class="btn-secondary btn-route-fandom-direct" data-code="${c.code}" style="padding: 4px 10px; font-size: 11px;">Rute</button>
+          </div>
+
+          <!-- Quick badges for items & socials -->
+          <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+            ${c.day ? `<span class="tag-item highlight" style="font-size: 9.5px; padding: 2px 6px;">${c.day}</span>` : ""}
+            ${hasGoods ? `<span class="tag-item" style="font-size: 9.5px; padding: 2px 6px;">✨ Goods</span>` : ""}
+            ${hasArtbook ? `<span class="tag-item" style="font-size: 9.5px; padding: 2px 6px;">🎨 Artbook</span>` : ""}
+            ${hasComic ? `<span class="tag-item" style="font-size: 9.5px; padding: 2px 6px;">📖 Komik</span>` : ""}
+            ${c.sample_images && c.sample_images.length > 0 ? `<span class="tag-item" style="font-size: 9.5px; padding: 2px 6px; color: #38bdf8; border-color: rgba(56, 189, 248, 0.4);">📸 ${c.sample_images.length} Foto</span>` : ""}
+            ${hasSocial ? `<span class="tag-item" style="font-size: 9.5px; padding: 2px 6px; color: #34d399;">🌐 Sosmed</span>` : ""}
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    // Wire clicks to open universal modal!
+    container.querySelectorAll(".fandom-card-btn").forEach(card => {
+      card.addEventListener("click", () => {
+        const code = card.dataset.code;
+        const c = state.circles.find(item => item.code === code);
+        const coords = state.coordsData?.booths[code] || findBoothCoords(code);
+        if (c && coords) {
+          openCircleModal(c, coords);
+        }
+      });
+    });
+
+    // Wire direct route buttons
+    container.querySelectorAll(".btn-route-fandom-direct").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const code = btn.dataset.code;
+        const c = state.circles.find(item => item.code === code);
+        const coords = state.coordsData?.booths[code] || findBoothCoords(code);
+        if (c && coords) {
+          selectDestination({
+            type: "booth",
+            id: code,
+            code,
+            name: `${code} - ${c.name}`,
+            x: coords.x,
+            y: coords.y,
+            circle: c,
+            coords
+          });
+          document.querySelector('[data-tab="tab-route"]').click();
+          executeRoutePlanning();
+        }
+      });
+    });
+  }
+
+  renderFandomBooths();
+
+  // Filter input inside fandom dropdown
+  const filterInput = document.getElementById("fandom-booth-filter-input");
+  if (filterInput) {
+    filterInput.value = "";
+    filterInput.oninput = (e) => renderFandomBooths(e.target.value);
+  }
+
+  // Close / Reset Fandom Dropdown button
+  const btnCloseDropdown = document.getElementById("btn-close-fandom-dropdown");
+  if (btnCloseDropdown) {
+    btnCloseDropdown.onclick = () => {
+      state.selectedFandom = null;
+      dropdownView.style.display = "none";
+      document.getElementById("fandom-dir-view").style.display = "block";
+      clearHighlightMarkers();
+    };
+  }
+
+  // Plot glowing dots on Floormap
   const coordsList = [];
   matchingCircles.forEach(c => {
-    const coords = state.coordsData?.booths[c.code];
+    const coords = state.coordsData?.booths[c.code] || findBoothCoords(c.code);
     if (coords) {
       coordsList.push(coords);
       createHighlightMarker(coords, c);
@@ -1640,7 +1762,7 @@ function createHighlightMarker(coords, circle) {
 
   pin.addEventListener("click", (e) => {
     e.stopPropagation();
-    showCircleDetails(circle, coords);
+    openCircleModal(circle, coords);
   });
 
   el.pinsLayer.appendChild(pin);
@@ -2054,4 +2176,268 @@ function openLightbox(imgUrl) {
 function closeLightbox() {
   const modal = document.getElementById("image-lightbox-modal");
   if (modal) modal.classList.remove("active");
+}
+
+
+// -----------------------------------------------------------------------------
+// Universal Circle Detail Modal / Popup Engine
+// -----------------------------------------------------------------------------
+function openCircleModal(circle, boothCoords) {
+  state.selectedCircle = { ...circle, coords: boothCoords };
+  const modal = document.getElementById("circle-detail-modal");
+  if (!modal) return;
+
+  // Banner
+  const banner = document.getElementById("modal-circle-banner");
+  if (circle.cut) {
+    banner.src = circle.cut;
+    banner.style.display = "block";
+  } else {
+    banner.style.display = "none";
+  }
+
+  // Titles
+  document.getElementById("modal-circle-code").textContent = circle.code;
+  document.getElementById("modal-circle-name").textContent = circle.name;
+
+  // Tags
+  const tagsHtml = [];
+  if (circle.day) tagsHtml.push(`<span class="tag-item highlight">${circle.day}</span>`);
+  if (circle.rating && circle.rating !== "General") tagsHtml.push(`<span class="tag-item" style="color: #f87171;">${circle.rating}</span>`);
+  if (boothCoords && boothCoords.hall) tagsHtml.push(`<span class="tag-item">Hall ${boothCoords.hall}</span>`);
+  document.getElementById("modal-tags").innerHTML = tagsHtml.join("");
+
+  // Fandom & Description
+  document.getElementById("modal-fandom-text").textContent = [circle.fandom, circle.other_fandom].filter(Boolean).join(" • ") || "General / Original";
+  const descEl = document.getElementById("modal-desc-text");
+  if (circle.other_fandom && circle.other_fandom !== circle.fandom) {
+    descEl.textContent = circle.other_fandom;
+    descEl.style.display = "block";
+  } else {
+    descEl.style.display = "none";
+  }
+
+  // ALL Social Media Links & Profiles
+  const socialsList = document.getElementById("modal-socials-list");
+  const socBtns = [];
+
+  if (circle.tw) {
+    socBtns.push(`<a href="${circle.tw}" target="_blank" class="social-badge-btn tw">🐦 Twitter / X ↗</a>`);
+  }
+  if (circle.ig) {
+    socBtns.push(`<a href="${circle.ig}" target="_blank" class="social-badge-btn ig">📸 Instagram ↗</a>`);
+  }
+  if (circle.yt && circle.yt !== "-") {
+    socBtns.push(`<a href="${circle.yt}" target="_blank" class="social-badge-btn yt">▶️ YouTube ↗</a>`);
+  }
+  if (circle.fb && circle.fb !== "-") {
+    socBtns.push(`<a href="${circle.fb}" target="_blank" class="social-badge-btn fb">🌐 Facebook ↗</a>`);
+  }
+
+  // Extra socials from enrich (Carrd, Twitch, Links, Website)
+  if (circle.extra_socials && Array.isArray(circle.extra_socials)) {
+    circle.extra_socials.forEach(s => {
+      const pLower = (s.platform || "").toLowerCase();
+      let icon = "🔗";
+      let btnClass = "link";
+      if (pLower.includes("instagram")) { icon = "📸"; btnClass = "ig"; }
+      else if (pLower.includes("youtube")) { icon = "▶️"; btnClass = "yt"; }
+      else if (pLower.includes("twitter") || pLower.includes("x")) { icon = "🐦"; btnClass = "tw"; }
+
+      if (!socBtns.some(b => b.includes(s.url))) {
+        socBtns.push(`<a href="${s.url}" target="_blank" class="social-badge-btn ${btnClass}">${icon} ${s.platform} ↗</a>`);
+      }
+    });
+  }
+
+  // Pre-Order and Marketplace Links
+  const linksContainer = document.getElementById("modal-links-container");
+  const poLinks = document.getElementById("modal-po-links");
+  const linkList = circle.catalogue_links || [];
+  if (linkList.length > 0 || circle.market) {
+    linksContainer.style.display = "block";
+    const poBtns = [];
+    linkList.forEach(l => {
+      poBtns.push(`<a href="${l.url}" target="_blank" class="social-badge-btn po">📝 ${l.label} ↗</a>`);
+    });
+    if (circle.market && !linkList.some(l => l.url === circle.market)) {
+      poBtns.push(`<a href="${circle.market}" target="_blank" class="social-badge-btn link">🛍️ Marketplace / Katalog Online ↗</a>`);
+    }
+    poLinks.innerHTML = poBtns.join("");
+  } else {
+    linksContainer.style.display = "none";
+  }
+
+  socialsList.innerHTML = socBtns.join("") || '<span style="font-size: 11.5px; color: #64748b;">Tidak ada akun medsos publik terdaftar</span>';
+
+  // Merchandise Items Offered Badges
+  const itemsContainer = document.getElementById("modal-items-container");
+  const itemsTags = document.getElementById("modal-items-tags");
+  const itemBadges = [];
+  const ITEM_LABELS = {
+    "artbook": "🎨 Artbook / Ilustrasi",
+    "goods": "✨ Merchandise / Goods (Ganci, Standee, Stiker)",
+    "comic": "📖 Komik / Doujinshi",
+    "novel": "📚 Light Novel / Fiksimini",
+    "game": "🎮 Video Game / TCG",
+    "music": "🎵 Musik / CD Album",
+    "handmade-crafts": "🧵 Handmade Crafts / Aksesoris",
+    "photobook-cosplay": "🎭 Cosplay Photobook / Cheki",
+    "commission": "✏️ Open Commission"
+  };
+
+  if (circle.items_offered && Array.isArray(circle.items_offered)) {
+    circle.items_offered.forEach(item => {
+      const label = ITEM_LABELS[item] || item.toUpperCase();
+      itemBadges.push(`<span class="tag-item highlight">${label}</span>`);
+    });
+  } else {
+    if (circle.goods) itemBadges.push('<span class="tag-item highlight">✨ Merchandise / Goods</span>');
+    if (circle.artbook) itemBadges.push('<span class="tag-item highlight">🎨 Artbook</span>');
+    if (circle.comic) itemBadges.push('<span class="tag-item highlight">📖 Komik</span>');
+    if (circle.craft) itemBadges.push('<span class="tag-item highlight">🧵 Handmade Crafts</span>');
+    if (circle.novel) itemBadges.push('<span class="tag-item highlight">📚 Novel</span>');
+    if (circle.game) itemBadges.push('<span class="tag-item highlight">🎮 Game / TCG</span>');
+    if (circle.music) itemBadges.push('<span class="tag-item highlight">🎵 Musik</span>');
+    if (circle.cosplay) itemBadges.push('<span class="tag-item highlight">🎭 Cosplay</span>');
+    if (circle.commission) itemBadges.push('<span class="tag-item highlight">✏️ Commission</span>');
+  }
+
+  if (itemBadges.length > 0) {
+    itemsContainer.style.display = "block";
+    itemsTags.innerHTML = itemBadges.join("");
+  } else {
+    itemsContainer.style.display = "none";
+  }
+
+  // Sample Photos Gallery
+  const galleryContainer = document.getElementById("modal-gallery-container");
+  const galleryStrip = document.getElementById("modal-gallery-strip");
+  const sampleImages = circle.sample_images || [];
+
+  if (sampleImages.length > 0) {
+    galleryContainer.style.display = "block";
+    galleryStrip.innerHTML = sampleImages.map(imgUrl => `
+      <div class="gallery-thumb-item" data-full-url="${imgUrl}">
+        <img class="gallery-thumb-img" src="${imgUrl}" alt="Sample Item" loading="lazy" onerror="this.parentElement.style.display='none'">
+      </div>
+    `).join("");
+
+    galleryStrip.querySelectorAll(".gallery-thumb-item").forEach(item => {
+      item.addEventListener("click", () => {
+        openLightbox(item.dataset.fullUrl);
+      });
+    });
+  } else {
+    galleryContainer.style.display = "none";
+  }
+
+  // Social Media Announcement Quotes
+  const postsContainer = document.getElementById("modal-posts-container");
+  const postsList = document.getElementById("modal-posts-list");
+  const postList = circle.catalogue_posts || [];
+  if (postList.length > 0) {
+    postsContainer.style.display = "block";
+    postsList.innerHTML = postList.map(p => {
+      const cleanText = p.text ? p.text.replace(/\n/g, '<br>') : '';
+      return `
+        <div class="detail-post-card">
+          <div>${cleanText}</div>
+          ${p.url ? `<a href="${p.url}" target="_blank" class="detail-post-link">Buka Postingan Asli ↗</a>` : ''}
+        </div>
+      `;
+    }).join("");
+  } else {
+    postsContainer.style.display = "none";
+  }
+
+  // Star status
+  const starBtn = document.getElementById("modal-btn-star");
+  const isStarred = state.wishlist.has(circle.code);
+  starBtn.innerHTML = `<i data-lucide="star" style="width: 16px; height: 16px; color: #fbbf24; fill: ${isStarred ? '#fbbf24' : 'none'};"></i>`;
+
+  // Pan to booth on map
+  if (boothCoords) {
+    panToCoordinate(boothCoords.x, boothCoords.y, 1.4);
+  }
+
+  // Show modal
+  modal.classList.add("active");
+  const scrollContainer = modal.querySelector(".circle-modal-scroll");
+  if (scrollContainer) scrollContainer.scrollTop = 0;
+
+  if (window.lucide) {
+    lucide.createIcons({ root: modal });
+  }
+}
+
+function closeCircleModal() {
+  const modal = document.getElementById("circle-detail-modal");
+  if (modal) modal.classList.remove("active");
+}
+
+function initUniversalModalEvents() {
+  const modal = document.getElementById("circle-detail-modal");
+  if (!modal) return;
+
+  const btnClose = document.getElementById("modal-btn-close");
+  if (btnClose) btnClose.addEventListener("click", closeCircleModal);
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) closeCircleModal();
+  });
+
+  // Route Button in Modal
+  const btnRoute = document.getElementById("modal-btn-route");
+  if (btnRoute) {
+    btnRoute.addEventListener("click", () => {
+      if (state.selectedCircle && state.selectedCircle.coords) {
+        selectDestination({
+          type: "booth",
+          id: state.selectedCircle.code,
+          code: state.selectedCircle.code,
+          name: `${state.selectedCircle.code} - ${state.selectedCircle.name}`,
+          x: state.selectedCircle.coords.x,
+          y: state.selectedCircle.coords.y,
+          circle: state.selectedCircle,
+          coords: state.selectedCircle.coords
+        });
+        closeCircleModal();
+        // Switch to route tab & execute route
+        document.querySelector('[data-tab="tab-route"]').click();
+        executeRoutePlanning();
+      }
+    });
+  }
+
+  // Position Button in Modal
+  const btnStart = document.getElementById("modal-btn-start");
+  if (btnStart) {
+    btnStart.addEventListener("click", () => {
+      if (state.selectedCircle && state.selectedCircle.coords) {
+        selectStartPoint({
+          type: "booth",
+          id: state.selectedCircle.code,
+          code: state.selectedCircle.code,
+          name: `${state.selectedCircle.code} - ${state.selectedCircle.name}`,
+          x: state.selectedCircle.coords.x,
+          y: state.selectedCircle.coords.y
+        });
+        closeCircleModal();
+      }
+    });
+  }
+
+  // Star Wishlist Button in Modal
+  const btnStar = document.getElementById("modal-btn-star");
+  if (btnStar) {
+    btnStar.addEventListener("click", () => {
+      if (state.selectedCircle) {
+        toggleWishlist(state.selectedCircle.code);
+        const isStarred = state.wishlist.has(state.selectedCircle.code);
+        btnStar.innerHTML = `<i data-lucide="star" style="width: 16px; height: 16px; color: #fbbf24; fill: ${isStarred ? '#fbbf24' : 'none'};"></i>`;
+        if (window.lucide) lucide.createIcons({ root: btnStar });
+      }
+    });
+  }
 }

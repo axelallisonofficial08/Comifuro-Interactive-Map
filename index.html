@@ -267,17 +267,41 @@ window.onerror = function(msg, url, line, col, error) {
 
       <!-- TAB 3: EXPLORE PER FANDOM -->
       <div id="tab-fandom-content" class="tab-page" style="display: none;">
-        <div style="margin-bottom: 8px;">
-          <input type="text" id="fandom-search-input" class="search-input-field" style="padding: 8px 14px; font-size: 12px; border-radius: 8px;" placeholder="Filter nama fandom...">
+        <!-- Directory List View -->
+        <div id="fandom-dir-view">
+          <div style="margin-bottom: 8px;">
+            <input type="text" id="fandom-search-input" class="search-input-field" style="padding: 8px 14px; font-size: 12px; border-radius: 8px;" placeholder="Cari nama fandom (2.900+ fandom)...">
+          </div>
+          <div id="fandom-list-container" class="fandom-list" style="max-height: 480px; overflow-y: auto;">
+            <!-- Populated by JS -->
+          </div>
         </div>
 
-        <div id="fandom-active-banner" style="display: none; background: rgba(56, 189, 248, 0.15); border: 1px solid var(--accent-cyan); border-radius: 8px; padding: 8px 12px; margin-bottom: 10px; justify-content: space-between; align-items: center;">
-          <span id="fandom-active-text" style="font-size: 12px; font-weight: 700; color: #38bdf8;">Genshin Impact</span>
-          <button id="btn-clear-fandom" class="btn-secondary" style="padding: 2px 8px; font-size: 11px;">Reset</button>
-        </div>
+        <!-- Fandom Dropdown / Booth List View -->
+        <div id="fandom-dropdown-view" style="display: none;">
+          <div class="fandom-dropdown-card">
+            <div class="fandom-dropdown-header">
+              <div>
+                <span style="font-size: 10px; color: var(--accent-cyan); font-weight: 800; text-transform: uppercase;">FANDOM TERPILIH</span>
+                <div id="fandom-dropdown-title" style="font-size: 15px; font-weight: 800; color: #fff;">Genshin Impact</div>
+              </div>
+              <button id="btn-close-fandom-dropdown" class="btn-icon" style="width: 32px; height: 32px;" title="Tutup / Ganti Fandom">
+                <i data-lucide="x" style="width: 16px; height: 16px;"></i>
+              </button>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span id="fandom-dropdown-count" class="meta-pill" style="font-size: 11px;">454 Booth</span>
+              <span style="font-size: 11px; color: #94a3b8;">Klik booth untuk lihat info & sosmed</span>
+            </div>
+          </div>
 
-        <div id="fandom-list-container" class="fandom-list" style="max-height: 480px; overflow-y: auto;">
-          <!-- Populated by JS -->
+          <div style="margin-bottom: 8px;">
+            <input type="text" id="fandom-booth-filter-input" class="search-input-field" style="padding: 8px 14px; font-size: 12px; border-radius: 8px;" placeholder="Filter nama booth dalam fandom ini...">
+          </div>
+
+          <div id="fandom-booths-list-container" class="fandom-list" style="max-height: 420px; overflow-y: auto;">
+            <!-- Render booth cards of selected fandom -->
+          </div>
         </div>
       </div>
 
@@ -447,6 +471,89 @@ window.onerror = function(msg, url, line, col, error) {
       <i data-lucide="x" style="width: 22px; height: 22px;"></i>
     </button>
     <img id="lightbox-img" src="" alt="Full Resolution Sample Photo">
+  </div>
+  <!-- Universal Circle Detail Modal / Popup -->
+  <div id="circle-detail-modal" class="circle-detail-modal">
+    <div class="circle-modal-card">
+      <!-- Drag handle for mobile -->
+      <div class="sheet-handle-wrap" style="padding: 8px 0 2px;">
+        <div class="sheet-handle-bar"></div>
+      </div>
+
+      <div class="circle-modal-scroll">
+        <img id="modal-circle-banner" class="circle-modal-banner" src="" alt="Circle Banner" onerror="this.style.display='none'">
+        
+        <div class="circle-modal-body">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+            <div>
+              <span id="modal-circle-code" class="circle-code-badge">C-24a</span>
+              <h3 id="modal-circle-name" style="font-size: 18px; font-weight: 800; color: #fff; margin-top: 4px;">Pada Suatu Hari</h3>
+            </div>
+            <div style="display: flex; gap: 6px;">
+              <button id="modal-btn-star" class="btn-icon" style="width: 34px; height: 34px;" title="Tambah ke Wishlist">
+                <i data-lucide="star" style="width: 16px; height: 16px; color: #fbbf24;"></i>
+              </button>
+              <button id="modal-btn-close" class="btn-icon" style="width: 34px; height: 34px;" title="Tutup Modal">
+                <i data-lucide="x" style="width: 16px; height: 16px;"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div id="modal-tags" class="tag-list"></div>
+
+          <!-- Navigation Action Buttons -->
+          <div style="display: flex; gap: 8px;">
+            <button id="modal-btn-route" class="btn-primary" style="flex: 1; padding: 10px; font-size: 13.5px;">
+              <i data-lucide="navigation-2" style="width: 16px; height: 16px;"></i>
+              <span>Ke Booth Ini (Rute)</span>
+            </button>
+            <button id="modal-btn-start" class="btn-secondary" style="padding: 10px 14px; font-size: 13px;" title="Saya sedang di sini">
+              <i data-lucide="map-pin" style="width: 16px; height: 16px;"></i>
+              <span>Posisi Saya</span>
+            </button>
+          </div>
+
+          <!-- Social Media Profiles Section -->
+          <div>
+            <div class="detail-section-title">🌐 Semua Media Sosial & Kontak:</div>
+            <div id="modal-socials-list" style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px;"></div>
+          </div>
+
+          <!-- Pre-order & Online Catalogue Links -->
+          <div id="modal-links-container" style="display: none;">
+            <div class="detail-section-title">🔗 Pre-Order & Form Katalog:</div>
+            <div id="modal-po-links" style="display: flex; flex-direction: column; gap: 6px; margin-top: 6px;"></div>
+          </div>
+
+          <!-- Merchandise Photo Gallery Strip -->
+          <div id="modal-gallery-container" style="display: none;">
+            <div class="detail-section-title">📸 Foto Barang / Sampel Karya:</div>
+            <div id="modal-gallery-strip" class="gallery-strip"></div>
+          </div>
+
+          <!-- Items Offered Badges -->
+          <div id="modal-items-container" style="display: none;">
+            <div class="detail-section-title">📦 Barang yang Dijual:</div>
+            <div id="modal-items-tags" class="tag-list" style="margin-top: 4px;"></div>
+          </div>
+
+          <!-- Fandom & Description -->
+          <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 10px 12px;">
+            <div style="font-size: 11px; font-weight: 700; color: #94a3b8; text-transform: uppercase;">Fandom & Seri:</div>
+            <div id="modal-fandom-text" style="font-size: 13px; color: #fff; font-weight: 600; margin-top: 2px;">-</div>
+            <div id="modal-desc-text" style="font-size: 12px; color: #cbd5e1; margin-top: 4px; line-height: 1.45;"></div>
+          </div>
+
+          <!-- Social Media Announcements Quotes -->
+          <div id="modal-posts-container" style="display: none;">
+            <div class="detail-section-title">📢 Pengumuman Medsos (Twitter/Instagram):</div>
+            <div id="modal-posts-list" style="display: flex; flex-direction: column; gap: 6px; margin-top: 6px;"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
