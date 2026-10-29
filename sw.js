@@ -1,9 +1,11 @@
-const CACHE_NAME = 'cf23-map-v8';
+const CACHE_NAME = 'cf23-map-v9';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './styles.css',
+  './styles.css?v=2.1',
   './app.js',
+  './app.js?v=2.1',
   './lucide.min.js',
   './floormap_web.png',
   './circles_optimized.json',
@@ -38,17 +40,40 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Cache-first strategy for local assets
+  const url = new URL(event.request.url);
+
+  // Network-first for HTML, CSS, and JS so updates land immediately
+  if (url.pathname.endsWith('.html') || url.pathname.endsWith('.css') || url.pathname.endsWith('.js') || url.pathname === '/' || url.pathname.endsWith('/')) {
+    event.respondWith(
+      fetch(event.request).then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+        }
+        return networkResponse;
+      }).catch(() => {
+        return caches.match(event.request);
+      })
+    );
+    return;
+  }
+
+  // Cache-first for large static assets (images, data json)
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }
       return fetch(event.request).then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+        }
         return networkResponse;
-      }).catch(() => {
-        // Fallback gracefully if offline
-        return cachedResponse;
       });
     })
   );
