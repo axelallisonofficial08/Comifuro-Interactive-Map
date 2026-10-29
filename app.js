@@ -4,7 +4,7 @@
  */
 
 // State Management
-const state = {
+const state = window.state = {
   circles: [],
   coordsData: null,
   startPoint: null,       // { type: 'landmark'|'booth', id, name, x, y, code? }
@@ -430,6 +430,29 @@ function showCircleDetails(circle, boothCoords) {
     itemsContainer.style.display = 'none';
   }
 
+  // 1.5. Merchandise Sample Photos Gallery
+  const galleryContainer = document.getElementById("detail-gallery-container");
+  const galleryStrip = document.getElementById("detail-gallery-strip");
+  const sampleImages = circle.sample_images || [];
+
+  if (sampleImages.length > 0) {
+    galleryContainer.style.display = 'block';
+    galleryStrip.innerHTML = sampleImages.map(imgUrl => `
+      <div class="gallery-thumb-item" data-full-url="${imgUrl}">
+        <img class="gallery-thumb-img" src="${imgUrl}" alt="Sample Item" loading="lazy" onerror="this.parentElement.style.display='none'">
+      </div>
+    `).join('');
+
+    galleryStrip.querySelectorAll(".gallery-thumb-item").forEach(item => {
+      item.addEventListener("click", () => {
+        openLightbox(item.dataset.fullUrl);
+      });
+    });
+  } else {
+    galleryContainer.style.display = 'none';
+  }
+
+
   // 2. Pre-Order & Online Catalogue Links
   const linksContainer = document.getElementById("detail-links-container");
   const poLinks = document.getElementById("detail-po-links");
@@ -493,7 +516,6 @@ function showCircleDetails(circle, boothCoords) {
 
   setSidebarCollapsed(false);
   setMobileSheetState('half');
-  const pc = document.querySelector('.panel-content');
   if (pc) pc.scrollTop = 0;
 }
 
@@ -1082,6 +1104,15 @@ function openWishlistModal() {
 // Global Event Listeners
 // -----------------------------------------------------------------------------
 function setupEventListeners() {
+  const btnCloseLb = document.getElementById("btn-close-lightbox");
+  if (btnCloseLb) btnCloseLb.addEventListener("click", closeLightbox);
+  const lbModal = document.getElementById("image-lightbox-modal");
+  if (lbModal) {
+    lbModal.addEventListener("click", (e) => {
+      if (e.target === lbModal) closeLightbox();
+    });
+  }
+
   // Sidebar toggles
 
   el.btnToggleSidebar.addEventListener('click', () => {
@@ -1992,4 +2023,35 @@ function initMobileSheetGestures() {
       }
     }
   });
+
+  // Smooth scroll-up expansion on mobile:
+  // When user is in half mode and scrolls inside panel-content, automatically expand to full!
+  const panelContent = document.querySelector('.panel-content');
+  if (panelContent) {
+    let lastScrollTop = 0;
+    panelContent.addEventListener('scroll', () => {
+      if (window.innerWidth <= 768) {
+        if (state.sheetState === 'half' && panelContent.scrollTop > 30) {
+          setMobileSheetState('full');
+        } else if (state.sheetState === 'full' && panelContent.scrollTop === 0 && lastScrollTop === 0) {
+          // at top of sheet
+        }
+        lastScrollTop = panelContent.scrollTop;
+      }
+    }, { passive: true });
+  }
+}
+
+
+function openLightbox(imgUrl) {
+  const modal = document.getElementById("image-lightbox-modal");
+  const img = document.getElementById("lightbox-img");
+  if (!modal || !img) return;
+  img.src = imgUrl;
+  modal.classList.add("active");
+}
+
+function closeLightbox() {
+  const modal = document.getElementById("image-lightbox-modal");
+  if (modal) modal.classList.remove("active");
 }

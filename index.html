@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+  <script>
+window._lastError = null;
+window.onerror = function(msg, url, line, col, error) {
+  window._lastError = { msg, url, line, col, error: error ? error.stack : String(error) };
+};
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Comifuro 23 Interactive Floormap & Navigation | ICE BSD</title>
@@ -125,26 +131,24 @@
           </div>
 
           <!-- Tags -->
-          <div id="detail-tags" class="tag-list">
-            <!-- Badges e.g. Comic, Artbook, Day 1 -->
-          </div>
-
-          <!-- Fandom -->
-          <div style="font-size: 12.5px; color: #94a3b8; line-height: 1.4;">
-            <strong style="color: #cbd5e1;">Fandom:</strong>
-            <span id="detail-fandom">-</span>
-          </div>
+          <div id="detail-tags" class="tag-list"></div>
 
           <!-- Action Buttons -->
-          <div style="display: flex; gap: 8px; margin-top: 4px;">
-            <button id="btn-set-as-dest" class="btn-primary" style="flex: 1; padding: 10px; font-size: 13px;">
-              <i data-lucide="navigation-2" style="width: 16px; height: 16px;"></i>
+          <div style="display: flex; gap: 8px; margin-top: 2px;">
+            <button id="btn-set-as-dest" class="btn-primary" style="flex: 1; padding: 8px 12px; font-size: 13px;">
+              <i data-lucide="navigation-2" style="width: 15px; height: 15px;"></i>
               <span>Ke Booth Ini</span>
             </button>
-            <button id="btn-set-as-start" class="btn-secondary" style="padding: 10px; font-size: 13px;" title="Saya sedang di sini">
-              <i data-lucide="map-pin" style="width: 16px; height: 16px;"></i>
+            <button id="btn-set-as-start" class="btn-secondary" style="padding: 8px 12px; font-size: 13px;" title="Saya sedang di sini">
+              <i data-lucide="map-pin" style="width: 15px; height: 15px;"></i>
               <span>Posisi Saya</span>
             </button>
+          </div>
+
+          <!-- Merchandise Sample Photos Gallery (At Top of Card!) -->
+          <div id="detail-gallery-container" style="display: none; margin-top: 6px;">
+            <div class="detail-section-title">📸 Foto Barang / Sampel Karya:</div>
+            <div id="detail-gallery-strip" class="gallery-strip"></div>
           </div>
 
           <!-- Merchandise / Items Offered -->
@@ -157,6 +161,12 @@
           <div id="detail-links-container" style="display: none;">
             <div class="detail-section-title">🔗 Pre-Order & Form:</div>
             <div id="detail-po-links" style="display: flex; flex-direction: column; gap: 6px; margin-top: 4px;"></div>
+          </div>
+
+          <!-- Fandom -->
+          <div style="font-size: 12px; color: #94a3b8; line-height: 1.4; margin-top: 4px;">
+            <strong style="color: #cbd5e1;">Fandom:</strong>
+            <span id="detail-fandom">-</span>
           </div>
 
           <!-- Social Media Posts & Announcements -->
@@ -172,7 +182,6 @@
           </div>
         </div>
       </div>
-
 
       <!-- Route Selection Box -->
       <div class="route-card">
@@ -432,5 +441,12 @@
   }
 </script>
 
+  <!-- Lightbox Photo Viewer -->
+  <div id="image-lightbox-modal" class="lightbox-modal">
+    <button id="btn-close-lightbox" class="btn-icon lightbox-close">
+      <i data-lucide="x" style="width: 22px; height: 22px;"></i>
+    </button>
+    <img id="lightbox-img" src="" alt="Full Resolution Sample Photo">
+  </div>
 </body>
 </html>
