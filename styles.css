@@ -679,7 +679,115 @@ body {
 }
 
 /* Mobile Adjustments */
+
+/* ==========================================================================
+   MOBILE SMARTPHONE OPTIMIZATIONS (iOS / Android Bottom Sheet Pattern)
+   ========================================================================== */
+.sheet-handle-wrap {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  /* Safe area and app container */
+  body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+
+  #app {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Top Navigation: Sleek Floating Search Pill */
+  .top-nav {
+    top: max(10px, env(safe-area-inset-top));
+    left: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+
+  .nav-pill {
+    padding: 6px 10px;
+    gap: 6px;
+  }
+
+  .logo-badge {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .app-title {
+    display: none; /* Hide on small phone screens to maximize search field */
+  }
+
+  .nav-search-wrap {
+    flex: 1;
+    max-width: none;
+  }
+
+  .search-input-field {
+    padding: 8px 14px 8px 34px;
+    font-size: 12.5px;
+  }
+
+  .search-icon-inside {
+    left: 11px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .btn-icon {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+  }
+
+  /* Map Controls: Floating right above the bottom sheet */
+  .map-controls {
+    right: 12px;
+    bottom: 95px;
+    gap: 8px;
+    z-index: 850;
+  }
+
+  .map-controls .btn-icon {
+    width: 38px;
+    height: 38px;
+    background: rgba(15, 23, 42, 0.85);
+    border-color: var(--border-subtle);
+  }
+
+  /* Floating reopen button: hidden on mobile in favor of bottom sheet handle */
+  .floating-reopen-btn {
+    display: none !important;
+  }
+
+  /* Bottom Category Chips Bar */
+  .filter-bar {
+    display: none; /* Hidden on mobile to keep map clean */
+  }
+
+  /* Interactive Native Bottom Sheet */
+  .sheet-handle-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0 4px;
+    width: 100%;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .sheet-handle-bar {
+    width: 38px;
+    height: 4.5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 9999px;
+    transition: background 0.2s ease, width 0.2s ease;
+  }
+
   .side-panel {
     top: auto;
     bottom: 0;
@@ -687,380 +795,157 @@ body {
     right: 0;
     width: 100%;
     max-width: 100%;
-    height: 55vh;
-    border-radius: 24px 24px 0 0;
+    height: 88vh;
+    border-radius: 22px 22px 0 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 -10px 35px rgba(0, 0, 0, 0.75);
+    transform: translateY(calc(100% - 74px)); /* Default peek state */
+    transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 950;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  /* Sheet Snap States */
+  .side-panel.sheet-peek {
+    transform: translateY(calc(100% - 74px));
+  }
+
+  .side-panel.sheet-half {
+    transform: translateY(calc(100% - 46vh));
+  }
+
+  .side-panel.sheet-full {
     transform: translateY(0);
   }
-  
-  .side-panel.collapsed {
-    transform: translateY(calc(100% - 64px));
+
+  .side-panel.sheet-half .sheet-handle-bar,
+  .side-panel.sheet-full .sheet-handle-bar {
+    background: var(--accent-cyan);
+    width: 48px;
   }
 
-  .filter-bar {
-    display: none; /* Hide to prevent clutter on small phone screens */
+  /* Compact Header in Bottom Sheet */
+  .panel-header {
+    padding: 4px 16px 8px;
   }
 
-  .nav-search-wrap {
-    max-width: none;
+  .panel-title {
+    font-size: 13.5px;
   }
-}
 
+  .panel-title .logo-badge {
+    display: none;
+  }
 
-/* Floating Reopen Button */
-.floating-reopen-btn {
-  position: absolute;
-  top: 80px;
-  left: 16px;
-  z-index: 850;
-  background: var(--bg-surface);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--accent-cyan);
-  border-radius: 9999px;
-  padding: 10px 18px;
-  display: none;
-  align-items: center;
-  gap: 8px;
-  box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.4);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
+  /* Mode Tabs: 4 thumb-friendly items */
+  .panel-tab-bar {
+    padding: 4px 10px;
+    gap: 3px;
+  }
 
-.floating-reopen-btn:hover {
-  background: #1e293b;
-  transform: translateY(-2px) scale(1.04);
-  box-shadow: 0 12px 30px -5px rgba(6, 182, 212, 0.6);
-}
+  .panel-tab-btn {
+    padding: 7px 2px;
+    font-size: 10.5px;
+    gap: 4px;
+  }
 
-.side-panel.collapsed ~ .floating-reopen-btn {
-  display: flex;
-}
+  .panel-tab-btn svg {
+    width: 12px !important;
+    height: 12px !important;
+  }
 
+  /* Compact Day Switcher */
+  .day-switcher {
+    margin-bottom: 8px;
+    padding: 2px;
+  }
 
-/* Tab Navigation in Sidebar */
-.panel-tab-bar {
-  display: flex;
-  background: rgba(15, 23, 42, 0.7);
-  border-bottom: 1px solid var(--border-subtle);
-  padding: 6px;
-  gap: 4px;
-}
+  .day-btn {
+    padding: 5px 6px;
+    font-size: 11px;
+  }
 
-.panel-tab-btn {
-  flex: 1;
-  background: transparent;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 4px;
-  color: var(--text-secondary);
-  font-size: 11.5px;
-  font-weight: 700;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  transition: all 0.15s ease;
-  white-space: nowrap;
-}
+  /* Compact Facility Buttons */
+  .facility-strip {
+    gap: 5px;
+    padding-bottom: 2px;
+  }
 
-.panel-tab-btn:hover {
-  background: rgba(255, 255, 255, 0.06);
-  color: #fff;
-}
+  .facility-btn {
+    padding: 4px 8px;
+    font-size: 10.5px;
+    border-radius: 6px;
+  }
 
-.panel-tab-btn.active {
-  background: #1e293b;
-  color: var(--accent-cyan);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
+  /* Panel Content Area */
+  .panel-content {
+    padding: 10px 14px 24px;
+    gap: 12px;
+  }
 
-/* Day Switcher Bar */
-.day-switcher {
-  display: flex;
-  background: #0f172a;
-  border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 3px;
-  gap: 4px;
-  margin-bottom: 12px;
-}
+  .route-card {
+    padding: 10px 12px;
+    gap: 8px;
+  }
 
-.day-btn {
-  flex: 1;
-  background: transparent;
-  border: none;
-  border-radius: 7px;
-  padding: 6px 8px;
-  font-size: 11.5px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all 0.15s ease;
-  text-align: center;
-}
+  .route-select-btn {
+    padding: 8px 10px;
+  }
 
-.day-btn:hover {
-  color: #fff;
-}
+  .route-select-label {
+    font-size: 10px;
+  }
 
-.day-btn.active {
-  background: var(--accent-blue);
-  color: #fff;
-  font-weight: 700;
-}
+  .route-select-value {
+    font-size: 12px;
+    max-width: 200px;
+  }
 
-/* Quick Facility Strip */
-.facility-strip {
-  display: flex;
-  gap: 6px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-  scrollbar-width: none;
-}
-.facility-strip::-webkit-scrollbar { display: none; }
+  .btn-primary {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
 
-.facility-btn {
-  background: rgba(30, 41, 59, 0.6);
-  border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  padding: 6px 10px;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  cursor: pointer;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  transition: all 0.15s ease;
-}
-.facility-btn:hover {
-  background: #334155;
-  color: #fff;
-}
+  /* Block Grid on Mobile: 6 columns */
+  .block-grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+  }
 
-/* Block Grid Explorer */
-.block-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 6px;
-}
+  .block-card-btn {
+    padding: 6px 2px;
+  }
 
-.block-card-btn {
-  background: #0f172a;
-  border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  padding: 8px 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
+  .block-card-letter {
+    font-size: 12px;
+  }
 
-.block-card-btn:hover, .block-card-btn.active {
-  border-color: var(--accent-cyan);
-  background: rgba(56, 189, 248, 0.12);
-  transform: translateY(-1px);
-}
+  .block-card-count {
+    font-size: 9px;
+  }
 
-.block-card-letter {
-  font-size: 13.5px;
-  font-weight: 800;
-  color: #fff;
-}
+  /* Fandom Cards on Mobile */
+  .fandom-card-btn {
+    padding: 8px 10px;
+  }
 
-.block-card-count {
-  font-size: 9.5px;
-  color: var(--text-muted);
-  margin-top: 2px;
-}
+  .fandom-name {
+    font-size: 12px;
+  }
 
-/* Fandom Explorer List */
-.fandom-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
+  /* Autocomplete Modal on Mobile */
+  .autocomplete-modal {
+    padding-top: max(16px, env(safe-area-inset-top));
+    align-items: flex-end;
+  }
 
-.fandom-card-btn {
-  background: #0f172a;
-  border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 10px 14px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.fandom-card-btn:hover, .fandom-card-btn.active {
-  background: rgba(56, 189, 248, 0.12);
-  border-color: var(--accent-cyan);
-}
-
-.fandom-name {
-  font-size: 13px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.fandom-badge-count {
-  background: rgba(56, 189, 248, 0.2);
-  color: #38bdf8;
-  font-size: 11px;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 9999px;
-}
-
-/* Highlight Dot Markers on Floormap */
-.highlight-booth-dot {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #38bdf8;
-  border: 2px solid #ffffff;
-  box-shadow: 0 0 10px #06b6d4, 0 0 20px #06b6d4;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-  pointer-events: auto;
-  transition: transform 0.15s ease;
-  z-index: 40;
-}
-
-.highlight-booth-dot:hover {
-  transform: translate(-50%, -50%) scale(1.6);
-  z-index: 70;
-  background: #fbbf24;
-}
-
-
-/* Stamp Rally Quest View */
-.rally-quest-card {
-  background: rgba(30, 41, 59, 0.7);
-  border: 1px solid rgba(245, 158, 11, 0.4);
-  border-radius: 14px;
-  padding: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 12px;
-}
-
-.rally-quest-title {
-  font-size: 15px;
-  font-weight: 800;
-  color: #fff;
-  line-height: 1.3;
-}
-
-.rally-progress-bar-bg {
-  width: 100%;
-  height: 8px;
-  background: #0f172a;
-  border-radius: 9999px;
-  overflow: hidden;
-}
-
-.rally-progress-bar-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #f59e0b, #10b981);
-  width: 0%;
-  transition: width 0.3s ease;
-}
-
-.checkpoint-item {
-  background: #0f172a;
-  border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 10px 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  transition: all 0.15s ease;
-}
-
-.checkpoint-item.completed {
-  border-color: rgba(16, 185, 129, 0.5);
-  background: rgba(16, 185, 129, 0.08);
-}
-
-.checkpoint-num-badge {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #1e293b;
-  color: var(--accent-cyan);
-  font-size: 11px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  border: 1.5px solid var(--accent-cyan);
-}
-
-.checkpoint-num-badge.start {
-  background: rgba(16, 185, 129, 0.2);
-  color: #10b981;
-  border-color: #10b981;
-}
-
-.checkpoint-num-badge.reward {
-  background: rgba(245, 158, 11, 0.2);
-  color: #fbbf24;
-  border-color: #fbbf24;
-}
-
-.checkpoint-checkbox {
-  width: 18px;
-  height: 18px;
-  accent-color: #10b981;
-  cursor: pointer;
-}
-
-/* Numbered Checkpoint Marker on Floormap */
-.checkpoint-map-pin {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: auto;
-  cursor: pointer;
-  z-index: 55;
-  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-.checkpoint-map-pin:hover {
-  transform: translate(-50%, -50%) scale(1.3);
-  z-index: 75;
-}
-
-.checkpoint-pin-circle {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 11px;
-  font-weight: 800;
-  background: #0284c7;
-  border: 2px solid #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-}
-
-.checkpoint-pin-circle.start {
-  background: #059669;
-  border-color: #a7f3d0;
-}
-
-.checkpoint-pin-circle.reward {
-  background: #d97706;
-  border-color: #fde68a;
+  .autocomplete-box {
+    width: 100%;
+    max-width: 100%;
+    max-height: 85vh;
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+  }
 }

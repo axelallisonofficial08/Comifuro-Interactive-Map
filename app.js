@@ -41,11 +41,14 @@ const MAP_HEIGHT = 3117;
 function setSidebarCollapsed(collapsed) {
   if (!el.sidePanel) return;
   if (collapsed) {
-    el.sidePanel.classList.add("collapsed");
-    if (el.btnReopenPanel) el.btnReopenPanel.style.display = "flex";
+    el.sidePanel.classList.add('collapsed');
+    el.sidePanel.classList.remove('sheet-half', 'sheet-full');
+    el.sidePanel.classList.add('sheet-peek');
+    if (el.btnReopenPanel) el.btnReopenPanel.style.display = 'flex';
   } else {
-    el.sidePanel.classList.remove("collapsed");
-    if (el.btnReopenPanel) el.btnReopenPanel.style.display = "none";
+    el.sidePanel.classList.remove('collapsed', 'sheet-peek');
+    el.sidePanel.classList.add('sheet-half');
+    if (el.btnReopenPanel) el.btnReopenPanel.style.display = 'none';
   }
 }
 
@@ -142,6 +145,7 @@ async function init() {
   }
 
   initBlockAndFandomUI();
+  initMobileSheetGestures();
   initStampRallyUI();
   setupEventListeners();
   setupMapInteraction();
@@ -268,15 +272,23 @@ function resetMapView() {
   const container = el.mapContainer;
   const cWidth = container.clientWidth;
   const cHeight = container.clientHeight;
-  
-  // Scale to fit nicely
-  const fitScale = Math.min(cWidth / 2400, cHeight / 1137) * 1.1;
-  state.scale = Math.max(fitScale, 0.45);
-  
-  // Center around Hall 10 Entrance (x ~ 88%, y ~ 52%)
-  const sidebarOffset = (window.innerWidth > 768 && !el.sidePanel.classList.contains("collapsed")) ? 190 : 0;
-  state.panX = (cWidth / 2 + sidebarOffset) - (el.floormapImg.clientWidth * 0.88) * state.scale;
-  state.panY = cHeight / 2 - (el.floormapImg.clientHeight * 0.52) * state.scale;
+  const isMobile = window.innerWidth <= 768;
+
+  const imgW = el.floormapImg.clientWidth || 2400;
+  const imgH = el.floormapImg.clientHeight || 1137;
+
+  if (isMobile) {
+    state.scale = 0.85; // readable scale for phone screens
+    // Focus in upper-middle of screen so bottom sheet doesn't occlude the entrance
+    state.panX = cWidth / 2 - (imgW * 0.88) * state.scale;
+    state.panY = (cHeight * 0.4) - (imgH * 0.52) * state.scale;
+  } else {
+    const fitScale = Math.min(cWidth / 2400, cHeight / 1137) * 1.1;
+    state.scale = Math.max(fitScale, 0.45);
+    const sidebarOffset = !el.sidePanel.classList.contains("collapsed") ? 190 : 0;
+    state.panX = (cWidth / 2 + sidebarOffset) - (imgW * 0.88) * state.scale;
+    state.panY = cHeight / 2 - (imgH * 0.52) * state.scale;
+  }
   applyTransform();
 }
 
@@ -1813,4 +1825,69 @@ function createCheckpointPin(cp, number) {
 
   el.pinsLayer.appendChild(pin);
   state.highlightMarkers.push(pin);
+}
+
+
+// -----------------------------------------------------------------------------
+// Mobile Bottom Sheet Engine
+// -----------------------------------------------------------------------------
+function setMobileSheetState(sheetState) {
+  if (!el.sidePanel) return;
+  el.sidePanel.classList.remove('sheet-peek', 'sheet-half', 'sheet-full', 'collapsed');
+  el.sidePanel.classList.add(`sheet-${sheetState}`);
+  state.sheetState = sheetState;
+  if (el.btnReopenPanel) {
+    el.btnReopenPanel.style.display = (sheetState === 'peek' && window.innerWidth > 768) ? 'flex' : 'none';
+  }
+}
+
+function initMobileSheetGestures() {
+  const handle = document.getElementById('sheet-handle');
+  if (!handle) return;
+
+  state.sheetState = 'peek';
+
+  // Tap handle to cycle states
+  handle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (state.sheetState === 'peek') {
+      setMobileSheetState('half');
+    } else if (state.sheetState === 'half') {
+      setMobileSheetState('full');
+    } else {
+      setMobileSheetState('peek');
+    }
+  });
+
+  // Touch drag on handle
+  let touchStartY = 0;
+  let initialTranslate = 0;
+
+  handle.addEventListener('touchstart', (e) => {
+    touchStartY = e.touches[0].clientY;
+  }, { passive: true });
+
+  handle.addEventListener('touchend', (e) => {
+    const touchEndY = e.changedTouches[0].clientY;
+    const dy = touchEndY - touchStartY; // positive = dragged down, negative = dragged up
+
+    if (dy < -40) {
+      // Swiped UP
+      if (state.sheetState === 'peek') setMobileSheetState('half');
+      else if (state.sheetState === 'half') setMobileSheetState('full');
+    } else if (dy > 40) {
+      // Swiped DOWN
+      if (state.sheetState === 'full') setMobileSheetState('half');
+      else if (state.sheetState === 'half') setMobileSheetState('peek');
+    }
+  }, { passive: true });
+
+  // Map click collapses sheet to peek on mobile
+  el.mapContainer.addEventListener('click', (e) => {
+    if (window.innerWidth <= 768 && state.sheetState !== 'peek') {
+      if (!e.target.closest('.side-panel') && !e.target.closest('.top-nav')) {
+        setMobileSheetState('peek');
+      }
+    }
+  });
 }
