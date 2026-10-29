@@ -1,6 +1,9 @@
 # Comifuro 23 Interactive Floormap & Navigator 🗺️✨
 
-Aplikasi peta interaktif berbasis web untuk **Comic Frontier 23 (CF23) di ICE BSD (Hall 5, 6, 7, 8, 9, 10)**. Membantu pengunjung mencari lokasi booth, melihat katalog barang yang dijual oleh tiap circle (komik, artbook, merchandise/goods, craft, cosplay, dll.), serta menghitung rute navigasi jalan kaki tercepat dari posisi awal ke booth tujuan.
+> 🌐 **Live Webview**: [https://axelallisonofficial08.github.io/Comifuro-Interactive-Map/](https://axelallisonofficial08.github.io/Comifuro-Interactive-Map/)
+
+Aplikasi peta interaktif offline-ready (PWA) untuk **Comic Frontier 23 (CF23) di ICE BSD (Hall 5, 6, 7, 8, 9, 10)**.
+ Membantu pengunjung mencari lokasi booth, melihat katalog barang yang dijual oleh tiap circle (komik, artbook, merchandise/goods, craft, cosplay, dll.), serta menghitung rute navigasi jalan kaki tercepat dari posisi awal ke booth tujuan.
 
 ---
 
