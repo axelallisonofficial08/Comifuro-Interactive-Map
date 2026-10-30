@@ -20,7 +20,7 @@ window.onerror = function(msg, url, line, col, error) {
   <script src="lucide.min.js"></script>
   
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="styles.css?v=2.2">
+  <link rel="stylesheet" href="styles.css?v=3.0">
 </head>
 <body>
 
@@ -28,7 +28,7 @@ window.onerror = function(msg, url, line, col, error) {
   <!-- Top Navigation & Global Search -->
   <header class="top-nav">
     <div class="nav-pill">
-      <span class="logo-badge">CF23</span>
+      <span class="logo-badge"><span class="pulse-indicator"></span>CF23</span>
       <span class="app-title">Comifuro Nav</span>
     </div>
 
@@ -41,8 +41,9 @@ window.onerror = function(msg, url, line, col, error) {
       <i data-lucide="navigation" style="width: 20px; height: 20px; color: #38bdf8;"></i>
     </button>
 
-    <button id="btn-open-wishlist" class="btn-icon" title="Wishlist / Booth Favorit">
+    <button id="btn-open-wishlist" class="btn-icon" title="Wishlist / Booth Favorit" style="position: relative;">
       <i data-lucide="star" style="width: 20px; height: 20px; color: #fbbf24;"></i>
+      <span id="wishlist-badge" class="badge-count" style="display: none;">0</span>
     </button>
   </header>
 
@@ -60,7 +61,7 @@ window.onerror = function(msg, url, line, col, error) {
     </div>
     <div class="panel-header">
       <div class="panel-title">
-        <span class="logo-badge">CF23</span>
+        <span class="logo-badge"><span class="pulse-indicator"></span>CF23</span>
         <span id="panel-main-title">Comifuro Navigator</span>
       </div>
       <button id="btn-close-side-panel" class="btn-icon" style="width: 32px; height: 32px;">
@@ -334,9 +335,21 @@ window.onerror = function(msg, url, line, col, error) {
 
   <!-- Interactive Map Viewport Layer -->
   <main id="map-container">
+    <!-- Venue Status HUD (Bottom Left) -->
+    <div class="venue-hud" id="venue-hud">
+      <span class="hud-item"><i data-lucide="compass" style="width: 14px; height: 14px; color: #38bdf8;"></i> ICE BSD Halls 5-10</span>
+      <span class="hud-sep">•</span>
+      <span class="hud-item"><i data-lucide="users" style="width: 14px; height: 14px; color: #10b981;"></i> 1.997 Booth</span>
+      <span class="hud-sep">•</span>
+      <span class="hud-item"><i data-lucide="award" style="width: 14px; height: 14px; color: #f59e0b;"></i> 187 Rally</span>
+    </div>
+
+    <!-- Map Floating Micro Tooltip -->
+    <div id="booth-hover-tooltip" class="booth-tooltip" style="display: none;"></div>
+
     <div id="map-canvas-layer">
       <!-- Floormap Base Image -->
-      <img id="floormap-img" src="floormap_web.png?v=2.2" alt="Comifuro 23 Floormap ICE BSD">
+      <img id="floormap-img" src="floormap_web.png?v=3.0" alt="Comifuro 23 Floormap ICE BSD">
 
       <!-- SVG Pathfinding / Route Layer -->
       <svg id="route-svg" viewBox="0 0 6574 3117" preserveAspectRatio="none">
@@ -369,12 +382,24 @@ window.onerror = function(msg, url, line, col, error) {
 
     <!-- Hall Quick-Jump Floating Bar -->
     <div class="hall-jump-bar" id="hall-jump-bar">
-      <button class="hall-jump-btn active" data-hall="all">🏛️ Semua Hall</button>
-      <button class="hall-jump-btn" data-hall="5-6">Hall 5-6 (Komunitas)</button>
-      <button class="hall-jump-btn" data-hall="7">Hall 7</button>
-      <button class="hall-jump-btn" data-hall="8">Hall 8</button>
-      <button class="hall-jump-btn" data-hall="9">Hall 9</button>
-      <button class="hall-jump-btn" data-hall="10">Hall 10 (Corporate)</button>
+      <button class="hall-jump-btn active" data-hall="all">
+        <span class="hall-dot dot-all"></span>🏛️ Semua Hall
+      </button>
+      <button class="hall-jump-btn" data-hall="5-6">
+        <span class="hall-dot dot-h5"></span>Hall 5-6 (Komunitas)
+      </button>
+      <button class="hall-jump-btn" data-hall="7">
+        <span class="hall-dot dot-h7"></span>Hall 7
+      </button>
+      <button class="hall-jump-btn" data-hall="8">
+        <span class="hall-dot dot-h8"></span>Hall 8
+      </button>
+      <button class="hall-jump-btn" data-hall="9">
+        <span class="hall-dot dot-h9"></span>Hall 9
+      </button>
+      <button class="hall-jump-btn" data-hall="10">
+        <span class="hall-dot dot-h10"></span>Hall 10 (Corporate)
+      </button>
     </div>
 
     <!-- Map Floating Controls -->
@@ -552,7 +577,7 @@ window.onerror = function(msg, url, line, col, error) {
     </div>
   </div>
 <!-- Application Logic -->
-<script src="app.js?v=2.2"></script>
+<script src="app.js?v=3.0"></script>
 
 
 <script>

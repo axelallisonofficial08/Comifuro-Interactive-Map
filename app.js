@@ -148,6 +148,7 @@ async function init() {
   initMobileSheetGestures();
   initStampRallyUI();
   initUniversalModalEvents();
+  updateWishlistBadge();
   initHallJumpBar();
   setupEventListeners();
   setupMapInteraction();
@@ -1030,8 +1031,10 @@ function saveWishlistToStorage() {
 function toggleWishlist(code) {
   if (state.wishlist.has(code)) {
     state.wishlist.delete(code);
+    updateWishlistBadge();
   } else {
     state.wishlist.add(code);
+    updateWishlistBadge();
   }
   saveWishlistToStorage();
 }
@@ -2468,4 +2471,17 @@ function initHallJumpBar() {
       }
     });
   });
+}
+
+
+function updateWishlistBadge() {
+  const badge = document.getElementById("wishlist-badge");
+  if (!badge) return;
+  const count = state.wishlist ? state.wishlist.size : 0;
+  if (count > 0) {
+    badge.textContent = count;
+    badge.style.display = "flex";
+  } else {
+    badge.style.display = "none";
+  }
 }

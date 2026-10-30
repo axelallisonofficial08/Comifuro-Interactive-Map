@@ -1606,3 +1606,169 @@ button {
     font-size: 10.5px;
   }
 }
+
+
+/* ==========================================================================
+   NEXT-GEN UI ELEVATION & POLISH (v3.0)
+   ========================================================================== */
+
+/* Pulsing live dot inside logo badge */
+.pulse-indicator {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  box-shadow: 0 0 8px #22c55e;
+  margin-right: 5px;
+  animation: pulse-dot 1.8s infinite;
+}
+
+@keyframes pulse-dot {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 1; box-shadow: 0 0 12px #22c55e; }
+  100% { transform: scale(0.8); opacity: 0.8; }
+}
+
+/* Wishlist Badge Counter */
+.badge-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #0b0f19;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Hall Dot Indicators */
+.hall-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.dot-all { background: #38bdf8; box-shadow: 0 0 6px #38bdf8; }
+.dot-h5  { background: #10b981; box-shadow: 0 0 6px #10b981; }
+.dot-h7  { background: #06b6d4; box-shadow: 0 0 6px #06b6d4; }
+.dot-h8  { background: #3b82f6; box-shadow: 0 0 6px #3b82f6; }
+.dot-h9  { background: #a855f7; box-shadow: 0 0 6px #a855f7; }
+.dot-h10 { background: #f59e0b; box-shadow: 0 0 6px #f59e0b; }
+
+/* Venue Status HUD (Bottom Left) */
+.venue-hud {
+  position: absolute;
+  bottom: 24px;
+  left: 430px;
+  z-index: 850;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  padding: 6px 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+.hud-item {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hud-sep {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+
+/* Hover Tooltip */
+.booth-tooltip {
+  position: absolute;
+  z-index: 1500;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--accent-cyan);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  pointer-events: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -120%);
+  white-space: nowrap;
+  animation: fadeIn 0.15s ease;
+}
+
+/* Social media authentic buttons */
+.social-badge-btn.tw {
+  background: rgba(29, 155, 240, 0.18) !important;
+  border-color: rgba(29, 155, 240, 0.45) !important;
+  color: #38bdf8 !important;
+}
+.social-badge-btn.tw:hover {
+  background: #1d9bf0 !important;
+  color: #fff !important;
+  box-shadow: 0 0 12px rgba(29, 155, 240, 0.5);
+}
+
+.social-badge-btn.ig {
+  background: linear-gradient(45deg, rgba(240, 148, 51, 0.15), rgba(220, 39, 67, 0.15), rgba(188, 24, 136, 0.15)) !important;
+  border-color: rgba(225, 48, 108, 0.4) !important;
+  color: #f472b6 !important;
+}
+.social-badge-btn.ig:hover {
+  background: linear-gradient(45deg, #f09433, #dc2743, #bc1888) !important;
+  color: #fff !important;
+  box-shadow: 0 0 12px rgba(225, 48, 108, 0.5);
+}
+
+.social-badge-btn.yt {
+  background: rgba(239, 68, 68, 0.18) !important;
+  border-color: rgba(239, 68, 68, 0.45) !important;
+  color: #f87171 !important;
+}
+.social-badge-btn.yt:hover {
+  background: #dc2626 !important;
+  color: #fff !important;
+}
+
+.social-badge-btn.po {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(239, 68, 68, 0.25)) !important;
+  border-color: #f59e0b !important;
+  color: #fbbf24 !important;
+}
+.social-badge-btn.po:hover {
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  color: #fff !important;
+  box-shadow: 0 0 14px rgba(245, 158, 11, 0.5);
+}
+
+/* Button click micro-interactions */
+button:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 768px) {
+  .venue-hud {
+    display: none;
+  }
+}
