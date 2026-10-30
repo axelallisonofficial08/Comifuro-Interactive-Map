@@ -183,17 +183,25 @@ async function init() {
 // -----------------------------------------------------------------------------
 function setupMapInteraction() {
   const container = el.mapContainer;
+  let pointerStartPos = { x: 0, y: 0 };
+  let hasMovedSignificantly = false;
 
   // Mouse drag
   container.addEventListener('mousedown', (e) => {
-    if (e.target.closest('.marker-pin') || e.target.closest('.map-controls')) return;
+    if (e.target.closest('.marker-pin') || e.target.closest('.map-controls') || e.target.closest('.top-nav') || e.target.closest('.hall-jump-bar')) return;
     state.isDragging = true;
+    hasMovedSignificantly = false;
+    pointerStartPos = { x: e.clientX, y: e.clientY };
     state.dragStartX = e.clientX - state.panX;
     state.dragStartY = e.clientY - state.panY;
   });
 
   window.addEventListener('mousemove', (e) => {
     if (!state.isDragging) return;
+    const moveDist = Math.hypot(e.clientX - pointerStartPos.x, e.clientY - pointerStartPos.y);
+    if (moveDist > 6) {
+      hasMovedSignificantly = true;
+    }
     state.panX = e.clientX - state.dragStartX;
     state.panY = e.clientY - state.dragStartY;
     applyTransform();
@@ -218,10 +226,13 @@ function setupMapInteraction() {
   container.addEventListener('touchstart', (e) => {
     if (e.touches.length === 1) {
       state.isDragging = true;
+      hasMovedSignificantly = false;
+      pointerStartPos = { x: e.touches[0].clientX, y: e.touches[0].clientY };
       state.dragStartX = e.touches[0].clientX - state.panX;
       state.dragStartY = e.touches[0].clientY - state.panY;
     } else if (e.touches.length === 2) {
       state.isDragging = false;
+      hasMovedSignificantly = true;
       initialTouchDist = Math.hypot(
         e.touches[0].clientX - e.touches[1].clientX,
         e.touches[0].clientY - e.touches[1].clientY
@@ -236,6 +247,10 @@ function setupMapInteraction() {
 
   container.addEventListener('touchmove', (e) => {
     if (e.touches.length === 1 && state.isDragging) {
+      const moveDist = Math.hypot(e.touches[0].clientX - pointerStartPos.x, e.touches[0].clientY - pointerStartPos.y);
+      if (moveDist > 8) {
+        hasMovedSignificantly = true;
+      }
       state.panX = e.touches[0].clientX - state.dragStartX;
       state.panY = e.touches[0].clientY - state.dragStartY;
       applyTransform();
@@ -250,14 +265,26 @@ function setupMapInteraction() {
     }
   }, { passive: true });
 
-  container.addEventListener('touchend', () => {
+  container.addEventListener('touchend', (e) => {
     state.isDragging = false;
     initialTouchDist = null;
+    
+    // Tap on mobile without moving: trigger click
+    if (!hasMovedSignificantly && e.changedTouches && e.changedTouches.length === 1) {
+      const t = e.changedTouches[0];
+      const rect = container.getBoundingClientRect();
+      const clickScreenX = t.clientX - rect.left;
+      const clickScreenY = t.clientY - rect.top;
+      const mapX = (clickScreenX - state.panX) / state.scale * (MAP_WIDTH / el.floormapImg.clientWidth);
+      const mapY = (clickScreenY - state.panY) / state.scale * (MAP_HEIGHT / el.floormapImg.clientHeight);
+      findNearestBoothOrLandmark(mapX, mapY);
+    }
   });
 
   // Click on map container to select booth near cursor
   container.addEventListener('click', (e) => {
-    if (e.target.closest('.marker-pin') || e.target.closest('.map-controls') || e.target.closest('.top-nav')) return;
+    if (hasMovedSignificantly) return; // IGNORE if user was dragging or panning!
+    if (e.target.closest('.marker-pin') || e.target.closest('.map-controls') || e.target.closest('.top-nav') || e.target.closest('.hall-jump-bar')) return;
     
     // Convert click clientXY to Map Coordinates
     const rect = container.getBoundingClientRect();
@@ -338,14 +365,22 @@ function panToCoordinate(mapX, mapY, targetScale = 1.2) {
 // -----------------------------------------------------------------------------
 function findNearestBoothOrLandmark(mapX, mapY) {
   if (!state.coordsData) return;
-  
+
+  // 1. GANGWAY / CENTRAL WALKWAY EXCLUSION ZONE
+  // The central hallway between Y = 1510 and Y = 1650 (Hall 5 to Hall 10) is exclusively for walking!
+  // No booths exist in this corridor, so clicks or drags here must never trigger booths.
+  if (mapY >= 1500 && mapY <= 1660 && mapX >= 200 && mapX <= 6100) {
+    return; // Walkway area - intentionally empty
+  }
+
+  // 2. Strict click threshold: only select if user clicked within 45px radius of a real booth table!
   let closest = null;
-  let minDist = 120; // max click radius in map coords
+  let minDist = 45; // Tight precision threshold (prevents wide mis-triggering)
 
   // Check landmarks
   for (const [key, lm] of Object.entries(state.coordsData.landmarks)) {
     const d = Math.hypot(lm.x - mapX, lm.y - mapY);
-    if (d < minDist) {
+    if (d < minDist + 25) {
       minDist = d;
       closest = { type: 'landmark', data: lm, key };
     }
@@ -363,9 +398,13 @@ function findNearestBoothOrLandmark(mapX, mapY) {
 
   if (closest) {
     if (closest.type === 'booth' && closest.circle) {
-      showCircleDetails(closest.circle, closest.data);
+      // Open the universal modal with full details
+      if (typeof openCircleModal === 'function') {
+        openCircleModal(closest.circle, closest.data);
+      } else {
+        showCircleDetails(closest.circle, closest.data);
+      }
     } else if (closest.type === 'landmark') {
-      // Set as destination
       selectDestination({
         type: 'landmark',
         id: closest.key,
