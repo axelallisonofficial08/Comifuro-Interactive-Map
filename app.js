@@ -548,7 +548,7 @@ function calculateRoute(start, dest) {
 
   // Major horizontal walking corridors (Ground Truth measured from floormap.png)
   const CORRIDOR_NORTH = 830.0;     // Back corridor behind booths
-  const CORRIDOR_MID = 1585.0;      // Cross aisle walkway in middle
+  const CORRIDOR_MID = 1580.0;      // Cross aisle walkway in middle
   const CORRIDOR_SOUTH = 2320.0;    // Main south hall corridor (near hall doors)
   const CORRIDOR_LOBBY = 2466.0;    // Outer lobby entrance walkway
 
