@@ -148,6 +148,7 @@ async function init() {
   initMobileSheetGestures();
   initStampRallyUI();
   initUniversalModalEvents();
+  initHallJumpBar();
   setupEventListeners();
   setupMapInteraction();
 
@@ -2440,4 +2441,31 @@ function initUniversalModalEvents() {
       }
     });
   }
+}
+
+
+function initHallJumpBar() {
+  const btns = document.querySelectorAll(".hall-jump-btn");
+  if (!btns || btns.length === 0) return;
+
+  btns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      btns.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      const hall = btn.dataset.hall;
+      if (hall === "all") {
+        resetMapTransform();
+      } else if (hall === "5-6") {
+        panToCoordinate(1100, 1600, 0.95);
+      } else if (hall === "7") {
+        panToCoordinate(2740, 1600, 1.25);
+      } else if (hall === "8") {
+        panToCoordinate(3690, 1600, 1.25);
+      } else if (hall === "9") {
+        panToCoordinate(4600, 1600, 1.25);
+      } else if (hall === "10") {
+        panToCoordinate(5780, 1600, 1.15);
+      }
+    });
+  });
 }

@@ -1,13 +1,13 @@
-const CACHE_NAME = 'cf23-map-v9';
+const CACHE_NAME = 'cf23-map-v10';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './styles.css',
-  './styles.css?v=2.1',
+  './styles.css?v=2.2',
   './app.js',
-  './app.js?v=2.1',
+  './app.js?v=2.2',
   './lucide.min.js',
-  './floormap_web.png',
+  './floormap_web.png?v=2.2',
   './circles_optimized.json',
   './booth_coordinates.json',
   './fandom_index.json',

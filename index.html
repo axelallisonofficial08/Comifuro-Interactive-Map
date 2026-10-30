@@ -20,7 +20,7 @@ window.onerror = function(msg, url, line, col, error) {
   <script src="lucide.min.js"></script>
   
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="styles.css?v=2.1">
+  <link rel="stylesheet" href="styles.css?v=2.2">
 </head>
 <body>
 
@@ -336,7 +336,7 @@ window.onerror = function(msg, url, line, col, error) {
   <main id="map-container">
     <div id="map-canvas-layer">
       <!-- Floormap Base Image -->
-      <img id="floormap-img" src="floormap_web.png" alt="Comifuro 23 Floormap ICE BSD">
+      <img id="floormap-img" src="floormap_web.png?v=2.2" alt="Comifuro 23 Floormap ICE BSD">
 
       <!-- SVG Pathfinding / Route Layer -->
       <svg id="route-svg" viewBox="0 0 6574 3117" preserveAspectRatio="none">
@@ -365,6 +365,16 @@ window.onerror = function(msg, url, line, col, error) {
 
       <!-- Pins Container (Start, Destination, Hovered) -->
       <div id="pins-layer"></div>
+    </div>
+
+    <!-- Hall Quick-Jump Floating Bar -->
+    <div class="hall-jump-bar" id="hall-jump-bar">
+      <button class="hall-jump-btn active" data-hall="all">🏛️ Semua Hall</button>
+      <button class="hall-jump-btn" data-hall="5-6">Hall 5-6 (Komunitas)</button>
+      <button class="hall-jump-btn" data-hall="7">Hall 7</button>
+      <button class="hall-jump-btn" data-hall="8">Hall 8</button>
+      <button class="hall-jump-btn" data-hall="9">Hall 9</button>
+      <button class="hall-jump-btn" data-hall="10">Hall 10 (Corporate)</button>
     </div>
 
     <!-- Map Floating Controls -->
@@ -542,7 +552,7 @@ window.onerror = function(msg, url, line, col, error) {
     </div>
   </div>
 <!-- Application Logic -->
-<script src="app.js?v=2.1"></script>
+<script src="app.js?v=2.2"></script>
 
 
 <script>
